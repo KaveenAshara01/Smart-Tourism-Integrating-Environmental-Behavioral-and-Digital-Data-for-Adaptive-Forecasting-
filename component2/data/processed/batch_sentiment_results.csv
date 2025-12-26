@@ -1,0 +1,6 @@
+Review_ID,Review_Text,Sentiment_Score,Score_Percentage,Category
+1,Absolutely amazing experience! The beaches were pristine and the people were incredibly friendly.,0.9861941228950157,98.61941228950157,Positive
+2,The food was good but the hotel service was disappointing.,0.49986554546069406,49.98655454606941,Neutral
+3,Terrible experience. Dirty place and rude staff.,0.0984733692293126,9.84733692293126,Negative
+4,It was okay. Nothing special.,0.19665641293488667,19.66564129348867,Negative
+5,Beautiful landscapes and rich culture. Loved it!,1.0,100.0,Positive
