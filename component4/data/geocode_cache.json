@@ -1,0 +1,4732 @@
+{
+  "search::unawatuna beach, sri lanka": [
+    {
+      "place_id": 233392212,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 303723769,
+      "lat": "6.0081336",
+      "lon": "80.2509690",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.10670666742961774,
+      "addresstype": "beach",
+      "name": "Unawatuna",
+      "display_name": "Unawatuna, Rumassala, Galle District, Southern Province, Sri Lanka",
+      "address": {
+        "beach": "Unawatuna",
+        "suburb": "Unawatuna",
+        "village": "Rumassala",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.0064241",
+        "6.0098602",
+        "80.2434417",
+        "80.2521758"
+      ]
+    }
+  ],
+  "search::mirissa beach, sri lanka": [
+    {
+      "place_id": 234549744,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 229404800,
+      "lat": "5.9431556",
+      "lon": "80.4618001",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.10670666742961774,
+      "addresstype": "beach",
+      "name": "Mirissa Beach",
+      "display_name": "Mirissa Beach, Mirissa, Matara District, Southern Province, Sri Lanka",
+      "address": {
+        "beach": "Mirissa Beach",
+        "town": "Mirissa",
+        "state_district": "Matara District",
+        "ISO3166-2-lvl5": "LK-32",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "5.9412634",
+        "5.9450447",
+        "80.4546857",
+        "80.4652323"
+      ]
+    }
+  ],
+  "search::bentota beach, sri lanka": [
+    {
+      "place_id": 233433880,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 128600426,
+      "lat": "6.4290746",
+      "lon": "79.9943317",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.1067148706797894,
+      "addresstype": "beach",
+      "name": "Ventura",
+      "display_name": "Ventura, Bentota, Galle District, Southern Province, Sri Lanka",
+      "address": {
+        "beach": "Ventura",
+        "town": "Bentota",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.4174016",
+        "6.4408036",
+        "79.9873030",
+        "79.9964403"
+      ]
+    },
+    {
+      "place_id": 235235189,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 128600427,
+      "lat": "6.4068294",
+      "lon": "80.0006056",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.1067073815518425,
+      "addresstype": "beach",
+      "name": "Bentota",
+      "display_name": "Bentota, Galle District, Southern Province, Sri Lanka",
+      "address": {
+        "beach": "Bentota",
+        "town": "Bentota",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.3956741",
+        "6.4174281",
+        "79.9945359",
+        "80.0052148"
+      ]
+    }
+  ],
+  "search::arugam bay, sri lanka": [
+    {
+      "place_id": 233407321,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1874239446,
+      "lat": "6.8466228",
+      "lon": "81.8305531",
+      "category": "place",
+      "type": "village",
+      "place_rank": 19,
+      "importance": 0.14670416800183103,
+      "addresstype": "village",
+      "name": "Arugam Bay",
+      "display_name": "Arugam Bay, Ampara District, Eastern Province, 32506, Sri Lanka",
+      "address": {
+        "village": "Arugam Bay",
+        "state_district": "Ampara District",
+        "ISO3166-2-lvl5": "LK-52",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "postcode": "32506",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8266228",
+        "6.8666228",
+        "81.8105531",
+        "81.8505531"
+      ]
+    },
+    {
+      "place_id": 233725899,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 447948760,
+      "lat": "6.8505100",
+      "lon": "81.8367517",
+      "category": "natural",
+      "type": "bay",
+      "place_rank": 22,
+      "importance": 0.10670416800183105,
+      "addresstype": "bay",
+      "name": "Arugam Bay",
+      "display_name": "Arugam Bay, Ampara District, Eastern Province, Sri Lanka",
+      "address": {
+        "bay": "Arugam Bay",
+        "village": "Arugam Bay",
+        "state_district": "Ampara District",
+        "ISO3166-2-lvl5": "LK-52",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8394626",
+        "6.8614091",
+        "81.8318954",
+        "81.8415781"
+      ]
+    },
+    {
+      "place_id": 235557066,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 176935534,
+      "lat": "6.8617416",
+      "lon": "81.8368731",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.10670416800183105,
+      "addresstype": "beach",
+      "name": "Arugam Bay",
+      "display_name": "Arugam Bay, Pottuvil, Ampara District, Eastern Province, Sri Lanka",
+      "address": {
+        "beach": "Arugam Bay",
+        "town": "Pottuvil",
+        "state_district": "Ampara District",
+        "ISO3166-2-lvl5": "LK-52",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8554077",
+        "6.8682129",
+        "81.8329149",
+        "81.8429322"
+      ]
+    }
+  ],
+  "search::negombo beach, sri lanka": [
+    {
+      "place_id": 235401563,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 276371680,
+      "lat": "7.2427245",
+      "lon": "79.8410673",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.10671736095216294,
+      "addresstype": "beach",
+      "name": "Negombo Beach Park",
+      "display_name": "Negombo Beach Park, Ettukala, Gampaha District, Western Province, Sri Lanka",
+      "address": {
+        "beach": "Negombo Beach Park",
+        "village": "Ettukala",
+        "state_district": "Gampaha District",
+        "ISO3166-2-lvl5": "LK-12",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.2382308",
+        "7.2463201",
+        "79.8403695",
+        "79.8414504"
+      ]
+    }
+  ],
+  "search::hikkaduwa beach, sri lanka": [
+    {
+      "place_id": 235405908,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 195275709,
+      "lat": "6.1346944",
+      "lon": "80.0997142",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.10670903868162049,
+      "addresstype": "beach",
+      "name": "Hikkaduwa Beach",
+      "display_name": "Hikkaduwa Beach, Hikkaduwa, Galle District, Southern Province, Sri Lanka",
+      "address": {
+        "beach": "Hikkaduwa Beach",
+        "town": "Hikkaduwa",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.1308875",
+        "6.1385427",
+        "80.0988722",
+        "80.1005982"
+      ]
+    }
+  ],
+  "search::tangalle beach, sri lanka": [],
+  "search::uppuveli beach, sri lanka": [
+    {
+      "place_id": 233122243,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 187164885,
+      "lat": "8.5987375",
+      "lon": "81.2226276",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.1067238078889143,
+      "addresstype": "beach",
+      "name": "Uppuveli beach",
+      "display_name": "Uppuveli beach, Trincomalee, Trincomalee District, Eastern Province, Sri Lanka",
+      "address": {
+        "beach": "Uppuveli beach",
+        "city": "Trincomalee",
+        "state_district": "Trincomalee District",
+        "ISO3166-2-lvl5": "LK-53",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.5762056",
+        "8.6214725",
+        "81.2186511",
+        "81.2397249"
+      ]
+    }
+  ],
+  "search::sigiriya rock fortress, sri lanka": [],
+  "search::galle dutch fort, sri lanka": [],
+  "search::polonnaruwa ancient city, sri lanka": [],
+  "search::anuradhapura sacred city, sri lanka": [],
+  "search::dambulla cave temple, sri lanka": [
+    {
+      "place_id": 235402933,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 431489913,
+      "lat": "7.8566286",
+      "lon": "80.6484958",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.38476874947084344,
+      "addresstype": "amenity",
+      "name": "Dambulla Cave Temple",
+      "display_name": "Dambulla Cave Temple, Jaffna - Kandy Road, Kapuwaththa, Moragollewa, Matale District, Central Province, 21100, Sri Lanka",
+      "address": {
+        "amenity": "Dambulla Cave Temple",
+        "road": "Jaffna - Kandy Road",
+        "hamlet": "Kapuwaththa",
+        "village": "Moragollewa",
+        "state_district": "Matale District",
+        "ISO3166-2-lvl5": "LK-22",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "21100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.8562456",
+        "7.8569340",
+        "80.6478745",
+        "80.6489594"
+      ]
+    }
+  ],
+  "search::jaffna fort, sri lanka": [
+    {
+      "place_id": 232661021,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99282968,
+      "lat": "9.6623181",
+      "lon": "80.0081690",
+      "category": "historic",
+      "type": "ruins",
+      "place_rank": 30,
+      "importance": 0.39269469636639415,
+      "addresstype": "historic",
+      "name": "Jaffna Fort",
+      "display_name": "Jaffna Fort, Jaffna-Ponnalai-Point Pedro Road, Jaffna, Jaffna District, Northern Province, Sri Lanka",
+      "address": {
+        "historic": "Jaffna Fort",
+        "road": "Jaffna-Ponnalai-Point Pedro Road",
+        "city": "Jaffna",
+        "state_district": "Jaffna District",
+        "ISO3166-2-lvl5": "LK-41",
+        "state": "Northern Province",
+        "ISO3166-2-lvl4": "LK-4",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "9.6599087",
+        "9.6647353",
+        "80.0061298",
+        "80.0104926"
+      ]
+    }
+  ],
+  "search::temple of the sacred tooth relic, sri lanka": [
+    {
+      "place_id": 235974812,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 191377765,
+      "lat": "7.2935872",
+      "lon": "80.6413602",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.5286756875987594,
+      "addresstype": "amenity",
+      "name": "Temple of the Sacred Tooth Relic",
+      "display_name": "Temple of the Sacred Tooth Relic, Sri Dalada Veediya, Buwelikada, Kandy, Kandy District, Central Province, 20000, Sri Lanka",
+      "address": {
+        "amenity": "Temple of the Sacred Tooth Relic",
+        "road": "Sri Dalada Veediya",
+        "suburb": "Buwelikada",
+        "city": "Kandy",
+        "state_district": "Kandy District",
+        "ISO3166-2-lvl5": "LK-21",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "20000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.2935358",
+        "7.2936387",
+        "80.6412799",
+        "80.6414405"
+      ]
+    }
+  ],
+  "search::kelaniya raja maha vihara, sri lanka": [],
+  "search::gangaramaya temple, sri lanka": [
+    {
+      "place_id": 235621757,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 269366454,
+      "lat": "6.9166446",
+      "lon": "79.8566559",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "amenity",
+      "name": "Gangaramaya Temple",
+      "display_name": "Gangaramaya Temple, 61, Sri Jinarathana Road, Weekanda, Slave Island, Colombo, Colombo District, Western Province, 00200, Sri Lanka",
+      "address": {
+        "amenity": "Gangaramaya Temple",
+        "house_number": "61",
+        "road": "Sri Jinarathana Road",
+        "suburb": "Weekanda",
+        "village": "Slave Island",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00200",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9165946",
+        "6.9166946",
+        "79.8566059",
+        "79.8567059"
+      ]
+    },
+    {
+      "place_id": 233515887,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 425071323,
+      "lat": "7.1142662",
+      "lon": "79.8819221",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.069428549625418e-05,
+      "addresstype": "amenity",
+      "name": "Gangaramaya Temple",
+      "display_name": "Gangaramaya Temple, Colombo - Negombo Road, Rajapakshapura, Seeduwa, Gampaha District, Western Province, 11410, Sri Lanka",
+      "address": {
+        "amenity": "Gangaramaya Temple",
+        "road": "Colombo - Negombo Road",
+        "hamlet": "Rajapakshapura",
+        "town": "Seeduwa",
+        "state_district": "Gampaha District",
+        "ISO3166-2-lvl5": "LK-12",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "11410",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.1138836",
+        "7.1145028",
+        "79.8817092",
+        "79.8821759"
+      ]
+    },
+    {
+      "place_id": 235499589,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 429284616,
+      "lat": "7.0968016",
+      "lon": "79.9838245",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 4.691157396806313e-05,
+      "addresstype": "amenity",
+      "name": "Gangaramaya Temple",
+      "display_name": "Gangaramaya Temple, Gangaaramaya Mawatha, Gampaha, Gampaha District, Western Province, 11030, Sri Lanka",
+      "address": {
+        "amenity": "Gangaramaya Temple",
+        "road": "Gangaaramaya Mawatha",
+        "city": "Gampaha",
+        "state_district": "Gampaha District",
+        "ISO3166-2-lvl5": "LK-12",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "11030",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.0963338",
+        "7.0973461",
+        "79.9833604",
+        "79.9841488"
+      ]
+    },
+    {
+      "place_id": 235783055,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7777278761,
+      "lat": "6.2632290",
+      "lon": "80.3241764",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 4.0000762951049326e-05,
+      "addresstype": "amenity",
+      "name": "Gangaramaya Temple",
+      "display_name": "Gangaramaya Temple, Gangaramaya Temple Road, Panangala Dhahe kade, Galle District, Southern Province, Sri Lanka",
+      "address": {
+        "amenity": "Gangaramaya Temple",
+        "road": "Gangaramaya Temple Road",
+        "village": "Panangala Dhahe kade",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.2631790",
+        "6.2632790",
+        "80.3241264",
+        "80.3242264"
+      ]
+    }
+  ],
+  "search::mulkirigala rock temple, sri lanka": [],
+  "search::yala national park, sri lanka": [
+    {
+      "place_id": 235363430,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3285601812,
+      "lat": "6.2798842",
+      "lon": "81.4015115",
+      "category": "tourism",
+      "type": "information",
+      "place_rank": 30,
+      "importance": 3.750133516437045e-05,
+      "addresstype": "tourism",
+      "name": "Yala National Park",
+      "display_name": "Yala National Park, Kirinda-Palatupana-Yala Road, Palatupana, Hambantota District, Southern Province, 95000, Sri Lanka",
+      "address": {
+        "tourism": "Yala National Park",
+        "road": "Kirinda-Palatupana-Yala Road",
+        "village": "Palatupana",
+        "state_district": "Hambantota District",
+        "ISO3166-2-lvl5": "LK-33",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "95000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.2798342",
+        "6.2799342",
+        "81.4014615",
+        "81.4015615"
+      ]
+    },
+    {
+      "place_id": 233518780,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10635411305,
+      "lat": "6.5163317",
+      "lon": "81.4753176",
+      "category": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 9.99999999995449e-06,
+      "addresstype": "tourism",
+      "name": "Yala National Park",
+      "display_name": "Yala National Park, Monaragala District, Uva Province, Sri Lanka",
+      "address": {
+        "tourism": "Yala National Park",
+        "state_district": "Monaragala District",
+        "ISO3166-2-lvl5": "LK-82",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.5162817",
+        "6.5163817",
+        "81.4752676",
+        "81.4753676"
+      ]
+    }
+  ],
+  "search::udawalawe national park, sri lanka": [
+    {
+      "place_id": 235817928,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10550498,
+      "lat": "6.5121582",
+      "lon": "80.8876260",
+      "category": "boundary",
+      "type": "national_park",
+      "place_rank": 25,
+      "importance": 0.3260874163190326,
+      "addresstype": "national_park",
+      "name": "Udawalawe National Park",
+      "display_name": "Udawalawe National Park, Monaragala District, Uva Province, Sri Lanka",
+      "address": {
+        "national_park": "Udawalawe National Park",
+        "state_district": "Monaragala District",
+        "ISO3166-2-lvl5": "LK-82",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.4130970",
+        "6.6112377",
+        "80.7283759",
+        "81.0101473"
+      ]
+    }
+  ],
+  "search::wilpattu national park, sri lanka": [
+    {
+      "place_id": 424241551,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 15434166,
+      "lat": "8.4496505",
+      "lon": "80.0167297",
+      "category": "leisure",
+      "type": "nature_reserve",
+      "place_rank": 24,
+      "importance": 0.3113151607222326,
+      "addresstype": "nature_reserve",
+      "name": "Wilpattu National Park",
+      "display_name": "Wilpattu National Park, North Western Province, Sri Lanka",
+      "address": {
+        "nature_reserve": "Wilpattu National Park",
+        "state": "North Western Province",
+        "ISO3166-2-lvl4": "LK-6",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.2191456",
+        "8.6802841",
+        "79.8324215",
+        "80.2529546"
+      ]
+    }
+  ],
+  "search::minneriya national park, sri lanka": [
+    {
+      "place_id": 233236755,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5683596,
+      "lat": "8.0161445",
+      "lon": "80.8501390",
+      "category": "boundary",
+      "type": "national_park",
+      "place_rank": 25,
+      "importance": 0.29503227113851116,
+      "addresstype": "national_park",
+      "name": "Minneriya National Park",
+      "display_name": "Minneriya National Park, Katukeliyawa, Polonnaruwa District, North Central Province, Sri Lanka",
+      "address": {
+        "national_park": "Minneriya National Park",
+        "village": "Katukeliyawa",
+        "state_district": "Polonnaruwa District",
+        "ISO3166-2-lvl5": "LK-72",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.9658402",
+        "8.0666319",
+        "80.7832468",
+        "80.9013323"
+      ]
+    },
+    {
+      "place_id": 232128870,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 258523523,
+      "lat": "8.0327164",
+      "lon": "80.8236120",
+      "category": "tourism",
+      "type": "information",
+      "place_rank": 30,
+      "importance": 3.008087281600698e-05,
+      "addresstype": "tourism",
+      "name": "Minneriya National Park",
+      "display_name": "Minneriya National Park, Habarana-Trincomalee-Batticaloa Road, Moragaswewa, Polonnaruwa District, North Central Province, Sri Lanka",
+      "address": {
+        "tourism": "Minneriya National Park",
+        "road": "Habarana-Trincomalee-Batticaloa Road",
+        "village": "Moragaswewa",
+        "state_district": "Polonnaruwa District",
+        "ISO3166-2-lvl5": "LK-72",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.0326664",
+        "8.0327664",
+        "80.8235620",
+        "80.8236620"
+      ]
+    }
+  ],
+  "search::sinharaja forest reserve, sri lanka": [
+    {
+      "place_id": 235639737,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6012712,
+      "lat": "6.4010545",
+      "lon": "80.5026392",
+      "category": "natural",
+      "type": "wood",
+      "place_rank": 22,
+      "importance": 0.4005340347112031,
+      "addresstype": "wood",
+      "name": "Sinharaja Forest Reserve",
+      "display_name": "Sinharaja Forest Reserve, Palinda-Nuwara (Baduraliya) DS Division, Ratnapura District, Sabaragamuwa Province, Sri Lanka",
+      "address": {
+        "wood": "Sinharaja Forest Reserve",
+        "county": "Palinda-Nuwara (Baduraliya) DS Division",
+        "state_district": "Ratnapura District",
+        "ISO3166-2-lvl5": "LK-91",
+        "state": "Sabaragamuwa Province",
+        "ISO3166-2-lvl4": "LK-9",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.2984642",
+        "6.5036373",
+        "80.2872129",
+        "80.6570334"
+      ]
+    }
+  ],
+  "search::adam's peak (sri pada), sri lanka": [
+    {
+      "place_id": 235579959,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5014112524,
+      "lat": "6.8261677",
+      "lon": "80.5232448",
+      "category": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 3.750133516437045e-05,
+      "addresstype": "tourism",
+      "name": "Adam's Peak Inn",
+      "display_name": "Adam's Peak Inn, Hatton - Maskeliya - Sri Pada Road, Dalhousie, Nallathanniya, Nuwara Eliya District, Central Province, 22070, Sri Lanka",
+      "address": {
+        "tourism": "Adam's Peak Inn",
+        "road": "Hatton - Maskeliya - Sri Pada Road",
+        "hamlet": "Dalhousie",
+        "town": "Nallathanniya",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "22070",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8261177",
+        "6.8262177",
+        "80.5231948",
+        "80.5232948"
+      ]
+    },
+    {
+      "place_id": 235900386,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3513452768,
+      "lat": "6.8264161",
+      "lon": "80.5254274",
+      "category": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 3.750133516437045e-05,
+      "addresstype": "tourism",
+      "name": "White House Adam's Peak",
+      "display_name": "White House Adam's Peak, Hatton - Maskeliya - Sri Pada Road, Dalhousie, Nallathanniya, Nuwara Eliya District, Central Province, 22070, Sri Lanka",
+      "address": {
+        "tourism": "White House Adam's Peak",
+        "road": "Hatton - Maskeliya - Sri Pada Road",
+        "hamlet": "Dalhousie",
+        "town": "Nallathanniya",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "22070",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8263661",
+        "6.8264661",
+        "80.5253774",
+        "80.5254774"
+      ]
+    }
+  ],
+  "search::ella rock, sri lanka": [
+    {
+      "place_id": 235318506,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4683720698,
+      "lat": "6.8550355",
+      "lon": "81.0523841",
+      "category": "natural",
+      "type": "peak",
+      "place_rank": 18,
+      "importance": 0.16004935454337377,
+      "addresstype": "peak",
+      "name": "Ella Rock",
+      "display_name": "Ella Rock, Ella, Badulla District, Uva Province, 90900, Sri Lanka",
+      "address": {
+        "peak": "Ella Rock",
+        "town": "Ella",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90900",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8549855",
+        "6.8550855",
+        "81.0523341",
+        "81.0524341"
+      ]
+    }
+  ],
+  "search::nuwara eliya, sri lanka": [
+    {
+      "place_id": 233712889,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5351796,
+      "lat": "7.0124020",
+      "lon": "80.7571612",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.44677208071437285,
+      "addresstype": "state_district",
+      "name": "Nuwara Eliya District",
+      "display_name": "Nuwara Eliya District, Central Province, Sri Lanka",
+      "address": {
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7512220",
+        "7.2739310",
+        "80.4321040",
+        "80.9651824"
+      ]
+    },
+    {
+      "place_id": 234969942,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 44240758,
+      "lat": "6.9738863",
+      "lon": "80.7671270",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.43666176738229556,
+      "addresstype": "city",
+      "name": "Nuwara Eliya",
+      "display_name": "Nuwara Eliya, Nuwara Eliya District, Central Province, 22200, Sri Lanka",
+      "address": {
+        "city": "Nuwara Eliya",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "22200",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8138863",
+        "7.1338863",
+        "80.6071270",
+        "80.9271270"
+      ]
+    }
+  ],
+  "search::horton plains national park, sri lanka": [
+    {
+      "place_id": 396337207,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 18523072,
+      "lat": "6.8067144",
+      "lon": "80.8021297",
+      "category": "boundary",
+      "type": "national_park",
+      "place_rank": 25,
+      "importance": 0.37320859947062124,
+      "addresstype": "national_park",
+      "name": "Horton Plains National Park",
+      "display_name": "Horton Plains National Park, Nuwara Eliya District, Central Province, Sri Lanka",
+      "address": {
+        "national_park": "Horton Plains National Park",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7738810",
+        "6.8395616",
+        "80.7664235",
+        "80.8378206"
+      ]
+    }
+  ],
+  "search::world's end, sri lanka": [
+    {
+      "place_id": 235325680,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1742667917,
+      "lat": "6.7799838",
+      "lon": "80.7940585",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 3.750133516437045e-05,
+      "addresstype": "tourism",
+      "name": "World's End (Plate 2)",
+      "display_name": "World's End (Plate 2), World's End Loop, Nuwara Eliya District, Central Province, Sri Lanka",
+      "address": {
+        "tourism": "World's End (Plate 2)",
+        "road": "World's End Loop",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7799338",
+        "6.7800338",
+        "80.7940085",
+        "80.7941085"
+      ]
+    },
+    {
+      "place_id": 234709579,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 603033668,
+      "lat": "6.7804050",
+      "lon": "80.7944245",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 3.750133516437045e-05,
+      "addresstype": "tourism",
+      "name": "World's End (Plate 1)",
+      "display_name": "World's End (Plate 1), World's End Loop, Nuwara Eliya District, Central Province, Sri Lanka",
+      "address": {
+        "tourism": "World's End (Plate 1)",
+        "road": "World's End Loop",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7803550",
+        "6.7804550",
+        "80.7943745",
+        "80.7944745"
+      ]
+    }
+  ],
+  "search::ramboda falls, sri lanka": [
+    {
+      "place_id": 233478146,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1886592077,
+      "lat": "7.0558715",
+      "lon": "80.6990648",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 4.9813839932814793e-05,
+      "addresstype": "tourism",
+      "name": "Ramboda Falls",
+      "display_name": "Ramboda Falls, Old Road, Ramboda, Nuwara Eliya District, Central Province, 20838, Sri Lanka",
+      "address": {
+        "tourism": "Ramboda Falls",
+        "road": "Old Road",
+        "village": "Ramboda",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "20838",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.0558215",
+        "7.0559215",
+        "80.6990148",
+        "80.6991148"
+      ]
+    }
+  ],
+  "search::diyaluma falls, sri lanka": [
+    {
+      "place_id": 235290866,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9606186707,
+      "lat": "6.7330710",
+      "lon": "81.0314480",
+      "category": "waterway",
+      "type": "waterfall",
+      "place_rank": 20,
+      "importance": 0.2101211695597586,
+      "addresstype": "waterfall",
+      "name": "Diyaluma Falls",
+      "display_name": "Diyaluma Falls, Diyaluma, Badulla District, Uva Province, Sri Lanka",
+      "address": {
+        "waterfall": "Diyaluma Falls",
+        "village": "Diyaluma",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7330210",
+        "6.7331210",
+        "81.0313980",
+        "81.0314980"
+      ]
+    }
+  ],
+  "search::devon falls, sri lanka": [
+    {
+      "place_id": 233530671,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 247212347,
+      "lat": "6.9515033",
+      "lon": "80.6301127",
+      "category": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 4.9813839932814793e-05,
+      "addresstype": "tourism",
+      "name": "Devon Falls",
+      "display_name": "Devon Falls, Nawalapitiya - Dimbula Road, Mount Vernon, Dimbula, Nuwara Eliya District, Central Province, 22000, Sri Lanka",
+      "address": {
+        "tourism": "Devon Falls",
+        "road": "Nawalapitiya - Dimbula Road",
+        "hamlet": "Mount Vernon",
+        "village": "Dimbula",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "22000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9514533",
+        "6.9515533",
+        "80.6300627",
+        "80.6301627"
+      ]
+    }
+  ],
+  "search::st. clair's falls, sri lanka": [],
+  "search::kandy city, sri lanka": [
+    {
+      "place_id": 235458085,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2908772560,
+      "lat": "7.2931208",
+      "lon": "80.6350358",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.539112451974141,
+      "addresstype": "city",
+      "name": "Kandy",
+      "display_name": "Kandy, Kandy District, Central Province, 20000, Sri Lanka",
+      "address": {
+        "city": "Kandy",
+        "state_district": "Kandy District",
+        "ISO3166-2-lvl5": "LK-21",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "20000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.1331208",
+        "7.4531208",
+        "80.4750358",
+        "80.7950358"
+      ]
+    }
+  ],
+  "search::peradeniya botanical gardens, sri lanka": [],
+  "search::pinnawala elephant orphanage, sri lanka": [
+    {
+      "place_id": 235980427,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1105822183,
+      "lat": "7.3005120",
+      "lon": "80.3871935",
+      "category": "tourism",
+      "type": "zoo",
+      "place_rank": 30,
+      "importance": 0.25960299066529513,
+      "addresstype": "tourism",
+      "name": "Pinnawala Elephant Orphanage",
+      "display_name": "Pinnawala Elephant Orphanage, Karandupana-Rambukkana Road, Pinnawala, Kegalle District, Sabaragamuwa Province, 71100, Sri Lanka",
+      "address": {
+        "tourism": "Pinnawala Elephant Orphanage",
+        "road": "Karandupana-Rambukkana Road",
+        "village": "Pinnawala",
+        "state_district": "Kegalle District",
+        "ISO3166-2-lvl5": "LK-92",
+        "state": "Sabaragamuwa Province",
+        "ISO3166-2-lvl4": "LK-9",
+        "postcode": "71100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.3004620",
+        "7.3005620",
+        "80.3871435",
+        "80.3872435"
+      ]
+    }
+  ],
+  "search::colombo national museum, sri lanka": [
+    {
+      "place_id": 235655107,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 138991604,
+      "lat": "6.9104168",
+      "lon": "79.8609194",
+      "category": "tourism",
+      "type": "museum",
+      "place_rank": 30,
+      "importance": 0.28008114849440524,
+      "addresstype": "tourism",
+      "name": "National Museum of Colombo",
+      "display_name": "National Museum of Colombo, Sir Marcus Fernando Mawatha, Town Hall, Cinnamon Gardens, Colombo, Colombo District, Western Province, 00300, Sri Lanka",
+      "address": {
+        "tourism": "National Museum of Colombo",
+        "road": "Sir Marcus Fernando Mawatha",
+        "suburb": "Town Hall",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00300",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9098799",
+        "6.9109449",
+        "79.8605213",
+        "79.8614185"
+      ]
+    }
+  ],
+  "search::colombo city tour, sri lanka": [],
+  "search::galle face green, sri lanka": [
+    {
+      "place_id": 233414012,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27712165,
+      "lat": "6.9246840",
+      "lon": "79.8445573",
+      "category": "leisure",
+      "type": "park",
+      "place_rank": 24,
+      "importance": 0.33839108874904034,
+      "addresstype": "park",
+      "name": "Galle Face Green",
+      "display_name": "Galle Face Green, Kompannaweediya, Slave Island, Colombo, Colombo District, Western Province, Sri Lanka",
+      "address": {
+        "park": "Galle Face Green",
+        "suburb": "Kompannaweediya",
+        "village": "Slave Island",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9207319",
+        "6.9287287",
+        "79.8428788",
+        "79.8463394"
+      ]
+    }
+  ],
+  "search::lotus tower, sri lanka": [
+    {
+      "place_id": 234984797,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3307527165,
+      "lat": "6.9270432",
+      "lon": "79.8583205",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "tourism",
+      "name": "Lotus Tower",
+      "display_name": "Lotus Tower, D. R. Wijewardene Mawatha, Suduwella, Slave Island, Colombo, Colombo District, Western Province, 00200, Sri Lanka",
+      "address": {
+        "tourism": "Lotus Tower",
+        "road": "D. R. Wijewardene Mawatha",
+        "suburb": "Suduwella",
+        "village": "Slave Island",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00200",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9269932",
+        "6.9270932",
+        "79.8582705",
+        "79.8583705"
+      ]
+    }
+  ],
+  "search::nine arch bridge ella, sri lanka": [
+    {
+      "place_id": 416989111,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1427156317,
+      "lat": "6.8768617",
+      "lon": "81.0606531",
+      "category": "man_made",
+      "type": "bridge",
+      "place_rank": 30,
+      "importance": 0.1898927655395688,
+      "addresstype": "man_made",
+      "name": "Demodora Nine Arch Bridge",
+      "display_name": "Demodora Nine Arch Bridge, Footpath to Little Adam's Peak, Southerland, Ella, Badulla District, Uva Province, 90900, Sri Lanka",
+      "address": {
+        "man_made": "Demodora Nine Arch Bridge",
+        "road": "Footpath to Little Adam's Peak",
+        "hamlet": "Southerland",
+        "town": "Ella",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90900",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8766556",
+        "6.8771256",
+        "81.0604173",
+        "81.0613775"
+      ]
+    },
+    {
+      "place_id": 403493357,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12725192395,
+      "lat": "6.8789299",
+      "lon": "81.0613600",
+      "category": "amenity",
+      "type": "parking",
+      "place_rank": 30,
+      "importance": 4.935454337372423e-05,
+      "addresstype": "amenity",
+      "name": "Nine Arch Bridge Parking Lot",
+      "display_name": "Nine Arch Bridge Parking Lot, Footpath to Little Adam's Peak, Southerland, Ella, Badulla District, Uva Province, 90900, Sri Lanka",
+      "address": {
+        "amenity": "Nine Arch Bridge Parking Lot",
+        "road": "Footpath to Little Adam's Peak",
+        "hamlet": "Southerland",
+        "town": "Ella",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90900",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8788799",
+        "6.8789799",
+        "81.0613100",
+        "81.0614100"
+      ]
+    },
+    {
+      "place_id": 415064061,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13063690501,
+      "lat": "6.8733648",
+      "lon": "81.0544036",
+      "category": "shop",
+      "type": "outpost",
+      "place_rank": 30,
+      "importance": 4.935454337372423e-05,
+      "addresstype": "shop",
+      "name": "Path to Nine Arch Bridge Start",
+      "display_name": "Path to Nine Arch Bridge Start, Ella - Passara Road, Newburgh, Ella, Badulla District, Uva Province, 90900, Sri Lanka",
+      "address": {
+        "shop": "Path to Nine Arch Bridge Start",
+        "road": "Ella - Passara Road",
+        "hamlet": "Newburgh",
+        "town": "Ella",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90900",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8733148",
+        "6.8734148",
+        "81.0543536",
+        "81.0544536"
+      ]
+    },
+    {
+      "place_id": 235806307,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5336388324,
+      "lat": "6.8766687",
+      "lon": "81.0601548",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 4.935454337372423e-05,
+      "addresstype": "tourism",
+      "name": "Nine Arch Bridge Viewpoint",
+      "display_name": "Nine Arch Bridge Viewpoint, Footpath to Little Adam's Peak, Southerland, Ella, Badulla District, Uva Province, 90900, Sri Lanka",
+      "address": {
+        "tourism": "Nine Arch Bridge Viewpoint",
+        "road": "Footpath to Little Adam's Peak",
+        "hamlet": "Southerland",
+        "town": "Ella",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90900",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8766187",
+        "6.8767187",
+        "81.0601048",
+        "81.0602048"
+      ]
+    },
+    {
+      "place_id": 234911613,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6708885485,
+      "lat": "6.8769540",
+      "lon": "81.0614563",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 4.935454337372423e-05,
+      "addresstype": "tourism",
+      "name": "Nine Arch Bridge viewpoint",
+      "display_name": "Nine Arch Bridge viewpoint, Footpath to Little Adam's Peak, Southerland, Ella, Badulla District, Uva Province, 90900, Sri Lanka",
+      "address": {
+        "tourism": "Nine Arch Bridge viewpoint",
+        "road": "Footpath to Little Adam's Peak",
+        "hamlet": "Southerland",
+        "town": "Ella",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90900",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8769040",
+        "6.8770040",
+        "81.0614063",
+        "81.0615063"
+      ]
+    }
+  ],
+  "search::kithulgala white water rafting, sri lanka": [],
+  "search::knuckles mountain range, sri lanka": [],
+  "search::trincomalee beaches, sri lanka": [],
+  "search::batticaloa, sri lanka": [
+    {
+      "place_id": 234795962,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5351721,
+      "lat": "7.8381021",
+      "lon": "81.5567533",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.4415045009469305,
+      "addresstype": "state_district",
+      "name": "Batticaloa District",
+      "display_name": "Batticaloa District, Eastern Province, Sri Lanka",
+      "address": {
+        "state_district": "Batticaloa District",
+        "ISO3166-2-lvl5": "LK-51",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.3987014",
+        "8.2760000",
+        "81.2249571",
+        "82.0152941"
+      ]
+    },
+    {
+      "place_id": 235640019,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3668151968,
+      "lat": "7.7356027",
+      "lon": "81.6941956",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.18671907911802849,
+      "addresstype": "city",
+      "name": "Batticaloa",
+      "display_name": "Batticaloa, Manmunai North DS Division, Batticaloa District, Eastern Province, 30100, Sri Lanka",
+      "address": {
+        "city": "Batticaloa",
+        "county": "Manmunai North DS Division",
+        "state_district": "Batticaloa District",
+        "ISO3166-2-lvl5": "LK-51",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "postcode": "30100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.5756027",
+        "7.8956027",
+        "81.5341956",
+        "81.8541956"
+      ]
+    }
+  ],
+  "search::mannar island, sri lanka": [
+    {
+      "place_id": 234260927,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 16310486,
+      "lat": "9.0346189",
+      "lon": "79.8421109",
+      "category": "place",
+      "type": "island",
+      "place_rank": 17,
+      "importance": 0.3281092747657318,
+      "addresstype": "island",
+      "name": "Mannar Island",
+      "display_name": "Mannar Island, Mannar District, Northern Province, Sri Lanka",
+      "address": {
+        "island": "Mannar Island",
+        "state_district": "Mannar District",
+        "ISO3166-2-lvl5": "LK-43",
+        "state": "Northern Province",
+        "ISO3166-2-lvl4": "LK-4",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.9613989",
+        "9.1077895",
+        "79.6560285",
+        "79.9280664"
+      ]
+    }
+  ],
+  "search::pigeon island, sri lanka": [
+    {
+      "place_id": 389914927,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183258843,
+      "lat": "5.9415854",
+      "lon": "80.5492197",
+      "category": "place",
+      "type": "island",
+      "place_rank": 17,
+      "importance": 0.17337333409628441,
+      "addresstype": "island",
+      "name": "Pigeon Island",
+      "display_name": "Pigeon Island, Uyanwaththa, Weliweriya (SP), Matara District, Southern Province, Sri Lanka",
+      "address": {
+        "island": "Pigeon Island",
+        "suburb": "Uyanwaththa",
+        "village": "Weliweriya (SP)",
+        "state_district": "Matara District",
+        "ISO3166-2-lvl5": "LK-32",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "5.9411786",
+        "5.9419576",
+        "80.5487697",
+        "80.5495878"
+      ]
+    }
+  ],
+  "search::ritigala monastery, sri lanka": [
+    {
+      "place_id": 232089620,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3723220027,
+      "lat": "8.1183328",
+      "lon": "80.6646122",
+      "category": "historic",
+      "type": "archaeological_site",
+      "place_rank": 30,
+      "importance": 9.99999999995449e-06,
+      "addresstype": "historic",
+      "name": "Ritigala Ancient Buddhist Monastery",
+      "display_name": "Ritigala Ancient Buddhist Monastery, Ritigala Archaeological Site Road, Anuradhapura District, North Central Province, Sri Lanka",
+      "address": {
+        "historic": "Ritigala Ancient Buddhist Monastery",
+        "road": "Ritigala Archaeological Site Road",
+        "state_district": "Anuradhapura District",
+        "ISO3166-2-lvl5": "LK-71",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.1182828",
+        "8.1183828",
+        "80.6645622",
+        "80.6646622"
+      ]
+    }
+  ],
+  "search::mihintale, sri lanka": [
+    {
+      "place_id": 232618383,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1880627994,
+      "lat": "8.3583002",
+      "lon": "80.5121579",
+      "category": "place",
+      "type": "town",
+      "place_rank": 18,
+      "importance": 0.1600565278095674,
+      "addresstype": "town",
+      "name": "Mihintale",
+      "display_name": "Mihintale, Anuradhapura District, North Central Province, 50300, Sri Lanka",
+      "address": {
+        "town": "Mihintale",
+        "state_district": "Anuradhapura District",
+        "ISO3166-2-lvl5": "LK-71",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "postcode": "50300",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.3183002",
+        "8.3983002",
+        "80.4721579",
+        "80.5521579"
+      ]
+    },
+    {
+      "place_id": 233228583,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6953341663,
+      "lat": "8.3475380",
+      "lon": "80.5126963",
+      "category": "natural",
+      "type": "peak",
+      "place_rank": 18,
+      "importance": 0.1600565278095674,
+      "addresstype": "peak",
+      "name": "Eth Vehara",
+      "display_name": "Eth Vehara, Mihintale, Anuradhapura District, North Central Province, 50300, Sri Lanka",
+      "address": {
+        "peak": "Eth Vehara",
+        "town": "Mihintale",
+        "state_district": "Anuradhapura District",
+        "ISO3166-2-lvl5": "LK-71",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "postcode": "50300",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.3474880",
+        "8.3475880",
+        "80.5126463",
+        "80.5127463"
+      ]
+    }
+  ],
+  "search::aukana buddha statue, sri lanka": [
+    {
+      "place_id": 232539890,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4081329203,
+      "lat": "8.0108914",
+      "lon": "80.5128161",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 4.0000762951049326e-05,
+      "addresstype": "amenity",
+      "name": "Aukana Buddha Statue",
+      "display_name": "Aukana Buddha Statue, Kalawewa - Awukana Road, Walawegama, Anuradhapura District, North Central Province, 50170, Sri Lanka",
+      "address": {
+        "amenity": "Aukana Buddha Statue",
+        "road": "Kalawewa - Awukana Road",
+        "village": "Walawegama",
+        "state_district": "Anuradhapura District",
+        "ISO3166-2-lvl5": "LK-71",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "postcode": "50170",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.0108414",
+        "8.0109414",
+        "80.5127661",
+        "80.5128661"
+      ]
+    }
+  ],
+  "search::buduruwagala, sri lanka": [
+    {
+      "place_id": 234812687,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1721048205,
+      "lat": "6.6901818",
+      "lon": "81.1075210",
+      "category": "place",
+      "type": "village",
+      "place_rank": 19,
+      "importance": 0.14670666742961772,
+      "addresstype": "village",
+      "name": "Buduruwagala",
+      "display_name": "Buduruwagala, Monaragala District, Uva Province, 91200, Sri Lanka",
+      "address": {
+        "village": "Buduruwagala",
+        "state_district": "Monaragala District",
+        "ISO3166-2-lvl5": "LK-82",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "91200",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.6701818",
+        "6.7101818",
+        "81.0875210",
+        "81.1275210"
+      ]
+    }
+  ],
+  "search::lipton's seat, sri lanka": [
+    {
+      "place_id": 233755100,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 598181176,
+      "lat": "6.7806643",
+      "lon": "81.0155075",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 4.2468146791745135e-05,
+      "addresstype": "tourism",
+      "name": "Lipton's seat",
+      "display_name": "Lipton's seat, Lipton's Seat Road, Maousakelie, Bandara Eliya, Badulla District, Uva Province, 19160, Sri Lanka",
+      "address": {
+        "tourism": "Lipton's seat",
+        "road": "Lipton's Seat Road",
+        "hamlet": "Maousakelie",
+        "village": "Bandara Eliya",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "19160",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7806143",
+        "6.7807143",
+        "81.0154575",
+        "81.0155575"
+      ]
+    }
+  ],
+  "search::bambarakanda falls, sri lanka": [
+    {
+      "place_id": 235482008,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6533610507,
+      "lat": "6.7742969",
+      "lon": "80.8311072",
+      "category": "waterway",
+      "type": "waterfall",
+      "place_rank": 20,
+      "importance": 0.13337083466849772,
+      "addresstype": "waterfall",
+      "name": "Upper Bambarakanda Falls",
+      "display_name": "Upper Bambarakanda Falls, West Haputale, Badulla District, Uva Province, Sri Lanka",
+      "address": {
+        "waterfall": "Upper Bambarakanda Falls",
+        "village": "West Haputale",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7742469",
+        "6.7743469",
+        "80.8310572",
+        "80.8311572"
+      ]
+    }
+  ],
+  "search::ravana falls, sri lanka": [
+    {
+      "place_id": 235128050,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6301206992,
+      "lat": "6.8411694",
+      "lon": "81.0550963",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 4.935454337372423e-05,
+      "addresstype": "tourism",
+      "name": "Ravana Falls",
+      "display_name": "Ravana Falls, Ella - Wellawaya Road, Wewatenna, Badulla District, Uva Province, 90900, Sri Lanka",
+      "address": {
+        "tourism": "Ravana Falls",
+        "road": "Ella - Wellawaya Road",
+        "hamlet": "Wewatenna",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90900",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8411194",
+        "6.8412194",
+        "81.0550463",
+        "81.0551463"
+      ]
+    }
+  ],
+  "search::lovers leap falls, sri lanka": [],
+  "search::kalpitiya, sri lanka": [
+    {
+      "place_id": 234766181,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1150550162,
+      "lat": "8.2368062",
+      "lon": "79.7661508",
+      "category": "place",
+      "type": "village",
+      "place_rank": 19,
+      "importance": 0.14670416800183103,
+      "addresstype": "village",
+      "name": "Kalpitiya",
+      "display_name": "Kalpitiya, Puttalam District, North Western Province, 61360, Sri Lanka",
+      "address": {
+        "village": "Kalpitiya",
+        "state_district": "Puttalam District",
+        "ISO3166-2-lvl5": "LK-62",
+        "state": "North Western Province",
+        "ISO3166-2-lvl4": "LK-6",
+        "postcode": "61360",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.2168062",
+        "8.2568062",
+        "79.7461508",
+        "79.7861508"
+      ]
+    }
+  ],
+  "search::pasikuda beach, sri lanka": [],
+  "search::nilaveli beach, sri lanka": [
+    {
+      "place_id": 231700402,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 177784839,
+      "lat": "8.6980818",
+      "lon": "81.1929762",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.1067238078889143,
+      "addresstype": "beach",
+      "name": "Nilaveli Beach",
+      "display_name": "Nilaveli Beach, Irakkandi, Trincomalee District, Eastern Province, Sri Lanka",
+      "address": {
+        "beach": "Nilaveli Beach",
+        "village": "Irakkandi",
+        "state_district": "Trincomalee District",
+        "ISO3166-2-lvl5": "LK-53",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.6660089",
+        "8.7327957",
+        "81.1743263",
+        "81.2142554"
+      ]
+    }
+  ],
+  "search::jungle beach, sri lanka": [
+    {
+      "place_id": 235760866,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1134338129,
+      "lat": "5.9585940",
+      "lon": "80.4130866",
+      "category": "natural",
+      "type": "beach",
+      "place_rank": 22,
+      "importance": 0.10670416800183105,
+      "addresstype": "beach",
+      "name": "Jungle Beach",
+      "display_name": "Jungle Beach, Kumbalgama, Matara District, Southern Province, Sri Lanka",
+      "address": {
+        "beach": "Jungle Beach",
+        "suburb": "Kumbalgama",
+        "state_district": "Matara District",
+        "ISO3166-2-lvl5": "LK-32",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "5.9581364",
+        "5.9589959",
+        "80.4126059",
+        "80.4135125"
+      ]
+    },
+    {
+      "place_id": 235436302,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3081359024,
+      "lat": "6.0119744",
+      "lon": "80.2391711",
+      "category": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 4.0000762951049326e-05,
+      "addresstype": "tourism",
+      "name": "Jungle Beach",
+      "display_name": "Jungle Beach, Jungle Beach road, Unawatuna, Rumassala, Galle District, Southern Province, 80600, Sri Lanka",
+      "address": {
+        "tourism": "Jungle Beach",
+        "road": "Jungle Beach road",
+        "suburb": "Unawatuna",
+        "village": "Rumassala",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "80600",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.0119244",
+        "6.0120244",
+        "80.2391211",
+        "80.2392211"
+      ]
+    }
+  ],
+  "search::matara, sri lanka": [
+    {
+      "place_id": 235021547,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5345072,
+      "lat": "5.9478220",
+      "lon": "80.5482919",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.43569306513699185,
+      "addresstype": "city",
+      "name": "Matara",
+      "display_name": "Matara, Matara District, Southern Province, 81000, Sri Lanka",
+      "address": {
+        "city": "Matara",
+        "state_district": "Matara District",
+        "ISO3166-2-lvl5": "LK-32",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "81000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "5.9373907",
+        "5.9581307",
+        "80.5207784",
+        "80.5599800"
+      ]
+    }
+  ],
+  "search::hambantota, sri lanka": [
+    {
+      "place_id": 234808313,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 247220841,
+      "lat": "6.1249126",
+      "lon": "81.1242563",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.43898605505036675,
+      "addresstype": "city",
+      "name": "Hambantota",
+      "display_name": "Hambantota, Hambantota District, Southern Province, 82000, Sri Lanka",
+      "address": {
+        "city": "Hambantota",
+        "state_district": "Hambantota District",
+        "ISO3166-2-lvl5": "LK-33",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "82000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "5.9649126",
+        "6.2849126",
+        "80.9642563",
+        "81.2842563"
+      ]
+    },
+    {
+      "place_id": 234542600,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5337945,
+      "lat": "6.1763920",
+      "lon": "81.1321195",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.418795187846522,
+      "addresstype": "state_district",
+      "name": "Hambantota District",
+      "display_name": "Hambantota District, Southern Province, Sri Lanka",
+      "address": {
+        "state_district": "Hambantota District",
+        "ISO3166-2-lvl5": "LK-33",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "5.7755012",
+        "6.5780065",
+        "80.6082670",
+        "81.8824723"
+      ]
+    }
+  ],
+  "search::kataragama temple, sri lanka": [],
+  "search::belilena cave, sri lanka": [],
+  "search::pidurangala rock, sri lanka": [
+    {
+      "place_id": 236993707,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6067380,
+      "lat": "7.9660630",
+      "lon": "80.7616591",
+      "category": "natural",
+      "type": "bare_rock",
+      "place_rank": 22,
+      "importance": 0.10670416800183105,
+      "addresstype": "bare_rock",
+      "name": "Pidurangala Rock",
+      "display_name": "Pidurangala Rock, Matale District, Central Province, Sri Lanka",
+      "address": {
+        "bare_rock": "Pidurangala Rock",
+        "state_district": "Matale District",
+        "ISO3166-2-lvl5": "LK-22",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.9653394",
+        "7.9669986",
+        "80.7606683",
+        "80.7625406"
+      ]
+    }
+  ],
+  "search::bundala national park, sri lanka": [
+    {
+      "place_id": 233497043,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5407631,
+      "lat": "6.2098550",
+      "lon": "81.2251772",
+      "category": "natural",
+      "type": "wood",
+      "place_rank": 22,
+      "importance": 0.36105344208987866,
+      "addresstype": "wood",
+      "name": "Bundala National Park",
+      "display_name": "Bundala National Park, Hambantota, Hambantota District, Southern Province, Sri Lanka",
+      "address": {
+        "wood": "Bundala National Park",
+        "city": "Hambantota",
+        "state_district": "Hambantota District",
+        "ISO3166-2-lvl5": "LK-33",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.1985501",
+        "6.2213585",
+        "81.1997725",
+        "81.2497644"
+      ]
+    },
+    {
+      "place_id": 234995609,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5403980,
+      "lat": "6.1977806",
+      "lon": "81.2016630",
+      "category": "natural",
+      "type": "wetland",
+      "place_rank": 22,
+      "importance": 0.10671308079652092,
+      "addresstype": "wetland",
+      "name": "Bundala National Park",
+      "display_name": "Bundala National Park, Hambantota, Hambantota District, Southern Province, Sri Lanka",
+      "address": {
+        "wetland": "Bundala National Park",
+        "city": "Hambantota",
+        "state_district": "Hambantota District",
+        "ISO3166-2-lvl5": "LK-33",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.1896784",
+        "6.2059020",
+        "81.1925366",
+        "81.2092359"
+      ]
+    },
+    {
+      "place_id": 395792654,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5403984,
+      "lat": "6.1747900",
+      "lon": "81.1786050",
+      "category": "natural",
+      "type": "scrub",
+      "place_rank": 22,
+      "importance": 0.10671308079652092,
+      "addresstype": "scrub",
+      "name": "Bundala National Park",
+      "display_name": "Bundala National Park, Hambantota, Hambantota District, Southern Province, Sri Lanka",
+      "address": {
+        "scrub": "Bundala National Park",
+        "city": "Hambantota",
+        "state_district": "Hambantota District",
+        "ISO3166-2-lvl5": "LK-33",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.1727344",
+        "6.1766820",
+        "81.1754111",
+        "81.1798061"
+      ]
+    }
+  ],
+  "search::kumana national park, sri lanka": [
+    {
+      "place_id": 233678946,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 18136442,
+      "lat": "6.6186785",
+      "lon": "81.6649958",
+      "category": "boundary",
+      "type": "national_park",
+      "place_rank": 25,
+      "importance": 0.06667666666666666,
+      "addresstype": "national_park",
+      "name": "Kumana National Park",
+      "display_name": "Kumana National Park, Ampara District, Eastern Province, Sri Lanka",
+      "address": {
+        "national_park": "Kumana National Park",
+        "state_district": "Ampara District",
+        "ISO3166-2-lvl5": "LK-52",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.5110872",
+        "6.7266998",
+        "81.5541889",
+        "81.7744444"
+      ]
+    }
+  ],
+  "search::maduru oya national park, sri lanka": [
+    {
+      "place_id": 233635164,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 8041112,
+      "lat": "7.5376250",
+      "lon": "81.1194996",
+      "category": "boundary",
+      "type": "national_park",
+      "place_rank": 25,
+      "importance": 0.28575224736690846,
+      "addresstype": "national_park",
+      "name": "Maduru Oya National Park",
+      "display_name": "Maduru Oya National Park, Badulla District, Uva Province, Sri Lanka",
+      "address": {
+        "national_park": "Maduru Oya National Park",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.3944081",
+        "7.6810354",
+        "81.0562277",
+        "81.3342118"
+      ]
+    }
+  ],
+  "search::gal oya national park, sri lanka": [],
+  "search::tea plantations nuwara eliya, sri lanka": [
+    {
+      "place_id": 234766733,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7171132885,
+      "lat": "7.0027264",
+      "lon": "80.7405615",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 4.9813839932814793e-05,
+      "addresstype": "tourism",
+      "name": "Tea plantations",
+      "display_name": "Tea plantations, Kandy - Nuwara Eliya Road, Bambarakele, Toppass, Nuwara Eliya District, Central Province, 22200, Sri Lanka",
+      "address": {
+        "tourism": "Tea plantations",
+        "road": "Kandy - Nuwara Eliya Road",
+        "hamlet": "Bambarakele",
+        "village": "Toppass",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "22200",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.0026764",
+        "7.0027764",
+        "80.7405115",
+        "80.7406115"
+      ]
+    }
+  ],
+  "search::haputale, sri lanka": [
+    {
+      "place_id": 234237800,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 258445946,
+      "lat": "6.7683012",
+      "lon": "80.9575728",
+      "category": "railway",
+      "type": "station",
+      "place_rank": 30,
+      "importance": 4.2468146791745135e-05,
+      "addresstype": "railway",
+      "name": "Haputale",
+      "display_name": "Haputale, Railway Station Road, Haputhale, Badulla District, Uva Province, 90160, Sri Lanka",
+      "address": {
+        "railway": "Haputale",
+        "road": "Railway Station Road",
+        "town": "Haputhale",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90160",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7681820",
+        "6.7684199",
+        "80.9573234",
+        "80.9578222"
+      ]
+    },
+    {
+      "place_id": 400722222,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12628682553,
+      "lat": "6.7682176",
+      "lon": "80.9576442",
+      "category": "railway",
+      "type": "stop",
+      "place_rank": 30,
+      "importance": 4.2468146791745135e-05,
+      "addresstype": "railway",
+      "name": "Haputale",
+      "display_name": "Haputale, Railway Station Road, Haputhale, Badulla District, Uva Province, 90160, Sri Lanka",
+      "address": {
+        "railway": "Haputale",
+        "road": "Railway Station Road",
+        "town": "Haputhale",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90160",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7681676",
+        "6.7682676",
+        "80.9575942",
+        "80.9576942"
+      ]
+    },
+    {
+      "place_id": 233581710,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4887698356,
+      "lat": "6.7820669",
+      "lon": "80.8309365",
+      "category": "place",
+      "type": "village",
+      "place_rank": 19,
+      "importance": 0.14670416800183103,
+      "addresstype": "village",
+      "name": "West Haputale",
+      "display_name": "West Haputale, Badulla District, Uva Province, Sri Lanka",
+      "address": {
+        "village": "West Haputale",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7620669",
+        "6.8020669",
+        "80.8109365",
+        "80.8509365"
+      ]
+    }
+  ],
+  "search::bandarawela, sri lanka": [
+    {
+      "place_id": 235851054,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1819856065,
+      "lat": "6.8304821",
+      "lon": "80.9888204",
+      "category": "place",
+      "type": "town",
+      "place_rank": 18,
+      "importance": 0.3566039536603775,
+      "addresstype": "town",
+      "name": "Bandarawela",
+      "display_name": "Bandarawela, Badulla District, Uva Province, 90100, Sri Lanka",
+      "address": {
+        "town": "Bandarawela",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7904821",
+        "6.8704821",
+        "80.9488204",
+        "81.0288204"
+      ]
+    }
+  ],
+  "search::badulla, sri lanka": [
+    {
+      "place_id": 412141173,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1945604886,
+      "lat": "6.9900353",
+      "lon": "81.0570315",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.4210952950075333,
+      "addresstype": "city",
+      "name": "Badulla",
+      "display_name": "Badulla, Badulla District, Uva Province, 90000, Sri Lanka",
+      "address": {
+        "city": "Badulla",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8300353",
+        "7.1500353",
+        "80.8970315",
+        "81.2170315"
+      ]
+    },
+    {
+      "place_id": 234532509,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5351720,
+      "lat": "7.0836550",
+      "lon": "81.0890566",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.42625016686785433,
+      "addresstype": "state_district",
+      "name": "Badulla District",
+      "display_name": "Badulla District, Uva Province, Sri Lanka",
+      "address": {
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.5421710",
+        "7.6249620",
+        "80.7759424",
+        "81.2715980"
+      ]
+    }
+  ],
+  "search::mahiyangana, sri lanka": [
+    {
+      "place_id": 235221076,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 488659843,
+      "lat": "7.3207201",
+      "lon": "80.9908966",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.272124500803288,
+      "addresstype": "amenity",
+      "name": "Mahiyangana Raja Maha Viharaya",
+      "display_name": "Mahiyangana Raja Maha Viharaya, Maluwa road, Poojanagaraya, Badulla District, Uva Province, 90700, Sri Lanka",
+      "address": {
+        "amenity": "Mahiyangana Raja Maha Viharaya",
+        "road": "Maluwa road",
+        "village": "Poojanagaraya",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "postcode": "90700",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.3203518",
+        "7.3210964",
+        "80.9905228",
+        "80.9912722"
+      ]
+    },
+    {
+      "place_id": 235583776,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 728782492,
+      "lat": "7.3392024",
+      "lon": "80.9948552",
+      "category": "landuse",
+      "type": "garages",
+      "place_rank": 22,
+      "importance": 0.10670666742961774,
+      "addresstype": "garages",
+      "name": "Mahiyangana Bus Depot",
+      "display_name": "Mahiyangana Bus Depot, Puhulyaya, Mahiyanganaya, Badulla District, Uva Province, Sri Lanka",
+      "address": {
+        "garages": "Mahiyangana Bus Depot",
+        "hamlet": "Puhulyaya",
+        "town": "Mahiyanganaya",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.3385919",
+        "7.3399885",
+        "80.9944779",
+        "80.9953549"
+      ]
+    },
+    {
+      "place_id": 235660092,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 258756549,
+      "lat": "7.2933623",
+      "lon": "80.7498137",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339284885938808,
+      "addresstype": "road",
+      "name": "Old Mahiyangana Road",
+      "display_name": "Old Mahiyangana Road, Digana, Kandy District, Central Province, 20900, Sri Lanka",
+      "address": {
+        "road": "Old Mahiyangana Road",
+        "town": "Digana",
+        "state_district": "Kandy District",
+        "ISO3166-2-lvl5": "LK-21",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "20900",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.2933439",
+        "7.2935007",
+        "80.7489773",
+        "80.7506411"
+      ]
+    },
+    {
+      "place_id": 235427901,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 370950973,
+      "lat": "7.2879904",
+      "lon": "80.6576835",
+      "category": "highway",
+      "type": "trunk",
+      "place_rank": 26,
+      "importance": 0.05339284885938808,
+      "addresstype": "road",
+      "name": "Kandy - Hewaheta Road",
+      "display_name": "Kandy - Hewaheta Road, Thalwatta, Kandy, Kandy District, Central Province, 20000, Sri Lanka",
+      "address": {
+        "road": "Kandy - Hewaheta Road",
+        "suburb": "Thalwatta",
+        "city": "Kandy",
+        "state_district": "Kandy District",
+        "ISO3166-2-lvl5": "LK-21",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "20000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.2816745",
+        "7.2947961",
+        "80.6500394",
+        "80.6661450"
+      ]
+    },
+    {
+      "place_id": 234310692,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 370949907,
+      "lat": "7.2814456",
+      "lon": "80.6675824",
+      "category": "highway",
+      "type": "trunk",
+      "place_rank": 26,
+      "importance": 0.05339284885938808,
+      "addresstype": "road",
+      "name": "Kandy - Mahiyanganaya Road",
+      "display_name": "Kandy - Mahiyanganaya Road, Tennekumbura, Pandiwatte, Kandy District, Central Province, 20168, Sri Lanka",
+      "address": {
+        "road": "Kandy - Mahiyanganaya Road",
+        "suburb": "Tennekumbura",
+        "village": "Pandiwatte",
+        "state_district": "Kandy District",
+        "ISO3166-2-lvl5": "LK-21",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "20168",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.2814283",
+        "7.2814587",
+        "80.6669654",
+        "80.6681996"
+      ]
+    }
+  ],
+  "search::ampara, sri lanka": [
+    {
+      "place_id": 235500630,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5351718,
+      "lat": "7.0737575",
+      "lon": "81.8322887",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.4631552445094666,
+      "addresstype": "state_district",
+      "name": "Ampara District",
+      "display_name": "Ampara District, Eastern Province, Sri Lanka",
+      "address": {
+        "state_district": "Ampara District",
+        "ISO3166-2-lvl5": "LK-52",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.4079005",
+        "7.7391082",
+        "80.9779130",
+        "82.0810141"
+      ]
+    },
+    {
+      "place_id": 235645512,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1877296501,
+      "lat": "7.2978118",
+      "lon": "81.6790194",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.18671257419699394,
+      "addresstype": "city",
+      "name": "Ampara",
+      "display_name": "Ampara, Ampara District, Eastern Province, 32600, Sri Lanka",
+      "address": {
+        "city": "Ampara",
+        "state_district": "Ampara District",
+        "ISO3166-2-lvl5": "LK-52",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "postcode": "32600",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.1378118",
+        "7.4578118",
+        "81.5190194",
+        "81.8390194"
+      ]
+    }
+  ],
+  "search::kegalle, sri lanka": [
+    {
+      "place_id": 233183230,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5351777,
+      "lat": "7.1134446",
+      "lon": "80.3217395",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.41761362192958357,
+      "addresstype": "state_district",
+      "name": "Kegalle District",
+      "display_name": "Kegalle District, Sabaragamuwa Province, Sri Lanka",
+      "address": {
+        "state_district": "Kegalle District",
+        "ISO3166-2-lvl5": "LK-92",
+        "state": "Sabaragamuwa Province",
+        "ISO3166-2-lvl4": "LK-9",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8300090",
+        "7.3966054",
+        "80.1453682",
+        "80.5481260"
+      ]
+    },
+    {
+      "place_id": 232211261,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 49374844,
+      "lat": "7.2532006",
+      "lon": "80.3454132",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.39284077117933514,
+      "addresstype": "city",
+      "name": "Kegalle",
+      "display_name": "Kegalle, Kegalle District, Sabaragamuwa Province, 71050, Sri Lanka",
+      "address": {
+        "city": "Kegalle",
+        "state_district": "Kegalle District",
+        "ISO3166-2-lvl5": "LK-92",
+        "state": "Sabaragamuwa Province",
+        "ISO3166-2-lvl4": "LK-9",
+        "postcode": "71050",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.0932006",
+        "7.4132006",
+        "80.1854132",
+        "80.5054132"
+      ]
+    }
+  ],
+  "search::ratnapura gem mines, sri lanka": [],
+  "search::kitulgala forest, sri lanka": [],
+  "search::madu river safari, sri lanka": [
+    {
+      "place_id": 418568597,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13166897637,
+      "lat": "6.2736394",
+      "lon": "80.0382751",
+      "category": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 4.1241321431250743e-05,
+      "addresstype": "tourism",
+      "name": "Madu River Safari No 07",
+      "display_name": "Madu River Safari No 07, Colombo-Galle Road, Ahungalla, Galle District, Southern Province, 80562, Sri Lanka",
+      "address": {
+        "tourism": "Madu River Safari No 07",
+        "road": "Colombo-Galle Road",
+        "town": "Ahungalla",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "80562",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.2735894",
+        "6.2736894",
+        "80.0382251",
+        "80.0383251"
+      ]
+    }
+  ],
+  "search::koggala lake, sri lanka": [
+    {
+      "place_id": 235575539,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1412092,
+      "lat": "6.0023672",
+      "lon": "80.3319389",
+      "category": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.3108696100169382,
+      "addresstype": "water",
+      "name": "Koggala Lake",
+      "display_name": "Koggala Lake, Habaraduwa, Galle District, Southern Province, Sri Lanka",
+      "address": {
+        "water": "Koggala Lake",
+        "village": "Habaraduwa",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "5.9823901",
+        "6.0223266",
+        "80.3109728",
+        "80.3506956"
+      ]
+    }
+  ],
+  "search::bentara river, sri lanka": [
+    {
+      "place_id": 235520697,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 147445612,
+      "lat": "6.4412001",
+      "lon": "79.9875198",
+      "category": "natural",
+      "type": "wood",
+      "place_rank": 22,
+      "importance": 0.1067148706797894,
+      "addresstype": "wood",
+      "name": "Bentara River Sanctuary",
+      "display_name": "Bentara River Sanctuary, Bentota, Galle District, Southern Province, Sri Lanka",
+      "address": {
+        "wood": "Bentara River Sanctuary",
+        "town": "Bentota",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.4403969",
+        "6.4420213",
+        "79.9867505",
+        "79.9882257"
+      ]
+    }
+  ],
+  "search::bolgoda lake, sri lanka": [
+    {
+      "place_id": 235285938,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 9143876,
+      "lat": "6.7247394",
+      "lon": "79.9033217",
+      "category": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.10671510414282442,
+      "addresstype": "water",
+      "name": "Bolgoda_Lake",
+      "display_name": "Bolgoda_Lake, Gorakana, Panadura DS Division, Kalutara District, Western Province, Sri Lanka",
+      "address": {
+        "water": "Bolgoda_Lake",
+        "village": "Gorakana",
+        "county": "Panadura DS Division",
+        "state_district": "Kalutara District",
+        "ISO3166-2-lvl5": "LK-13",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.6326062",
+        "6.8164669",
+        "79.8859424",
+        "80.0045670"
+      ]
+    }
+  ],
+  "search::gregory lake, sri lanka": [
+    {
+      "place_id": 235582250,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4769295123,
+      "lat": "6.9537634",
+      "lon": "80.7795416",
+      "category": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 4.9813839932814793e-05,
+      "addresstype": "highway",
+      "name": "Gregory Lake",
+      "display_name": "Gregory Lake, Abhayapura Road, Kalukele, Nuwara Eliya, Nuwara Eliya District, Central Province, Sri Lanka",
+      "address": {
+        "highway": "Gregory Lake",
+        "road": "Abhayapura Road",
+        "hamlet": "Kalukele",
+        "city": "Nuwara Eliya",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9537134",
+        "6.9538134",
+        "80.7794916",
+        "80.7795916"
+      ]
+    }
+  ],
+  "search::victoria park nuwara eliya, sri lanka": [
+    {
+      "place_id": 235276353,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 16186319,
+      "lat": "6.9693406",
+      "lon": "80.7683084",
+      "category": "leisure",
+      "type": "park",
+      "place_rank": 24,
+      "importance": 0.19934751714046123,
+      "addresstype": "park",
+      "name": "Victoria Park",
+      "display_name": "Victoria Park, City Junction, Nuwara Eliya, Nuwara Eliya District, Central Province, Sri Lanka",
+      "address": {
+        "park": "Victoria Park",
+        "hamlet": "City Junction",
+        "city": "Nuwara Eliya",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9669903",
+        "6.9717249",
+        "80.7670266",
+        "80.7697590"
+      ]
+    }
+  ],
+  "search::hakgala botanical garden, sri lanka": [
+    {
+      "place_id": 234229247,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 493088634,
+      "lat": "6.9255595",
+      "lon": "80.8214514",
+      "category": "leisure",
+      "type": "garden",
+      "place_rank": 30,
+      "importance": 4.9813839932814793e-05,
+      "addresstype": "leisure",
+      "name": "Hakgala Botanical Garden",
+      "display_name": "Hakgala Botanical Garden, Nuwara Eliya - Badulla Road, Seetha Eliya, Nuwara Eliya District, Central Province, 90364, Sri Lanka",
+      "address": {
+        "leisure": "Hakgala Botanical Garden",
+        "road": "Nuwara Eliya - Badulla Road",
+        "village": "Seetha Eliya",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "90364",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9224036",
+        "6.9287347",
+        "80.8183560",
+        "80.8248067"
+      ]
+    },
+    {
+      "place_id": 242706491,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10570913580,
+      "lat": "6.9270754",
+      "lon": "80.8224067",
+      "category": "amenity",
+      "type": "parking",
+      "place_rank": 30,
+      "importance": 4.9813839932814793e-05,
+      "addresstype": "amenity",
+      "name": "Hakgala Botanical Garden",
+      "display_name": "Hakgala Botanical Garden, Nuwara Eliya - Badulla Road, Seetha Eliya, Nuwara Eliya District, Central Province, 90364, Sri Lanka",
+      "address": {
+        "amenity": "Hakgala Botanical Garden",
+        "road": "Nuwara Eliya - Badulla Road",
+        "village": "Seetha Eliya",
+        "state_district": "Nuwara Eliya District",
+        "ISO3166-2-lvl5": "LK-23",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "90364",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9270254",
+        "6.9271254",
+        "80.8223567",
+        "80.8224567"
+      ]
+    }
+  ],
+  "search::yala elephant transit home, sri lanka": [],
+  "search::handunugoda tea estate, sri lanka": [
+    {
+      "place_id": 235356980,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1030601255,
+      "lat": "6.0136569",
+      "lon": "80.3641829",
+      "category": "tourism",
+      "type": "museum",
+      "place_rank": 30,
+      "importance": 3.750133516437045e-05,
+      "addresstype": "tourism",
+      "name": "Handunugoda Tea Estate",
+      "display_name": "Handunugoda Tea Estate, Kathaluwa-Thiththagalla-Dikkumbura Road, Kathaluwa, Galle District, Southern Province, 80560, Sri Lanka",
+      "address": {
+        "tourism": "Handunugoda Tea Estate",
+        "road": "Kathaluwa-Thiththagalla-Dikkumbura Road",
+        "village": "Kathaluwa",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "80560",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.0136015",
+        "6.0137123",
+        "80.3641093",
+        "80.3642565"
+      ]
+    }
+  ],
+  "search::saman villas, sri lanka": [
+    {
+      "place_id": 235559654,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 152194293,
+      "lat": "6.3952248",
+      "lon": "80.0043106",
+      "category": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 4.0000762951049326e-05,
+      "addresstype": "tourism",
+      "name": "Saman Villas",
+      "display_name": "Saman Villas, Colombo-Galle Road, Induruwa, Galle District, Southern Province, 80510, Sri Lanka",
+      "address": {
+        "tourism": "Saman Villas",
+        "road": "Colombo-Galle Road",
+        "town": "Induruwa",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "80510",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.3951221",
+        "6.3954206",
+        "80.0041027",
+        "80.0045191"
+      ]
+    }
+  ],
+  "search::geoffrey bawa house, sri lanka": [
+    {
+      "place_id": 234916805,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1000695194,
+      "lat": "6.9014761",
+      "lon": "79.8578672",
+      "category": "tourism",
+      "type": "museum",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "tourism",
+      "name": "Geoffrey Bawa House No.11",
+      "display_name": "Geoffrey Bawa House No.11, 11, 33rd Lane, Bambalapitiya, Colombo, Colombo District, Western Province, 00300, Sri Lanka",
+      "address": {
+        "tourism": "Geoffrey Bawa House No.11",
+        "house_number": "11",
+        "road": "33rd Lane",
+        "suburb": "Bambalapitiya",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00300",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9013165",
+        "6.9016123",
+        "79.8577541",
+        "79.8580775"
+      ]
+    }
+  ],
+  "search::independence square, sri lanka": [
+    {
+      "place_id": 235118416,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3128705410,
+      "lat": "6.9041807",
+      "lon": "79.8677752",
+      "category": "place",
+      "type": "neighbourhood",
+      "place_rank": 20,
+      "importance": 0.1334050164034485,
+      "addresstype": "neighbourhood",
+      "name": "Independence Square",
+      "display_name": "Independence Square, Cinnamon Gardens, Colombo, Colombo District, Western Province, 00700, Sri Lanka",
+      "address": {
+        "neighbourhood": "Independence Square",
+        "suburb": "Cinnamon Gardens",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00700",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8941807",
+        "6.9141807",
+        "79.8577752",
+        "79.8777752"
+      ]
+    },
+    {
+      "place_id": 235118303,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 24745877,
+      "lat": "6.9036078",
+      "lon": "79.8674776",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.0534050164034485,
+      "addresstype": "road",
+      "name": "Independence Square",
+      "display_name": "Independence Square, Cinnamon Gardens, Colombo, Colombo District, Western Province, 00700, Sri Lanka",
+      "address": {
+        "road": "Independence Square",
+        "neighbourhood": "Independence Square",
+        "suburb": "Cinnamon Gardens",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00700",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9033104",
+        "6.9045930",
+        "79.8668880",
+        "79.8683575"
+      ]
+    },
+    {
+      "place_id": 235426959,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 620382353,
+      "lat": "6.9046368",
+      "lon": "79.8675663",
+      "category": "historic",
+      "type": "monument",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "historic",
+      "name": "Independence Square",
+      "display_name": "Independence Square, Independence Avenue, Independence Square, Cinnamon Gardens, Colombo, Colombo District, Western Province, 00700, Sri Lanka",
+      "address": {
+        "historic": "Independence Square",
+        "road": "Independence Avenue",
+        "neighbourhood": "Independence Square",
+        "suburb": "Cinnamon Gardens",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00700",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9045868",
+        "6.9046868",
+        "79.8675163",
+        "79.8676163"
+      ]
+    }
+  ],
+  "search::viharamahadevi park, sri lanka": [
+    {
+      "place_id": 235053046,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10107520123,
+      "lat": "6.9148992",
+      "lon": "79.8613636",
+      "category": "tourism",
+      "type": "aquarium",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "tourism",
+      "name": "Viharamahadevi Park Aquarium",
+      "display_name": "Viharamahadevi Park Aquarium, Srimath Anagarika Dharmapala Mawatha, Cinnamon Gardens, Slave Island, Colombo, Colombo District, Western Province, 00010, Sri Lanka",
+      "address": {
+        "tourism": "Viharamahadevi Park Aquarium",
+        "road": "Srimath Anagarika Dharmapala Mawatha",
+        "suburb": "Cinnamon Gardens",
+        "village": "Slave Island",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00010",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9148492",
+        "6.9149492",
+        "79.8613136",
+        "79.8614136"
+      ]
+    }
+  ],
+  "search::dehiwala zoo, sri lanka": [
+    {
+      "place_id": 235084290,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 48893708,
+      "lat": "6.8571738",
+      "lon": "79.8742032",
+      "category": "tourism",
+      "type": "zoo",
+      "place_rank": 30,
+      "importance": 0.24549928620455394,
+      "addresstype": "tourism",
+      "name": "National Zoological Gardens",
+      "display_name": "National Zoological Gardens, Anagarika Dharmapala Mawatha, Kawdana Broadway, Pallidora, Dehiwala, Colombo District, Western Province, 10350, Sri Lanka",
+      "address": {
+        "tourism": "National Zoological Gardens",
+        "road": "Anagarika Dharmapala Mawatha",
+        "neighbourhood": "Kawdana Broadway",
+        "hamlet": "Pallidora",
+        "town": "Dehiwala",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "10350",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8558802",
+        "6.8584463",
+        "79.8722482",
+        "79.8760565"
+      ]
+    }
+  ],
+  "search::mount lavinia beach, sri lanka": [],
+  "search::dutch hospital shopping, sri lanka": [
+    {
+      "place_id": 235559144,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 137294929,
+      "lat": "6.0265997",
+      "lon": "80.2195254",
+      "category": "historic",
+      "type": "monument",
+      "place_rank": 30,
+      "importance": 4.0000762951049326e-05,
+      "addresstype": "historic",
+      "name": "Old Dutch Hospital (Shopping Precint)",
+      "display_name": "Old Dutch Hospital (Shopping Precint), Hospital Street, Talbot Town, Galle, Galle District, Southern Province, 80000, Sri Lanka",
+      "address": {
+        "historic": "Old Dutch Hospital (Shopping Precint)",
+        "road": "Hospital Street",
+        "suburb": "Talbot Town",
+        "city": "Galle",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "80000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.0263481",
+        "6.0271956",
+        "80.2194570",
+        "80.2196936"
+      ]
+    },
+    {
+      "place_id": 235469092,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3090168490,
+      "lat": "6.0268677",
+      "lon": "80.2194762",
+      "category": "amenity",
+      "type": "marketplace",
+      "place_rank": 30,
+      "importance": 4.0000762951049326e-05,
+      "addresstype": "amenity",
+      "name": "Dutch Hospital Shopping Precinct Galle",
+      "display_name": "Dutch Hospital Shopping Precinct Galle, Hospital Street, Talbot Town, Galle, Galle District, Southern Province, 80000, Sri Lanka",
+      "address": {
+        "amenity": "Dutch Hospital Shopping Precinct Galle",
+        "road": "Hospital Street",
+        "suburb": "Talbot Town",
+        "city": "Galle",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "80000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.0268177",
+        "6.0269177",
+        "80.2194262",
+        "80.2195262"
+      ]
+    }
+  ],
+  "search::pettah market, sri lanka": [
+    {
+      "place_id": 234125212,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5915271185,
+      "lat": "6.9362523",
+      "lon": "79.8499631",
+      "category": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "tourism",
+      "name": "Pettah Market",
+      "display_name": "Pettah Market, Keyzer Street, L B Gate, Fort, St. Bastian, Colombo, Colombo District, Western Province, 01100, Sri Lanka",
+      "address": {
+        "tourism": "Pettah Market",
+        "road": "Keyzer Street",
+        "hamlet": "L B Gate",
+        "suburb": "Fort",
+        "village": "St. Bastian",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "01100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9362023",
+        "6.9363023",
+        "79.8499131",
+        "79.8500131"
+      ]
+    }
+  ],
+  "search::red mosque, sri lanka": [
+    {
+      "place_id": 235249942,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1157588838,
+      "lat": "6.9384193",
+      "lon": "79.8518802",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.18929199030239088,
+      "addresstype": "amenity",
+      "name": "Red Mosque",
+      "display_name": "Red Mosque, 2nd Cross Street, L B Gate, Fort, St. Bastian, Colombo, Colombo District, Western Province, 01100, Sri Lanka",
+      "address": {
+        "amenity": "Red Mosque",
+        "road": "2nd Cross Street",
+        "hamlet": "L B Gate",
+        "suburb": "Fort",
+        "village": "St. Bastian",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "01100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9382279",
+        "6.9386376",
+        "79.8516331",
+        "79.8521644"
+      ]
+    }
+  ],
+  "search::jami ul alfar mosque, sri lanka": [
+    {
+      "place_id": 235249942,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1157588838,
+      "lat": "6.9384193",
+      "lon": "79.8518802",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.18929199030239088,
+      "addresstype": "amenity",
+      "name": "Red Mosque",
+      "display_name": "Red Mosque, 2nd Cross Street, L B Gate, Fort, St. Bastian, Colombo, Colombo District, Western Province, 01100, Sri Lanka",
+      "address": {
+        "amenity": "Red Mosque",
+        "road": "2nd Cross Street",
+        "hamlet": "L B Gate",
+        "suburb": "Fort",
+        "village": "St. Bastian",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "01100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9382279",
+        "6.9386376",
+        "79.8516331",
+        "79.8521644"
+      ]
+    }
+  ],
+  "search::st. anthony's church, sri lanka": [
+    {
+      "place_id": 234929646,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 497485473,
+      "lat": "6.9468606",
+      "lon": "79.8561394",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.28179444113349733,
+      "addresstype": "amenity",
+      "name": "St. Anthony's Church",
+      "display_name": "St. Anthony's Church, Srimath Ramanadan Road, Kotahena, St. Bastian, Colombo, Colombo District, Western Province, 00130, Sri Lanka",
+      "address": {
+        "amenity": "St. Anthony's Church",
+        "road": "Srimath Ramanadan Road",
+        "suburb": "Kotahena",
+        "village": "St. Bastian",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00130",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9467509",
+        "6.9470036",
+        "79.8559312",
+        "79.8563780"
+      ]
+    },
+    {
+      "place_id": 235441361,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4192037133,
+      "lat": "6.9122978",
+      "lon": "79.8773225",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "amenity",
+      "name": "St. Anthony's Church",
+      "display_name": "St. Anthony's Church, Baseline Road, Senanayake Junction Borella, Borella, Colombo, Colombo District, Western Province, 00800, Sri Lanka",
+      "address": {
+        "amenity": "St. Anthony's Church",
+        "road": "Baseline Road",
+        "neighbourhood": "Senanayake Junction Borella",
+        "suburb": "Borella",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00800",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9122478",
+        "6.9123478",
+        "79.8772725",
+        "79.8773725"
+      ]
+    },
+    {
+      "place_id": 235521691,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 678323259,
+      "lat": "6.9076913",
+      "lon": "79.8542371",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "amenity",
+      "name": "St. Anthony's Church",
+      "display_name": "St. Anthony's Church, St. Anthony's Mawatha, Bambalapitiya, Colombo, Colombo District, Western Province, 00300, Sri Lanka",
+      "address": {
+        "amenity": "St. Anthony's Church",
+        "road": "St. Anthony's Mawatha",
+        "suburb": "Bambalapitiya",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00300",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9076413",
+        "6.9077413",
+        "79.8541871",
+        "79.8542871"
+      ]
+    },
+    {
+      "place_id": 232344443,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3536472082,
+      "lat": "9.6483984",
+      "lon": "80.0332281",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.708323796440097e-05,
+      "addresstype": "amenity",
+      "name": "St Anthony's Church",
+      "display_name": "St Anthony's Church, Pungankulam Road, Mixed retail residential, Passaiyoor, Jaffna District, Northern Province, Sri Lanka",
+      "address": {
+        "amenity": "St Anthony's Church",
+        "road": "Pungankulam Road",
+        "residential": "Mixed retail residential",
+        "village": "Passaiyoor",
+        "state_district": "Jaffna District",
+        "ISO3166-2-lvl5": "LK-41",
+        "state": "Northern Province",
+        "ISO3166-2-lvl4": "LK-4",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "9.6483484",
+        "9.6484484",
+        "80.0331781",
+        "80.0332781"
+      ]
+    },
+    {
+      "place_id": 235116149,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 377697948,
+      "lat": "6.7832217",
+      "lon": "79.8917975",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.683146410310548e-05,
+      "addresstype": "amenity",
+      "name": "St.anthony's church",
+      "display_name": "St.anthony's church, Pahala Indibadda Road(Mendis Mawatha), Moratumulla, Colombo District, Western Province, 10400, Sri Lanka",
+      "address": {
+        "amenity": "St.anthony's church",
+        "road": "Pahala Indibadda Road(Mendis Mawatha)",
+        "village": "Moratumulla",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "10400",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7827126",
+        "6.7836914",
+        "79.8914327",
+        "79.8921517"
+      ]
+    }
+  ],
+  "search::st. mary's church, sri lanka": [
+    {
+      "place_id": 235320448,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 678342999,
+      "lat": "6.8948336",
+      "lon": "79.8581401",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "amenity",
+      "name": "St. Mary's Church",
+      "display_name": "St. Mary's Church, Laurie's Road, Bambalapitiya, Milagiriya, Colombo, Colombo District, Western Province, 00400, Sri Lanka",
+      "address": {
+        "amenity": "St. Mary's Church",
+        "road": "Laurie's Road",
+        "suburb": "Bambalapitiya",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "00400",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.8947836",
+        "6.8948836",
+        "79.8580901",
+        "79.8581901"
+      ]
+    },
+    {
+      "place_id": 234024705,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 682652665,
+      "lat": "6.9456057",
+      "lon": "79.8595145",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 7.168307011516011e-05,
+      "addresstype": "amenity",
+      "name": "St. Mary's Church",
+      "display_name": "St. Mary's Church, New Chetty Street, Gintupitiya, St. Bastian, Colombo, Colombo District, Western Province, 01300, Sri Lanka",
+      "address": {
+        "amenity": "St. Mary's Church",
+        "road": "New Chetty Street",
+        "suburb": "Gintupitiya",
+        "village": "St. Bastian",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "01300",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9455557",
+        "6.9456557",
+        "79.8594645",
+        "79.8595645"
+      ]
+    },
+    {
+      "place_id": 233012063,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1170975221,
+      "lat": "9.6782911",
+      "lon": "80.0016544",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.708323796440097e-05,
+      "addresstype": "amenity",
+      "name": "St.Mary's Church",
+      "display_name": "St.Mary's Church, 7th Cross Street, Aarukaal Madam, Navanthurai, Jaffna District, Northern Province, 40000, Sri Lanka",
+      "address": {
+        "amenity": "St.Mary's Church",
+        "road": "7th Cross Street",
+        "hamlet": "Aarukaal Madam",
+        "village": "Navanthurai",
+        "state_district": "Jaffna District",
+        "ISO3166-2-lvl5": "LK-41",
+        "state": "Northern Province",
+        "ISO3166-2-lvl4": "LK-4",
+        "postcode": "40000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "9.6781660",
+        "9.6784535",
+        "80.0013785",
+        "80.0018123"
+      ]
+    },
+    {
+      "place_id": 232659239,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 235940025,
+      "lat": "9.7646892",
+      "lon": "80.0301457",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.708323796440097e-05,
+      "addresstype": "amenity",
+      "name": "St.Mary's Church",
+      "display_name": "St.Mary's Church, Jaffna - Kankesanthurai Road, Iyangaran Cycle Works, Thirunelvely, Jaffna, Jaffna District, Northern Province, 40000, Sri Lanka",
+      "address": {
+        "amenity": "St.Mary's Church",
+        "road": "Jaffna - Kankesanthurai Road",
+        "retail": "Iyangaran Cycle Works",
+        "suburb": "Thirunelvely",
+        "city": "Jaffna",
+        "state_district": "Jaffna District",
+        "ISO3166-2-lvl5": "LK-41",
+        "state": "Northern Province",
+        "ISO3166-2-lvl4": "LK-4",
+        "postcode": "40000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "9.7646054",
+        "9.7647729",
+        "80.0299977",
+        "80.0302937"
+      ]
+    },
+    {
+      "place_id": 232988650,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3522143878,
+      "lat": "9.6548578",
+      "lon": "80.0427969",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.708323796440097e-05,
+      "addresstype": "amenity",
+      "name": "St Mary's Church",
+      "display_name": "St Mary's Church, AV 3rd cross street, Ariyalai, Jaffna District, Northern Province, 40000, Sri Lanka",
+      "address": {
+        "amenity": "St Mary's Church",
+        "road": "AV 3rd cross street",
+        "town": "Ariyalai",
+        "state_district": "Jaffna District",
+        "ISO3166-2-lvl5": "LK-41",
+        "state": "Northern Province",
+        "ISO3166-2-lvl4": "LK-4",
+        "postcode": "40000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "9.6548078",
+        "9.6549078",
+        "80.0427469",
+        "80.0428469"
+      ]
+    }
+  ],
+  "search::nallur kovil, sri lanka": [
+    {
+      "place_id": 232952932,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 570824326,
+      "lat": "9.6628847",
+      "lon": "80.0252062",
+      "category": "office",
+      "type": "association",
+      "place_rank": 30,
+      "importance": 5.708323796440097e-05,
+      "addresstype": "office",
+      "name": "Sri Lanka Red Cross Society-District Branch",
+      "display_name": "Sri Lanka Red Cross Society-District Branch, Kovil Road, S.T. Parameswaran Co.(Pvt), Thirunelvely, Nallur, Jaffna District, Northern Province, 40000, Sri Lanka",
+      "address": {
+        "office": "Sri Lanka Red Cross Society-District Branch",
+        "road": "Kovil Road",
+        "commercial": "S.T. Parameswaran Co.(Pvt)",
+        "suburb": "Thirunelvely",
+        "town": "Nallur",
+        "state_district": "Jaffna District",
+        "ISO3166-2-lvl5": "LK-41",
+        "state": "Northern Province",
+        "ISO3166-2-lvl4": "LK-4",
+        "postcode": "40000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "9.6627386",
+        "9.6630493",
+        "80.0250524",
+        "80.0253900"
+      ]
+    }
+  ],
+  "search::nagadeepa temple, sri lanka": [
+    {
+      "place_id": 235641221,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 583940012,
+      "lat": "7.2643039",
+      "lon": "81.1063619",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 3.750133516437045e-05,
+      "addresstype": "amenity",
+      "name": "Nagadeepa Raja Maha Viharaya",
+      "display_name": "Nagadeepa Raja Maha Viharaya, Heerasagoda Road, Badulla District, Uva Province, Sri Lanka",
+      "address": {
+        "amenity": "Nagadeepa Raja Maha Viharaya",
+        "road": "Heerasagoda Road",
+        "state_district": "Badulla District",
+        "ISO3166-2-lvl5": "LK-81",
+        "state": "Uva Province",
+        "ISO3166-2-lvl4": "LK-8",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.2630001",
+        "7.2652085",
+        "81.1053175",
+        "81.1075759"
+      ]
+    }
+  ],
+  "search::thiruketheeswaram kovil, sri lanka": [],
+  "search::koneshwaram temple, sri lanka": [
+    {
+      "place_id": 232627472,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 495792678,
+      "lat": "8.5825686",
+      "lon": "81.2453201",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.714122224760841e-05,
+      "addresstype": "amenity",
+      "name": "Koneshwaram Temple",
+      "display_name": "Koneshwaram Temple, Fort Fredrick Road, Trincomalee, Trincomalee District, Eastern Province, 32100, Sri Lanka",
+      "address": {
+        "amenity": "Koneshwaram Temple",
+        "road": "Fort Fredrick Road",
+        "city": "Trincomalee",
+        "state_district": "Trincomalee District",
+        "ISO3166-2-lvl5": "LK-53",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "postcode": "32100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.5824733",
+        "8.5826638",
+        "81.2451424",
+        "81.2454979"
+      ]
+    },
+    {
+      "place_id": 230903509,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4000048959,
+      "lat": "8.5824415",
+      "lon": "81.2453772",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.714122224760841e-05,
+      "addresstype": "amenity",
+      "name": "Koneshwaram Temple",
+      "display_name": "Koneshwaram Temple, Fort Fredrick Road, Trincomalee, Trincomalee District, Eastern Province, 32100, Sri Lanka",
+      "address": {
+        "amenity": "Koneshwaram Temple",
+        "road": "Fort Fredrick Road",
+        "city": "Trincomalee",
+        "state_district": "Trincomalee District",
+        "ISO3166-2-lvl5": "LK-53",
+        "state": "Eastern Province",
+        "ISO3166-2-lvl4": "LK-5",
+        "postcode": "32100",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.5823915",
+        "8.5824915",
+        "81.2453272",
+        "81.2454272"
+      ]
+    }
+  ],
+  "search::embekke devalaya, sri lanka": [],
+  "search::lankatilaka temple, sri lanka": [
+    {
+      "place_id": 234259492,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 275336249,
+      "lat": "7.9628276",
+      "lon": "81.0036269",
+      "category": "historic",
+      "type": "monument",
+      "place_rank": 30,
+      "importance": 5.1904325932662204e-05,
+      "addresstype": "historic",
+      "name": "Lankatilaka Temple",
+      "display_name": "Lankatilaka Temple, Polonnaruwa - Hingurakgoda Road, 26th Mile Post, Polonnaruwa, Polonnaruwa District, North Central Province, 51000, Sri Lanka",
+      "address": {
+        "historic": "Lankatilaka Temple",
+        "road": "Polonnaruwa - Hingurakgoda Road",
+        "hamlet": "26th Mile Post",
+        "city": "Polonnaruwa",
+        "state_district": "Polonnaruwa District",
+        "ISO3166-2-lvl5": "LK-72",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "postcode": "51000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.9627494",
+        "7.9629237",
+        "81.0034658",
+        "81.0037875"
+      ]
+    }
+  ],
+  "search::gadaladeniya temple, sri lanka": [
+    {
+      "place_id": 235187610,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1743126596,
+      "lat": "7.2572700",
+      "lon": "80.5561355",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.9515526054734375e-05,
+      "addresstype": "amenity",
+      "name": "Gadaladeniya Temple",
+      "display_name": "Gadaladeniya Temple, Gadaladeniya Road, Gadaladeniya, Kandy District, Central Province, 20450, Sri Lanka",
+      "address": {
+        "amenity": "Gadaladeniya Temple",
+        "road": "Gadaladeniya Road",
+        "village": "Gadaladeniya",
+        "state_district": "Kandy District",
+        "ISO3166-2-lvl5": "LK-21",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "postcode": "20450",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.2572200",
+        "7.2573200",
+        "80.5560855",
+        "80.5561855"
+      ]
+    }
+  ],
+  "search::aluvihare rock temple, sri lanka": [],
+  "search::ridi viharaya, sri lanka": [
+    {
+      "place_id": 235676778,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3213648168,
+      "lat": "7.5366541",
+      "lon": "80.4914296",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.0907911802807925e-05,
+      "addresstype": "amenity",
+      "name": "Ridee Viharaya",
+      "display_name": "Ridee Viharaya, Mallawapitiya - Keppitigala Road, Rideegama, Rambadagalla, Kurunegala District, North Western Province, 60500, Sri Lanka",
+      "address": {
+        "amenity": "Ridee Viharaya",
+        "road": "Mallawapitiya - Keppitigala Road",
+        "suburb": "Rideegama",
+        "village": "Rambadagalla",
+        "state_district": "Kurunegala District",
+        "ISO3166-2-lvl5": "LK-61",
+        "state": "North Western Province",
+        "ISO3166-2-lvl4": "LK-6",
+        "postcode": "60500",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.5366041",
+        "7.5367041",
+        "80.4913796",
+        "80.4914796"
+      ]
+    }
+  ],
+  "search::alu vihara, sri lanka": [],
+  "search::kalutara temple, sri lanka": [
+    {
+      "place_id": 235280105,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 496339131,
+      "lat": "6.5864620",
+      "lon": "79.9596251",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 4.820401312271332e-05,
+      "addresstype": "amenity",
+      "name": "Kalutara Temple",
+      "display_name": "Kalutara Temple, Galle Road, Kalutara, Kalutara DS Division, Kalutara District, Western Province, 12000, Sri Lanka",
+      "address": {
+        "amenity": "Kalutara Temple",
+        "road": "Galle Road",
+        "city": "Kalutara",
+        "county": "Kalutara DS Division",
+        "state_district": "Kalutara District",
+        "ISO3166-2-lvl5": "LK-13",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "12000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.5863663",
+        "6.5865575",
+        "79.9595019",
+        "79.9597484"
+      ]
+    }
+  ],
+  "search::kande viharaya, sri lanka": [
+    {
+      "place_id": 235276233,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 978026443,
+      "lat": "5.9872167",
+      "lon": "80.7381943",
+      "category": "landuse",
+      "type": "religious",
+      "place_rank": 24,
+      "importance": 0.08004000076295106,
+      "addresstype": "religious",
+      "name": "Kande Viharaya",
+      "display_name": "Kande Viharaya, Morakatiyara, Kudawella, Hambantota District, Southern Province, Sri Lanka",
+      "address": {
+        "religious": "Kande Viharaya",
+        "hamlet": "Morakatiyara",
+        "village": "Kudawella",
+        "state_district": "Hambantota District",
+        "ISO3166-2-lvl5": "LK-33",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "5.9870838",
+        "5.9872657",
+        "80.7381207",
+        "80.7382679"
+      ]
+    },
+    {
+      "place_id": 242593852,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 421711295,
+      "lat": "6.9282305",
+      "lon": "79.9119352",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.683146410310548e-05,
+      "addresstype": "amenity",
+      "name": "Kande Viharaya",
+      "display_name": "Kande Viharaya, Batalanda Hena Road, IDH (Gothatuwa), Atalgoda, Kotikawaththa, Colombo District, Western Province, 10620, Sri Lanka",
+      "address": {
+        "amenity": "Kande Viharaya",
+        "road": "Batalanda Hena Road",
+        "neighbourhood": "IDH (Gothatuwa)",
+        "hamlet": "Atalgoda",
+        "village": "Kotikawaththa",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "10620",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9281101",
+        "6.9283508",
+        "79.9117601",
+        "79.9121104"
+      ]
+    },
+    {
+      "place_id": 235380690,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3370480040,
+      "lat": "6.9280314",
+      "lon": "79.9122651",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.683146410310548e-05,
+      "addresstype": "amenity",
+      "name": "Kande Viharaya",
+      "display_name": "Kande Viharaya, Batalanda Hena Road, IDH (Gothatuwa), Atalgoda, Gothatuwa, Colombo District, Western Province, 10620, Sri Lanka",
+      "address": {
+        "amenity": "Kande Viharaya",
+        "road": "Batalanda Hena Road",
+        "neighbourhood": "IDH (Gothatuwa)",
+        "hamlet": "Atalgoda",
+        "town": "Gothatuwa",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "10620",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9279814",
+        "6.9280814",
+        "79.9122151",
+        "79.9123151"
+      ]
+    },
+    {
+      "place_id": 235233640,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 287208820,
+      "lat": "6.7565975",
+      "lon": "80.0535691",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 4.249866483553853e-05,
+      "addresstype": "amenity",
+      "name": "kande viharaya",
+      "display_name": "kande viharaya, Horana - Padukka Road, Kananwila, Horana DS Division, Kalutara District, Western Province, 12400, Sri Lanka",
+      "address": {
+        "amenity": "kande viharaya",
+        "road": "Horana - Padukka Road",
+        "village": "Kananwila",
+        "county": "Horana DS Division",
+        "state_district": "Kalutara District",
+        "ISO3166-2-lvl5": "LK-13",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "postcode": "12400",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.7560971",
+        "6.7568239",
+        "80.0533080",
+        "80.0538973"
+      ]
+    }
+  ],
+  "search::seema malaka, sri lanka": [],
+  "search::isurumuniya temple, sri lanka": [],
+  "search::ruwanwelisaya, sri lanka": [
+    {
+      "place_id": 232770423,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 247453300,
+      "lat": "8.3500159",
+      "lon": "80.3964006",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.33736466916818214,
+      "addresstype": "amenity",
+      "name": "Ruwanwelisaya Dagoba",
+      "display_name": "Ruwanwelisaya Dagoba, Abhayawewa Road, Shudda Nagaraya, Anuradhapura, Anuradhapura District, North Central Province, 50000, Sri Lanka",
+      "address": {
+        "amenity": "Ruwanwelisaya Dagoba",
+        "road": "Abhayawewa Road",
+        "hamlet": "Shudda Nagaraya",
+        "city": "Anuradhapura",
+        "state_district": "Anuradhapura District",
+        "ISO3166-2-lvl5": "LK-71",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "postcode": "50000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.3494469",
+        "8.3505251",
+        "80.3958562",
+        "80.3969396"
+      ]
+    }
+  ],
+  "search::thuparamaya, sri lanka": [
+    {
+      "place_id": 230613037,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 533795097,
+      "lat": "8.3558243",
+      "lon": "80.3976195",
+      "category": "amenity",
+      "type": "parking",
+      "place_rank": 30,
+      "importance": 5.652780956736122e-05,
+      "addresstype": "amenity",
+      "name": "Thuparamaya car park",
+      "display_name": "Thuparamaya car park, Thuparama Mawatha, Sunatha Camp Junction, Thisawewa, Anuradhapura, Anuradhapura District, North Central Province, 50000, Sri Lanka",
+      "address": {
+        "amenity": "Thuparamaya car park",
+        "road": "Thuparama Mawatha",
+        "neighbourhood": "Sunatha Camp Junction",
+        "hamlet": "Thisawewa",
+        "city": "Anuradhapura",
+        "state_district": "Anuradhapura District",
+        "ISO3166-2-lvl5": "LK-71",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "postcode": "50000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.3555572",
+        "8.3561550",
+        "80.3972520",
+        "80.3979559"
+      ]
+    },
+    {
+      "place_id": 232077122,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 247453305,
+      "lat": "8.3553604",
+      "lon": "80.3964610",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.652780956736122e-05,
+      "addresstype": "amenity",
+      "name": "Thuparamaya Dagoba",
+      "display_name": "Thuparamaya Dagoba, Thuparama Mawatha, Sunatha Camp Junction, Thisawewa, Anuradhapura, Anuradhapura District, North Central Province, 50000, Sri Lanka",
+      "address": {
+        "amenity": "Thuparamaya Dagoba",
+        "road": "Thuparama Mawatha",
+        "neighbourhood": "Sunatha Camp Junction",
+        "hamlet": "Thisawewa",
+        "city": "Anuradhapura",
+        "state_district": "Anuradhapura District",
+        "ISO3166-2-lvl5": "LK-71",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "postcode": "50000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.3552675",
+        "8.3554392",
+        "80.3963745",
+        "80.3965480"
+      ]
+    },
+    {
+      "place_id": 235199787,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 564505951,
+      "lat": "6.0751457",
+      "lon": "80.2380339",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 5.6498817425757494e-05,
+      "addresstype": "amenity",
+      "name": "Pancha thuparamaya Thotagoda",
+      "display_name": "Pancha thuparamaya Thotagoda, Sugatha Nahimi Mawatha, Karapitiya, Labuduwa, Galle District, Southern Province, 80090, Sri Lanka",
+      "address": {
+        "amenity": "Pancha thuparamaya Thotagoda",
+        "road": "Sugatha Nahimi Mawatha",
+        "suburb": "Karapitiya",
+        "village": "Labuduwa",
+        "state_district": "Galle District",
+        "ISO3166-2-lvl5": "LK-31",
+        "state": "Southern Province",
+        "ISO3166-2-lvl4": "LK-3",
+        "postcode": "80090",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.0747523",
+        "6.0755444",
+        "80.2375692",
+        "80.2385187"
+      ]
+    }
+  ],
+  "search::jetavanaramaya, sri lanka": [],
+  "search::abhayagiri dagaba, sri lanka": [],
+  "search::sri maha bodhi tree, sri lanka": [
+    {
+      "place_id": 232985335,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3657323592,
+      "lat": "8.3447103",
+      "lon": "80.3972255",
+      "category": "natural",
+      "type": "tree",
+      "place_rank": 30,
+      "importance": 5.652780956736122e-05,
+      "addresstype": "natural",
+      "name": "Jaya Sri Maha Bodhi",
+      "display_name": "Jaya Sri Maha Bodhi, Mihindu Mawatha, Sunatha Camp Junction, Thisawewa, Anuradhapura, Anuradhapura District, North Central Province, 50000, Sri Lanka",
+      "address": {
+        "natural": "Jaya Sri Maha Bodhi",
+        "road": "Mihindu Mawatha",
+        "neighbourhood": "Sunatha Camp Junction",
+        "hamlet": "Thisawewa",
+        "city": "Anuradhapura",
+        "state_district": "Anuradhapura District",
+        "ISO3166-2-lvl5": "LK-71",
+        "state": "North Central Province",
+        "ISO3166-2-lvl4": "LK-7",
+        "postcode": "50000",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "8.3446603",
+        "8.3447603",
+        "80.3971755",
+        "80.3972755"
+      ]
+    }
+  ],
+  "search::tissawewa lake, sri lanka": [],
+  "search::parakrama samudra, sri lanka": [],
+  "search::kandy lake, sri lanka": [
+    {
+      "place_id": 233573747,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 8161133,
+      "lat": "7.2902321",
+      "lon": "80.6432067",
+      "category": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.3550498543075101,
+      "addresstype": "water",
+      "name": "Kandy Lake",
+      "display_name": "Kandy Lake, Thalwatta, Kandy, Kandy District, Central Province, Sri Lanka",
+      "address": {
+        "water": "Kandy Lake",
+        "suburb": "Thalwatta",
+        "city": "Kandy",
+        "state_district": "Kandy District",
+        "ISO3166-2-lvl5": "LK-21",
+        "state": "Central Province",
+        "ISO3166-2-lvl4": "LK-2",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "7.2874139",
+        "7.2930276",
+        "80.6375430",
+        "80.6464371"
+      ]
+    }
+  ],
+  "search::beira lake, sri lanka": [
+    {
+      "place_id": 234562910,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23494553,
+      "lat": "6.9270622",
+      "lon": "79.8563117",
+      "category": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.351548384712378,
+      "addresstype": "water",
+      "name": "Beira Lake (East)",
+      "display_name": "Beira Lake (East), Hunupitiya, Slave Island, Colombo, Colombo District, Western Province, Sri Lanka",
+      "address": {
+        "water": "Beira Lake (East)",
+        "suburb": "Hunupitiya",
+        "village": "Slave Island",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9206369",
+        "6.9335613",
+        "79.8477657",
+        "79.8611373"
+      ]
+    },
+    {
+      "place_id": 234771183,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23494552,
+      "lat": "6.9244768",
+      "lon": "79.8469248",
+      "category": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.351548384712378,
+      "addresstype": "water",
+      "name": "Beira Lake",
+      "display_name": "Beira Lake, Kompannaweediya, Slave Island, Colombo, Colombo District, Western Province, Sri Lanka",
+      "address": {
+        "water": "Beira Lake",
+        "suburb": "Kompannaweediya",
+        "village": "Slave Island",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9182458",
+        "6.9307325",
+        "79.8414636",
+        "79.8499256"
+      ]
+    },
+    {
+      "place_id": 231199358,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 3486296,
+      "lat": "6.9175996",
+      "lon": "79.8516392",
+      "category": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.10673834973678185,
+      "addresstype": "water",
+      "name": "Beira Lake (South-West)",
+      "display_name": "Beira Lake (South-West), Weekanda, Slave Island, Colombo, Colombo District, Western Province, Sri Lanka",
+      "address": {
+        "water": "Beira Lake (South-West)",
+        "suburb": "Weekanda",
+        "village": "Slave Island",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9157976",
+        "6.9194302",
+        "79.8497948",
+        "79.8555273"
+      ]
+    },
+    {
+      "place_id": 235431011,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 355229913,
+      "lat": "6.9349786",
+      "lon": "79.8477974",
+      "category": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.10673834973678185,
+      "addresstype": "water",
+      "name": "Beira Lake",
+      "display_name": "Beira Lake, L B Gate, Fort, Slave Island, Colombo, Colombo District, Western Province, Sri Lanka",
+      "address": {
+        "water": "Beira Lake",
+        "hamlet": "L B Gate",
+        "suburb": "Fort",
+        "village": "Slave Island",
+        "city": "Colombo",
+        "state_district": "Colombo District",
+        "ISO3166-2-lvl5": "LK-11",
+        "state": "Western Province",
+        "ISO3166-2-lvl4": "LK-1",
+        "country": "Sri Lanka",
+        "country_code": "lk"
+      },
+      "boundingbox": [
+        "6.9326690",
+        "6.9379922",
+        "79.8473103",
+        "79.8491389"
+      ]
+    }
+  ],
+  "search::dambulla market, sri lanka": [],
+  "search::matale spice gardens, sri lanka": []
+}

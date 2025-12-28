@@ -1,0 +1,76 @@
+attraction_id,name,category_before,category_after,lat_before,lon_before,lat_after,lon_after,coord_change_reason
+9,Sigiriya Rock Fortress,historical,adventure,7.957,80.7603,7.957,80.7603,no_results
+10,Galle Dutch Fort,historical,cultural,6.0265,80.2168,6.0265,80.2168,no_results
+11,Polonnaruwa Ancient City,historical,city,7.9403,81.0188,7.9403,81.0188,no_results
+12,Anuradhapura Sacred City,historical,city,8.3114,80.4037,8.3114,80.4037,no_results
+13,Dambulla Cave Temple,historical,temple,7.8606,80.6489,7.8606,80.6489,"accepted(importance=0.38,dist_km=0.4)"
+14,Jaffna Fort,historical,cultural,9.6615,80.0071,9.6615,80.0071,"accepted(importance=0.39,dist_km=0.1)"
+25,Ella Rock,mountain,adventure,6.8667,81.0458,6.8667,81.0458,"accepted(importance=0.16,dist_km=1.5)"
+27,Horton Plains National Park,mountain,national_park,6.8103,80.7958,6.8103,80.7958,"accepted(importance=0.37,dist_km=0.8)"
+33,Kandy City,cultural,city,7.2906,80.6337,7.2906,80.6337,"accepted(importance=0.54,dist_km=0.3)"
+43,Trincomalee Beaches,wildlife,beach,9.006518,79.940243,9.006518,79.940243,no_results
+44,Batticaloa,mountain,city,8.438465,79.635388,7.8381021,81.5567533,"accepted(importance=0.44,dist_km=221.8)"
+45,Mannar Island,waterfall,beach,8.977,79.9131,8.977,79.9131,"accepted(importance=0.33,dist_km=10.1)"
+46,Pigeon Island,national_park,beach,8.72,81.23,8.72,81.23,"low_confidence(importance=0.17,dist_km=317.9)"
+49,Aukana Buddha Statue,mountain,cultural,8.124732,80.750002,8.124732,80.750002,"low_confidence(importance=0.00,dist_km=29.0)"
+51,Lipton's Seat,beach,mountain,8.263244,81.723122,8.263244,81.723122,"low_confidence(importance=0.00,dist_km=182.4)"
+52,Bambarakanda Falls,adventure,waterfall,8.745464,81.030138,8.745464,81.030138,"low_confidence(importance=0.13,dist_km=220.3)"
+53,Ravana Falls,wildlife,waterfall,6.057691,81.205591,6.057691,81.205591,"low_confidence(importance=0.00,dist_km=88.7)"
+54,Lovers Leap Falls,adventure,waterfall,6.87224,80.484919,6.87224,80.484919,no_results
+55,Kalpitiya,waterfall,beach,6.311428,80.595683,6.311428,80.595683,"low_confidence(importance=0.15,dist_km=232.8)"
+57,Nilaveli Beach,mountain,beach,9.577348,80.275687,9.577348,80.275687,"low_confidence(importance=0.11,dist_km=140.4)"
+58,Jungle Beach,beach,beach,6.033306,80.237617,5.958594,80.4130866,"accepted(importance=0.11,dist_km=21.1)"
+59,Matara,temple,city,7.970645,80.57468,5.947822,80.5482919,"accepted(importance=0.44,dist_km=224.9)"
+60,Hambantota,temple,city,8.370766,80.785859,6.1249126,81.1242563,"accepted(importance=0.44,dist_km=252.5)"
+61,Kataragama Temple,historical,temple,5.964693,80.729023,5.964693,80.729023,no_results
+62,Belilena Cave,waterfall,adventure,6.342547,81.719265,6.342547,81.719265,no_results
+63,Pidurangala Rock,beach,adventure,6.263101,81.653318,6.263101,81.653318,"low_confidence(importance=0.11,dist_km=213.4)"
+64,Bundala National Park,cultural,national_park,8.941515,81.040876,6.209855,81.2251772,"accepted(importance=0.36,dist_km=304.4)"
+65,Kumana National Park,temple,national_park,6.527151,80.816961,6.527151,80.816961,"low_confidence(importance=0.07,dist_km=94.2)"
+66,Maduru Oya National Park,mountain,national_park,8.433568,81.538136,8.433568,81.538136,"low_confidence(importance=0.29,dist_km=109.8)"
+67,Gal Oya National Park,cultural,national_park,7.433081,81.640912,7.433081,81.640912,no_results
+68,Tea Plantations Nuwara Eliya,national_park,cultural,8.130816,81.34453,8.130816,81.34453,"low_confidence(importance=0.00,dist_km=142.0)"
+70,Bandarawela,temple,city,8.071525,81.746771,6.8304821,80.9888204,"accepted(importance=0.36,dist_km=161.3)"
+71,Badulla,temple,temple,7.157948,81.536808,7.083655,81.0890566,"accepted(importance=0.43,dist_km=50.1)"
+72,Mahiyangana,city,cultural,5.920221,81.006947,5.920221,81.006947,"low_confidence(importance=0.27,dist_km=155.7)"
+73,Ampara,temple,temple,7.610049,81.112863,7.0737575,81.8322887,"accepted(importance=0.46,dist_km=99.3)"
+74,Kegalle,cultural,cultural,7.082736,80.788998,7.1134446,80.3217395,"accepted(importance=0.42,dist_km=51.7)"
+75,Ratnapura Gem Mines,national_park,cultural,8.385977,81.242619,8.385977,81.242619,no_results
+76,Kitulgala Forest,city,adventure,5.998868,81.810356,5.998868,81.810356,no_results
+77,Madu River Safari,cultural,adventure,8.686924,81.084474,8.686924,81.084474,"low_confidence(importance=0.00,dist_km=292.1)"
+78,Koggala Lake,city,cultural,7.288293,81.318831,6.0023672,80.3319389,"accepted(importance=0.31,dist_km=179.8)"
+79,Bentara River,city,adventure,8.877121,81.436591,8.877121,81.436591,"low_confidence(importance=0.11,dist_km=314.4)"
+80,Bolgoda Lake,city,cultural,8.340854,80.707527,8.340854,80.707527,"low_confidence(importance=0.11,dist_km=200.4)"
+81,Gregory Lake,historical,city,8.144349,80.431608,8.144349,80.431608,"low_confidence(importance=0.00,dist_km=137.8)"
+82,Victoria Park Nuwara Eliya,temple,city,6.051956,80.983809,6.051956,80.983809,"low_confidence(importance=0.20,dist_km=104.7)"
+83,Hakgala Botanical Garden,historical,cultural,8.602272,80.336008,8.602272,80.336008,"low_confidence(importance=0.00,dist_km=193.8)"
+85,Handunugoda Tea Estate,wildlife,cultural,8.842717,79.747497,8.842717,79.747497,"low_confidence(importance=0.00,dist_km=321.8)"
+86,Saman Villas,waterfall,city,9.203858,80.351772,9.203858,80.351772,"low_confidence(importance=0.00,dist_km=314.6)"
+87,Geoffrey Bawa House,waterfall,cultural,8.059442,80.010547,8.059442,80.010547,"low_confidence(importance=0.00,dist_km=129.9)"
+88,Independence Square,adventure,city,8.774439,80.810198,8.774439,80.810198,"low_confidence(importance=0.13,dist_km=232.4)"
+89,Viharamahadevi Park,mountain,city,6.183776,81.472464,6.183776,81.472464,"low_confidence(importance=0.00,dist_km=195.7)"
+90,Dehiwala Zoo,beach,wildlife,9.594269,81.866403,9.594269,81.866403,"low_confidence(importance=0.25,dist_km=375.1)"
+91,Mount Lavinia Beach,national_park,beach,6.33367,80.6823,6.33367,80.6823,no_results
+92,Dutch Hospital Shopping,waterfall,city,7.361995,80.185709,7.361995,80.185709,"low_confidence(importance=0.00,dist_km=148.5)"
+93,Pettah Market,cultural,city,9.506109,81.705878,9.506109,81.705878,"low_confidence(importance=0.00,dist_km=351.2)"
+94,Red Mosque,adventure,temple,8.618008,80.422084,8.618008,80.422084,"low_confidence(importance=0.19,dist_km=197.0)"
+95,Jami Ul Alfar Mosque,historical,temple,7.708424,80.348045,7.708424,80.348045,"low_confidence(importance=0.19,dist_km=101.6)"
+96,St. Anthony's Church,historical,temple,8.250849,80.150298,8.250849,80.150298,"low_confidence(importance=0.28,dist_km=148.6)"
+97,St. Mary's Church,mountain,temple,9.31898,80.823811,9.31898,80.823811,"low_confidence(importance=0.00,dist_km=93.4)"
+98,Nallur Kovil,waterfall,temple,9.682666,81.521085,9.682666,81.521085,"low_confidence(importance=0.00,dist_km=164.0)"
+99,Nagadeepa Temple,adventure,temple,9.6125,79.7743,9.6125,79.7743,"low_confidence(importance=0.00,dist_km=299.4)"
+100,Thiruketheeswaram Kovil,beach,temple,9.620799,80.954819,9.620799,80.954819,no_results
+101,Koneshwaram Temple,cultural,temple,9.142349,80.238665,9.142349,80.238665,"low_confidence(importance=0.00,dist_km=126.9)"
+102,Embekke Devalaya,adventure,temple,8.319207,81.189791,8.319207,81.189791,no_results
+103,Lankatilaka Temple,national_park,temple,9.426219,80.335813,9.426219,80.335813,"low_confidence(importance=0.00,dist_km=178.5)"
+104,Gadaladeniya Temple,city,temple,9.513692,80.681079,9.513692,80.681079,"low_confidence(importance=0.00,dist_km=251.3)"
+105,Aluvihare Rock Temple,national_park,temple,7.995327,80.604286,7.995327,80.604286,no_results
+107,Alu Vihara,city,temple,9.387447,79.808996,9.387447,79.808996,no_results
+108,Kalutara Temple,beach,temple,6.979823,81.434883,6.979823,81.434883,"low_confidence(importance=0.00,dist_km=168.7)"
+109,Kande Viharaya,mountain,temple,8.710013,79.649619,8.710013,79.649619,"low_confidence(importance=0.08,dist_km=325.7)"
+110,Seema Malaka,city,temple,7.281172,80.453193,7.281172,80.453193,no_results
+117,Tissawewa Lake,historical,cultural,7.150505,80.925319,7.150505,80.925319,no_results
+119,Kandy Lake,temple,city,6.384759,81.254082,7.2902321,80.6432067,"accepted(importance=0.36,dist_km=121.2)"
+120,Beira Lake,adventure,city,6.686347,79.892774,6.9244768,79.8469248,"accepted(importance=0.35,dist_km=27.0)"
+121,Dambulla Market,temple,city,9.084738,80.553924,9.084738,80.553924,no_results
+122,Matale Spice Gardens,wildlife,cultural,7.974244,79.659886,7.974244,79.659886,no_results

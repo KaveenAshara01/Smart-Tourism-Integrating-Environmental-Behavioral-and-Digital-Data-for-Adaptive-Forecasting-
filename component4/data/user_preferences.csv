@@ -1,0 +1,17 @@
+user_id,budget,available_days,distance_preference,num_travelers,activity_categories,season,timestamp
+user_20251218_122318,100000,5,175,3,"beach,temple,waterfall",1,2025-12-18T12:23:18.066448
+user_20251218_133020,100000,3,75,1,"beach,historical,city",2,2025-12-18T13:30:20.913826
+user_20251218_141120,225000,2,75,1,"beach,historical,temple,national_park,waterfall,mountain,cultural",2,2025-12-18T14:11:20.820110
+user_20251218_154258,100000,3,175,2,"beach,historical,temple,national_park,waterfall,mountain,cultural,city",2,2025-12-18T15:42:58.513215
+user_20251218_154416,100000,3,75,2,"beach,historical,temple,national_park,waterfall,mountain,cultural",1,2025-12-18T15:44:16.711252
+user_20251218_162428,225000,3,175,2,"beach,historical,temple,national_park,waterfall,mountain,cultural",2,2025-12-18T16:24:28.719496
+user_20251218_162814,100000,2,75,2,"beach,historical,temple,national_park,waterfall,mountain,cultural,city",2,2025-12-18T16:28:14.058497
+user_20251219_020602,100000,3,175,2,"beach,historical,temple,national_park,waterfall,mountain,cultural",2,2025-12-19T02:06:02.833547
+user_20251219_021436,100000,3,75,2,"beach,historical,temple,national_park,waterfall,mountain,cultural,city",2,2025-12-19T02:14:36.307257
+user_20251219_021727,100000,3,75,1,"beach,historical,temple,national_park,waterfall,mountain,cultural,city",2,2025-12-19T02:17:27.268763
+user_20251219_022621,100000,3,75,1,"beach,historical,temple,national_park,waterfall,mountain,cultural",2,2025-12-19T02:26:21.364428
+user_20251219_024448,100000,3,75,1,"beach,historical,temple,national_park,waterfall,mountain,cultural,city",2,2025-12-19T02:44:48.796768
+user_20251219_032206,100000,3,75,2,"beach,historical,temple,national_park,waterfall,mountain,cultural,city",2,2025-12-19T03:22:06.098690
+user_20251219_165135,100000,3,75,1,"beach,historical,temple,national_park,waterfall,mountain,cultural,city",2,2025-12-19T16:51:35.342008
+user_20251225_234956,35000,2,175,2,"beach,national_park,waterfall",2,2025-12-25T23:49:56.300406
+user_20251225_235503,35000,2,175,2,"beach,temple,waterfall",3,2025-12-25T23:55:03.404360
