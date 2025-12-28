@@ -1,0 +1,10 @@
+{
+  "bert_model": "distilbert-base-uncased",
+  "max_len": 128,
+  "ensemble_features": [
+    "ridge",
+    "rf",
+    "xgb"
+  ],
+  "output_scale": "0_to_1"
+}
