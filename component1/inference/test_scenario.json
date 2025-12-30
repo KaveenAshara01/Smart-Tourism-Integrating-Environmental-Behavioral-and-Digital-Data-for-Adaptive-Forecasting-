@@ -1,0 +1,51 @@
+{
+  "scenario_name": "July 2024 - Peak Season Forecast",
+  "prediction_month": "2024-07",
+  "description": "Forecasting tourist arrivals for July 2024 (peak season) with favorable weather conditions",
+
+  "weather_conditions": {
+    "colombo": {"temp_mean": 28, "rain_sum": 120, "humidity_mean": 78, "wind_mean": 15},
+    "kandy": {"temp_mean": 24, "rain_sum": 150, "humidity_mean": 82, "wind_mean": 12},
+    "galle": {"temp_mean": 27, "rain_sum": 130, "humidity_mean": 80, "wind_mean": 18},
+    "badulla": {"temp_mean": 23, "rain_sum": 140, "humidity_mean": 81, "wind_mean": 14},
+    "gampaha": {"temp_mean": 27, "rain_sum": 125, "humidity_mean": 79, "wind_mean": 16},
+    "matale": {"temp_mean": 24, "rain_sum": 145, "humidity_mean": 82, "wind_mean": 13},
+    "nuwara_eliya": {"temp_mean": 16, "rain_sum": 180, "humidity_mean": 85, "wind_mean": 20},
+    "kalutara": {"temp_mean": 27, "rain_sum": 135, "humidity_mean": 80, "wind_mean": 17},
+    "matara": {"temp_mean": 27, "rain_sum": 140, "humidity_mean": 81, "wind_mean": 19},
+    "anuradhapura": {"temp_mean": 29, "rain_sum": 100, "humidity_mean": 75, "wind_mean": 14},
+    "hambantota": {"temp_mean": 28, "rain_sum": 80, "humidity_mean": 74, "wind_mean": 22},
+    "polonnaruwa": {"temp_mean": 28, "rain_sum": 110, "humidity_mean": 76, "wind_mean": 15}
+  },
+
+  "sentiment_and_crisis": {
+    "sentiment_score": 0.75,
+    "composite_crisis_score": 5.0,
+    "terror_score": 2.0,
+    "economic_score": 3.0,
+    "unrest_score": 1.0,
+    "diplomacy_score": 1.0,
+    "tone_crisis_score": 2.0,
+    "disease_score": 1.0,
+    "crime_score": 2.0,
+    "disaster_score": 1.0
+  },
+
+  "historical_data": {
+    "comment": "These should be actual values from June 2024 (previous month)",
+    "previous_month_tourists": {
+      "colombo": 95000,
+      "kandy": 82000,
+      "galle": 88000,
+      "badulla": 60000,
+      "gampaha": 85000,
+      "matale": 62000,
+      "nuwara_eliya": 58000,
+      "kalutara": 55000,
+      "matara": 52000,
+      "anuradhapura": 48000,
+      "hambantota": 38000,
+      "polonnaruwa": 32000
+    }
+  }
+}
