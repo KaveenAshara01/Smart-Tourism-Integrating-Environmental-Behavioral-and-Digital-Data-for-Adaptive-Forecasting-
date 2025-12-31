@@ -29,7 +29,7 @@ class MonitoringPipeline:
         # Initialize components
         self.drift_detector = DriftDetector()
         self.incremental_learner = IncrementalLearner(base_model_path='../models')
-        self.ensemble_optimizer = EnsembleOptimizer(method='inverse_error')
+        self.ensemble_optimizer = EnsembleOptimizer(method='auto')
         self.performance_tracker = PerformanceTracker(db_path=os.path.join(data_path, 'monitoring.db'))
 
         self.districts = ['colombo', 'kandy', 'galle', 'badulla', 'gampaha', 'matale',
@@ -191,9 +191,25 @@ class MonitoringPipeline:
             lstm_mape = np.mean(np.abs(
                 lstm_errors / (actuals[[f'{d}_tourists' for d in self.districts]].values.flatten() + 1e-10))) * 100
 
-        weights = self.ensemble_optimizer.optimize_weights(
-            xgb_mape=xgb_mape if xgb_mape else avg_mape,
-            lstm_mape=lstm_mape if lstm_mape else avg_mape
+        # Prepare prediction-level data for ensemble optimization
+        xgb_preds = None
+        lstm_preds = None
+
+        if 'xgboost_predicted' in predictions.columns:
+            xgb_preds = predictions['xgboost_predicted'].values
+
+        if 'lstm_predicted' in predictions.columns:
+            lstm_preds = predictions['lstm_predicted'].values
+
+        actual_vals = actuals[[f'{d}_tourists' for d in self.districts]].values.flatten()
+
+        weights = self.ensemble_optimizer.optimize_weights_auto(
+            xgb_predictions=xgb_preds if 'xgboost_predicted' in predictions.columns else None,
+            lstm_predictions=lstm_preds if 'lstm_predicted' in predictions.columns else None,
+            actuals=actual_vals,
+            xgb_mape=xgb_mape,
+            lstm_mape=lstm_mape,
+            eval_metric='mse'
         )
 
         self.performance_tracker.log_ensemble_weights(

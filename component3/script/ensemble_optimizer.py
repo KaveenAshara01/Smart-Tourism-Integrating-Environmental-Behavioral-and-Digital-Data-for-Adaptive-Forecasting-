@@ -14,6 +14,27 @@ class EnsembleOptimizer:
         self.method = method
         self.history = []
 
+    def evaluate_weights(self,
+                         weights: Tuple[float, float],
+                         xgb_predictions: np.ndarray,
+                         lstm_predictions: np.ndarray,
+                         actuals: np.ndarray,
+                         metric: str = 'mse') -> float:
+        """
+        Evaluate ensemble performance for given weights
+        """
+        w_xgb, w_lstm = weights
+        ensemble_pred = w_xgb * xgb_predictions + w_lstm * lstm_predictions
+
+        if metric == 'mse':
+            return float(np.mean((actuals - ensemble_pred) ** 2))
+
+        elif metric == 'mae':
+            return float(np.mean(np.abs(actuals - ensemble_pred)))
+
+        else:
+            raise ValueError(f"Unsupported metric: {metric}")
+
     def inverse_error_weighting(self, xgb_mape: float, lstm_mape: float) -> Tuple[float, float]:
         """
         Simple inverse error weighting
@@ -89,7 +110,7 @@ class EnsembleOptimizer:
             w_lstm -= learning_rate * grad_lstm
 
             # Normalize to sum to 1
-            total = w_xgb + w_lstm
+            total = w_xgb + w_lstm + 1e-10
             w_xgb /= total
             w_lstm /= total
 
@@ -99,36 +120,87 @@ class EnsembleOptimizer:
 
         return float(w_xgb), float(w_lstm)
 
-    def optimize_weights(self,
-                         xgb_predictions: np.ndarray = None,
-                         lstm_predictions: np.ndarray = None,
-                         actuals: np.ndarray = None,
-                         xgb_mape: float = None,
-                         lstm_mape: float = None) -> Dict:
+    def optimize_weights_auto(self,
+                              xgb_predictions: np.ndarray = None,
+                              lstm_predictions: np.ndarray = None,
+                              actuals: np.ndarray = None,
+                              xgb_mape: float = None,
+                              lstm_mape: float = None,
+                              eval_metric: str = 'mse') -> Dict:
         """
-        Main optimization method
+        Automatically choose the best ensemble weighting strategy
         """
-        if self.method == 'inverse_error' and xgb_mape is not None and lstm_mape is not None:
-            xgb_weight, lstm_weight = self.inverse_error_weighting(xgb_mape, lstm_mape)
 
-        elif self.method == 'bayesian' and xgb_predictions is not None:
-            xgb_weight, lstm_weight = self.bayesian_optimization(xgb_predictions, lstm_predictions, actuals)
+        candidates = []
 
-        elif self.method == 'gradient' and xgb_predictions is not None:
-            xgb_weight, lstm_weight = self.gradient_based_optimization(xgb_predictions, lstm_predictions, actuals)
+        # ---- Case 1: Only MAPE available → inverse-error only ----
+        if (xgb_predictions is None or lstm_predictions is None or actuals is None):
+            if xgb_mape is None or lstm_mape is None:
+                # Absolute fallback
+                return {
+                    'method': 'equal',
+                    'xgboost_weight': 0.5,
+                    'lstm_weight': 0.5
+                }
 
-        else:
-            # Default equal weights
-            xgb_weight, lstm_weight = 0.5, 0.5
+            w_inv = self.inverse_error_weighting(xgb_mape, lstm_mape)
+            return {
+                'method': 'inverse_error',
+                'xgboost_weight': w_inv[0],
+                'lstm_weight': w_inv[1]
+            }
+
+        # ---- Case 2: Full data available → evaluate multiple strategies ----
+
+        # Inverse-error baseline (optional but recommended for research)
+        if xgb_mape is not None and lstm_mape is not None:
+            w_inv = self.inverse_error_weighting(xgb_mape, lstm_mape)
+            err_inv = self.evaluate_weights(
+                w_inv, xgb_predictions, lstm_predictions, actuals, eval_metric
+            )
+            candidates.append(('inverse_error', w_inv, err_inv))
+
+        # Bayesian optimization
+        w_bayes = self.bayesian_optimization(
+            xgb_predictions, lstm_predictions, actuals
+        )
+        err_bayes = self.evaluate_weights(
+            w_bayes, xgb_predictions, lstm_predictions, actuals, eval_metric
+        )
+        candidates.append(('bayesian', w_bayes, err_bayes))
+
+        # Gradient-based optimization
+        w_grad = self.gradient_based_optimization(
+            xgb_predictions, lstm_predictions, actuals
+        )
+        err_grad = self.evaluate_weights(
+            w_grad, xgb_predictions, lstm_predictions, actuals, eval_metric
+        )
+        candidates.append(('gradient', w_grad, err_grad))
+
+        # ---- Select best method ----
+        best_method, best_weights, best_error = min(
+            candidates, key=lambda x: x[2]
+        )
 
         result = {
-            'xgboost_weight': xgb_weight,
-            'lstm_weight': lstm_weight,
-            'method': self.method
+            'method': best_method,
+            'xgboost_weight': float(best_weights[0]),
+            'lstm_weight': float(best_weights[1]),
+            'evaluation_metric': eval_metric,
+            'score': float(best_error),
+            'all_candidates': [
+                {
+                    'method': m,
+                    'xgboost_weight': float(w[0]),
+                    'lstm_weight': float(w[1]),
+                    'score': float(e)
+                }
+                for m, w, e in candidates
+            ]
         }
 
         self.history.append(result)
-
         return result
 
     def get_weight_history(self) -> list:
