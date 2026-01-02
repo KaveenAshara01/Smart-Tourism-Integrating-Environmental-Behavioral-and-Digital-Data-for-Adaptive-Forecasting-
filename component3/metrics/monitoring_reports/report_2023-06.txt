@@ -1,0 +1,59 @@
+================================================================================
+MONITORING REPORT - 2023-06
+================================================================================
+
+PERFORMANCE METRICS:
+--------------------------------------------------------------------------------
+  Average MAE: 3094.47
+  Average MAPE: 6.49%
+  Average R²: 0.8217
+
+PER-DISTRICT METRICS:
+--------------------------------------------------------------------------------
+  Colombo: MAE=4988.38, MAPE=6.80%, R²=0.8654
+  Kandy: MAE=4372.18, MAPE=8.07%, R²=0.8155
+  Galle: MAE=3873.06, MAPE=6.49%, R²=0.8996
+  Badulla: MAE=3581.70, MAPE=8.67%, R²=0.8041
+  Gampaha: MAE=3111.12, MAPE=4.66%, R²=0.8877
+  Matale: MAE=3200.20, MAPE=6.63%, R²=0.8187
+  Nuwara_Eliya: MAE=1896.76, MAPE=4.63%, R²=0.7355
+  Kalutara: MAE=3142.45, MAPE=6.97%, R²=0.6884
+  Matara: MAE=3179.12, MAPE=7.62%, R²=0.8737
+  Anuradhapura: MAE=2499.54, MAPE=6.73%, R²=0.7164
+  Hambantota: MAE=1858.39, MAPE=5.50%, R²=0.8426
+  Polonnaruwa: MAE=1430.69, MAPE=5.13%, R²=0.9132
+
+DRIFT DETECTION ANALYSIS:
+================================================================================
+Overall Result: DRIFT DETECTED
+Severity Level: HIGH
+Consensus Votes: 3/3 methods agree
+
+Individual Test Results:
+--------------------------------------------------------------------------------
+1. Kolmogorov-Smirnov Test:
+   Status: DRIFT DETECTED
+   P-value: 0.000000
+   Statistic: 0.541667
+   Severity: high
+
+2. CUSUM Test:
+   Status: DRIFT DETECTED
+   Max CUSUM: 46477.873827
+   Threshold: 3.000000
+   Severity: high
+
+3. Page-Hinkley Test:
+   Status: DRIFT DETECTED
+   Statistic: 426.961332
+   Severity: high
+
+================================================================================
+ACTION TAKEN: RETRAIN_IMMEDIATELY
+================================================================================
+
+ENSEMBLE WEIGHTS:
+  XGBoost: 0.500
+  LSTM: 0.500
+
+================================================================================
