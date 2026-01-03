@@ -1,0 +1,68 @@
+{
+  "user_id": "user_20260102_222020",
+  "timestamp": "2026-01-02T22:20:20.885063",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 35000,
+    "days": 3,
+    "travelers": 2,
+    "categories": [
+      "beach",
+      "national_park",
+      "wildlife"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Pinnawala Elephant Orphanage",
+        "category": "wildlife",
+        "latitude": 7.2981,
+        "longitude": 80.3892,
+        "duration_hours": 3.0,
+        "cost": 7000,
+        "ml_score": 2.7148971557617188,
+        "popularity": 0.87
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Matale Spice Gardens",
+        "category": "wildlife",
+        "latitude": 7.974244,
+        "longitude": 79.659886,
+        "duration_hours": 2.5,
+        "cost": 9142,
+        "ml_score": 2.5450263023376465,
+        "popularity": 0.7
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Negombo Beach",
+        "category": "beach",
+        "latitude": 7.2088,
+        "longitude": 79.8358,
+        "duration_hours": 3.0,
+        "cost": 3000,
+        "ml_score": 1.3179168701171875,
+        "popularity": 0.75
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 268.73881454179644,
+    "total_cost_lkr": 19142,
+    "total_activity_hours": 8.5,
+    "num_attractions": 3,
+    "avg_attractions_per_day": 1.0
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

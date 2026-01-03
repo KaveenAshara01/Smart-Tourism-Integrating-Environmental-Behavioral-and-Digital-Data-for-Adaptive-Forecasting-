@@ -1,0 +1,103 @@
+{
+  "user_id": "user_20251219_032206",
+  "timestamp": "2025-12-19T03:22:06.241755",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 100000,
+    "days": 3,
+    "travelers": 2,
+    "categories": [
+      "beach",
+      "historical",
+      "temple",
+      "national_park",
+      "waterfall",
+      "mountain",
+      "cultural",
+      "city"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Lotus Tower",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8553,
+        "duration_hours": 2.0,
+        "cost": 5000,
+        "ml_score": 0.000671088055241853,
+        "popularity": 0.68
+      },
+      {
+        "name": "Gangaramaya Temple",
+        "category": "temple",
+        "latitude": 6.9167,
+        "longitude": 79.8561,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 1.898475170135498,
+        "popularity": 0.78
+      },
+      {
+        "name": "Abhayagiri Dagaba",
+        "category": "cultural",
+        "latitude": 6.905821,
+        "longitude": 79.91013,
+        "duration_hours": 4.5,
+        "cost": 14940,
+        "ml_score": 3.305719757080078,
+        "popularity": 0.74
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Mihintale",
+        "category": "temple",
+        "latitude": 7.558108,
+        "longitude": 79.99906,
+        "duration_hours": 4.1,
+        "cost": 1468,
+        "ml_score": 2.9552387237548827,
+        "popularity": 0.84
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Kelaniya Raja Maha Vihara",
+        "category": "temple",
+        "latitude": 6.9553,
+        "longitude": 79.9223,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 0.952634334564209,
+        "popularity": 0.75
+      },
+      {
+        "name": "Colombo City Tour",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8612,
+        "duration_hours": 6.0,
+        "cost": 8000,
+        "ml_score": 0.00017975734954234213,
+        "popularity": 0.82
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 156.08746798527034,
+    "total_cost_lkr": 31408,
+    "total_activity_hours": 19.6,
+    "num_attractions": 6,
+    "avg_attractions_per_day": 2.0
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

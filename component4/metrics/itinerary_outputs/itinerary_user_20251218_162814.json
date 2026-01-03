@@ -1,0 +1,111 @@
+{
+  "user_id": "user_20251218_162814",
+  "timestamp": "2025-12-18T16:28:14.213077",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 100000,
+    "days": 2,
+    "travelers": 2,
+    "categories": [
+      "beach",
+      "historical",
+      "temple",
+      "national_park",
+      "waterfall",
+      "mountain",
+      "cultural",
+      "city"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Gangaramaya Temple",
+        "category": "temple",
+        "latitude": 6.9167,
+        "longitude": 79.8561,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 0.6000177264213562,
+        "popularity": 0.78
+      },
+      {
+        "name": "Colombo National Museum",
+        "category": "cultural",
+        "latitude": 6.9108,
+        "longitude": 79.8608,
+        "duration_hours": 2.5,
+        "cost": 2000,
+        "ml_score": 0.010409528389573097,
+        "popularity": 0.72
+      },
+      {
+        "name": "Abhayagiri Dagaba",
+        "category": "cultural",
+        "latitude": 6.905821,
+        "longitude": 79.91013,
+        "duration_hours": 4.5,
+        "cost": 14940,
+        "ml_score": 3.232112503051758,
+        "popularity": 0.74
+      },
+      {
+        "name": "Kelaniya Raja Maha Vihara",
+        "category": "temple",
+        "latitude": 6.9553,
+        "longitude": 79.9223,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 0.24866613745689392,
+        "popularity": 0.75
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Negombo Beach",
+        "category": "beach",
+        "latitude": 7.2088,
+        "longitude": 79.8358,
+        "duration_hours": 3.0,
+        "cost": 3000,
+        "ml_score": 0.0022216683719307184,
+        "popularity": 0.75
+      },
+      {
+        "name": "Jungle Beach",
+        "category": "national_park",
+        "latitude": 7.073425,
+        "longitude": 80.183617,
+        "duration_hours": 1.7,
+        "cost": 10142,
+        "ml_score": 0.0013826361391693354,
+        "popularity": 0.73
+      },
+      {
+        "name": "Mihintale",
+        "category": "temple",
+        "latitude": 7.558108,
+        "longitude": 79.99906,
+        "duration_hours": 4.1,
+        "cost": 1468,
+        "ml_score": 1.3387122631072998,
+        "popularity": 0.84
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 141.8517997943486,
+    "total_cost_lkr": 33550,
+    "total_activity_hours": 18.799999999999997,
+    "num_attractions": 7,
+    "avg_attractions_per_day": 3.5
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

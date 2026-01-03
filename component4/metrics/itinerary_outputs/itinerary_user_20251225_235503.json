@@ -1,0 +1,56 @@
+{
+  "user_id": "user_20251225_235503",
+  "timestamp": "2025-12-25T23:55:04.107359",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 35000,
+    "days": 2,
+    "travelers": 2,
+    "categories": [
+      "beach",
+      "temple",
+      "waterfall"
+    ],
+    "season": 3
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Kalutara Temple",
+        "category": "beach",
+        "latitude": 6.979823,
+        "longitude": 81.434883,
+        "duration_hours": 4.9,
+        "cost": 3766,
+        "ml_score": 3.4870731353759763,
+        "popularity": 0.62
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Pasikuda Beach",
+        "category": "beach",
+        "latitude": 6.788947,
+        "longitude": 80.525059,
+        "duration_hours": 5.2,
+        "cost": 13910,
+        "ml_score": 3.2985998153686524,
+        "popularity": 0.55
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 197.56837264062474,
+    "total_cost_lkr": 17676,
+    "total_activity_hours": 10.100000000000001,
+    "num_attractions": 2,
+    "avg_attractions_per_day": 1.0
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

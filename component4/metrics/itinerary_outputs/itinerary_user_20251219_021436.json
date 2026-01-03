@@ -1,0 +1,233 @@
+{
+  "user_id": "user_20251219_021436",
+  "timestamp": "2025-12-19T02:14:36.449863",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 100000,
+    "days": 3,
+    "travelers": 2,
+    "categories": [
+      "beach",
+      "historical",
+      "temple",
+      "national_park",
+      "waterfall",
+      "mountain",
+      "cultural",
+      "city"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Colombo City Tour",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8612,
+        "duration_hours": 6.0,
+        "cost": 8000,
+        "ml_score": 0.00017975734954234213,
+        "popularity": 0.82
+      },
+      {
+        "name": "Gangaramaya Temple",
+        "category": "temple",
+        "latitude": 6.9167,
+        "longitude": 79.8561,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 1.898475170135498,
+        "popularity": 0.78
+      },
+      {
+        "name": "Colombo National Museum",
+        "category": "cultural",
+        "latitude": 6.9108,
+        "longitude": 79.8608,
+        "duration_hours": 2.5,
+        "cost": 2000,
+        "ml_score": 0.028528206050395966,
+        "popularity": 0.72
+      },
+      {
+        "name": "Buduruwagala",
+        "category": "waterfall",
+        "latitude": 7.055467,
+        "longitude": 79.896641,
+        "duration_hours": 1.6,
+        "cost": 7350,
+        "ml_score": 0.00028308317996561527,
+        "popularity": 0.69
+      },
+      {
+        "name": "Negombo Beach",
+        "category": "beach",
+        "latitude": 7.2088,
+        "longitude": 79.8358,
+        "duration_hours": 3.0,
+        "cost": 3000,
+        "ml_score": 0.002835009014233947,
+        "popularity": 0.75
+      },
+      {
+        "name": "Beira Lake",
+        "category": "adventure",
+        "latitude": 6.686347,
+        "longitude": 79.892774,
+        "duration_hours": 2.2,
+        "cost": 13218,
+        "ml_score": 0.0004454278503544628,
+        "popularity": 0.78
+      },
+      {
+        "name": "Adam's Peak (Sri Pada)",
+        "category": "mountain",
+        "latitude": 6.8095,
+        "longitude": 80.4995,
+        "duration_hours": 8.0,
+        "cost": 6000,
+        "ml_score": 0.0001349638041574508,
+        "popularity": 0.9
+      },
+      {
+        "name": "Pinnawala Elephant Orphanage",
+        "category": "wildlife",
+        "latitude": 7.2981,
+        "longitude": 80.3892,
+        "duration_hours": 3.0,
+        "cost": 7000,
+        "ml_score": 0.0001918528723763302,
+        "popularity": 0.87
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Dutch Hospital Shopping",
+        "category": "waterfall",
+        "latitude": 7.361995,
+        "longitude": 80.185709,
+        "duration_hours": 5.4,
+        "cost": 4352,
+        "ml_score": 0.0006993042188696563,
+        "popularity": 0.89
+      },
+      {
+        "name": "Jungle Beach",
+        "category": "beach",
+        "latitude": 7.073425,
+        "longitude": 80.183617,
+        "duration_hours": 1.7,
+        "cost": 10142,
+        "ml_score": 0.00728783905506134,
+        "popularity": 0.73
+      },
+      {
+        "name": "Kelaniya Raja Maha Vihara",
+        "category": "temple",
+        "latitude": 6.9553,
+        "longitude": 79.9223,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 0.952634334564209,
+        "popularity": 0.75
+      },
+      {
+        "name": "Abhayagiri Dagaba",
+        "category": "cultural",
+        "latitude": 6.905821,
+        "longitude": 79.91013,
+        "duration_hours": 4.5,
+        "cost": 14940,
+        "ml_score": 3.305719757080078,
+        "popularity": 0.74
+      },
+      {
+        "name": "Lotus Tower",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8553,
+        "duration_hours": 2.0,
+        "cost": 5000,
+        "ml_score": 0.000671088055241853,
+        "popularity": 0.68
+      },
+      {
+        "name": "Ritigala Monastery",
+        "category": "adventure",
+        "latitude": 6.800486,
+        "longitude": 80.078461,
+        "duration_hours": 4.6,
+        "cost": 10148,
+        "ml_score": 0.00037920905742794275,
+        "popularity": 0.84
+      },
+      {
+        "name": "Ruwanwelisaya",
+        "category": "mountain",
+        "latitude": 7.583472,
+        "longitude": 79.806193,
+        "duration_hours": 2.8,
+        "cost": 6446,
+        "ml_score": 0.0009778705425560474,
+        "popularity": 0.78
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Mihintale",
+        "category": "temple",
+        "latitude": 7.558108,
+        "longitude": 79.99906,
+        "duration_hours": 4.1,
+        "cost": 1468,
+        "ml_score": 2.9552387237548827,
+        "popularity": 0.84
+      },
+      {
+        "name": "Galle Face Green",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8456,
+        "duration_hours": 2.0,
+        "cost": 2000,
+        "ml_score": 0.00029256928246468306,
+        "popularity": 0.75
+      },
+      {
+        "name": "Bentota Beach",
+        "category": "beach",
+        "latitude": 6.4258,
+        "longitude": 79.9968,
+        "duration_hours": 4.5,
+        "cost": 6000,
+        "ml_score": 0.005932829342782497,
+        "popularity": 0.82
+      },
+      {
+        "name": "Kithulgala White Water Rafting",
+        "category": "adventure",
+        "latitude": 6.9897,
+        "longitude": 80.4181,
+        "duration_hours": 4.0,
+        "cost": 12000,
+        "ml_score": 0.00027060901047661897,
+        "popularity": 0.82
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 669.3512335367991,
+    "total_cost_lkr": 121064,
+    "total_activity_hours": 64.9,
+    "num_attractions": 19,
+    "avg_attractions_per_day": 6.333333333333333
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

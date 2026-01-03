@@ -1,0 +1,172 @@
+{
+  "user_id": "user_20251219_022621",
+  "timestamp": "2025-12-19T02:26:21.511351",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 100000,
+    "days": 3,
+    "travelers": 1,
+    "categories": [
+      "beach",
+      "historical",
+      "temple",
+      "national_park",
+      "waterfall",
+      "mountain",
+      "cultural"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Lotus Tower",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8553,
+        "duration_hours": 2.0,
+        "cost": 2500,
+        "ml_score": 0.00010908409603871405,
+        "popularity": 0.68
+      },
+      {
+        "name": "Gangaramaya Temple",
+        "category": "temple",
+        "latitude": 6.9167,
+        "longitude": 79.8561,
+        "duration_hours": 1.5,
+        "cost": 500,
+        "ml_score": 0.734361469745636,
+        "popularity": 0.78
+      },
+      {
+        "name": "Colombo National Museum",
+        "category": "cultural",
+        "latitude": 6.9108,
+        "longitude": 79.8608,
+        "duration_hours": 2.5,
+        "cost": 1000,
+        "ml_score": 0.006680374965071678,
+        "popularity": 0.72
+      },
+      {
+        "name": "Buduruwagala",
+        "category": "waterfall",
+        "latitude": 7.055467,
+        "longitude": 79.896641,
+        "duration_hours": 1.6,
+        "cost": 3675,
+        "ml_score": 0.000196086271898821,
+        "popularity": 0.69
+      },
+      {
+        "name": "Negombo Beach",
+        "category": "beach",
+        "latitude": 7.2088,
+        "longitude": 79.8358,
+        "duration_hours": 3.0,
+        "cost": 1500,
+        "ml_score": 0.001038058428093791,
+        "popularity": 0.75
+      },
+      {
+        "name": "Beira Lake",
+        "category": "adventure",
+        "latitude": 6.686347,
+        "longitude": 79.892774,
+        "duration_hours": 2.2,
+        "cost": 6609,
+        "ml_score": 0.00020979578839614986,
+        "popularity": 0.78
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Thuparamaya",
+        "category": "waterfall",
+        "latitude": 6.825184,
+        "longitude": 79.744278,
+        "duration_hours": 2.2,
+        "cost": 2344,
+        "ml_score": 4.4088734284741804e-05,
+        "popularity": 0.61
+      },
+      {
+        "name": "Galle Face Green",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8456,
+        "duration_hours": 2.0,
+        "cost": 1000,
+        "ml_score": 2.8243797714821994e-05,
+        "popularity": 0.75
+      },
+      {
+        "name": "Abhayagiri Dagaba",
+        "category": "cultural",
+        "latitude": 6.905821,
+        "longitude": 79.91013,
+        "duration_hours": 4.5,
+        "cost": 7470,
+        "ml_score": 1.854293632507324,
+        "popularity": 0.74
+      },
+      {
+        "name": "Kelaniya Raja Maha Vihara",
+        "category": "temple",
+        "latitude": 6.9553,
+        "longitude": 79.9223,
+        "duration_hours": 1.5,
+        "cost": 500,
+        "ml_score": 0.44144344329833984,
+        "popularity": 0.75
+      },
+      {
+        "name": "Jungle Beach",
+        "category": "beach",
+        "latitude": 7.073425,
+        "longitude": 80.183617,
+        "duration_hours": 1.7,
+        "cost": 5071,
+        "ml_score": 0.0030054484494030473,
+        "popularity": 0.73
+      },
+      {
+        "name": "Ruwanwelisaya",
+        "category": "mountain",
+        "latitude": 7.583472,
+        "longitude": 79.806193,
+        "duration_hours": 2.8,
+        "cost": 3223,
+        "ml_score": 0.0006864881375804544,
+        "popularity": 0.78
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Ritigala Monastery",
+        "category": "adventure",
+        "latitude": 6.800486,
+        "longitude": 80.078461,
+        "duration_hours": 4.6,
+        "cost": 5074,
+        "ml_score": 0.00011452388571342453,
+        "popularity": 0.84
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 341.7234876333506,
+    "total_cost_lkr": 40466,
+    "total_activity_hours": 32.1,
+    "num_attractions": 13,
+    "avg_attractions_per_day": 4.333333333333333
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

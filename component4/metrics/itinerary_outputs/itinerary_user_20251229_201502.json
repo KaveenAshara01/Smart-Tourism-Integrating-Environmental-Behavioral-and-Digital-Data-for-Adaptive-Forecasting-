@@ -1,0 +1,68 @@
+{
+  "user_id": "user_20251229_201502",
+  "timestamp": "2025-12-29T20:15:02.914853",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 35000,
+    "days": 3,
+    "travelers": 2,
+    "categories": [
+      "beach",
+      "national_park",
+      "waterfall"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Uppuveli Beach",
+        "category": "beach",
+        "latitude": 8.607,
+        "longitude": 81.2249,
+        "duration_hours": 4.0,
+        "cost": 3600,
+        "ml_score": 3.4875569343566895,
+        "popularity": 0.72
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Lipton's Seat",
+        "category": "beach",
+        "latitude": 8.263244,
+        "longitude": 81.723122,
+        "duration_hours": 4.4,
+        "cost": 14724,
+        "ml_score": 3.4631933212280273,
+        "popularity": 0.85
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Arugam Bay",
+        "category": "beach",
+        "latitude": 6.8417,
+        "longitude": 81.8353,
+        "duration_hours": 6.0,
+        "cost": 5600,
+        "ml_score": 3.5338053703308105,
+        "popularity": 0.85
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 465.0838929963777,
+    "total_cost_lkr": 23924,
+    "total_activity_hours": 14.4,
+    "num_attractions": 3,
+    "avg_attractions_per_day": 1.0
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "user_id": "user_20251218_162428",
+  "timestamp": "2025-12-18T16:24:28.867754",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 225000,
+    "days": 3,
+    "travelers": 2,
+    "categories": [
+      "beach",
+      "historical",
+      "temple",
+      "national_park",
+      "waterfall",
+      "mountain",
+      "cultural"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Gangaramaya Temple",
+        "category": "temple",
+        "latitude": 6.9167,
+        "longitude": 79.8561,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 0.0035429291892796755,
+        "popularity": 0.78
+      },
+      {
+        "name": "Colombo National Museum",
+        "category": "cultural",
+        "latitude": 6.9108,
+        "longitude": 79.8608,
+        "duration_hours": 2.5,
+        "cost": 2000,
+        "ml_score": 0.0010207215091213584,
+        "popularity": 0.72
+      },
+      {
+        "name": "Abhayagiri Dagaba",
+        "category": "cultural",
+        "latitude": 6.905821,
+        "longitude": 79.91013,
+        "duration_hours": 4.5,
+        "cost": 14940,
+        "ml_score": 0.4331944942474365,
+        "popularity": 0.74
+      },
+      {
+        "name": "Kelaniya Raja Maha Vihara",
+        "category": "temple",
+        "latitude": 6.9553,
+        "longitude": 79.9223,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 0.003215308766812086,
+        "popularity": 0.75
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Matara",
+        "category": "temple",
+        "latitude": 7.970645,
+        "longitude": 80.57468,
+        "duration_hours": 4.0,
+        "cost": 9890,
+        "ml_score": 0.0012069725198671222,
+        "popularity": 0.58
+      },
+      {
+        "name": "Ridi Viharaya",
+        "category": "temple",
+        "latitude": 8.247548,
+        "longitude": 80.037238,
+        "duration_hours": 5.2,
+        "cost": 6176,
+        "ml_score": 0.10079850554466248,
+        "popularity": 0.67
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Peradeniya Botanical Gardens",
+        "category": "cultural",
+        "latitude": 7.2697,
+        "longitude": 80.5967,
+        "duration_hours": 3.0,
+        "cost": 4000,
+        "ml_score": 0.00232528243213892,
+        "popularity": 0.85
+      },
+      {
+        "name": "Kandy City",
+        "category": "cultural",
+        "latitude": 7.2906,
+        "longitude": 80.6337,
+        "duration_hours": 5.0,
+        "cost": 7000,
+        "ml_score": 0.002282956149429083,
+        "popularity": 0.91
+      },
+      {
+        "name": "Temple of the Sacred Tooth Relic",
+        "category": "temple",
+        "latitude": 7.2935,
+        "longitude": 80.6407,
+        "duration_hours": 2.0,
+        "cost": 4000,
+        "ml_score": 0.02625468373298645,
+        "popularity": 0.93
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 344.34183942110707,
+    "total_cost_lkr": 50006,
+    "total_activity_hours": 29.2,
+    "num_attractions": 9,
+    "avg_attractions_per_day": 3.0
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

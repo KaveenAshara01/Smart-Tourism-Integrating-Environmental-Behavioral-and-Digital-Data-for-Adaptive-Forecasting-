@@ -1,0 +1,123 @@
+{
+  "user_id": "user_20251219_024448",
+  "timestamp": "2025-12-19T02:45:18.555690",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 100000,
+    "days": 3,
+    "travelers": 1,
+    "categories": [
+      "beach",
+      "historical",
+      "temple",
+      "national_park",
+      "waterfall",
+      "mountain",
+      "cultural",
+      "city"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Lotus Tower",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8553,
+        "duration_hours": 2.0,
+        "cost": 2500,
+        "ml_score": 0.0004800432943738997,
+        "popularity": 0.68
+      },
+      {
+        "name": "Abhayagiri Dagaba",
+        "category": "cultural",
+        "latitude": 6.905821,
+        "longitude": 79.91013,
+        "duration_hours": 4.5,
+        "cost": 7470,
+        "ml_score": 2.256631278991699,
+        "popularity": 0.74
+      },
+      {
+        "name": "Beira Lake",
+        "category": "adventure",
+        "latitude": 6.686347,
+        "longitude": 79.892774,
+        "duration_hours": 2.2,
+        "cost": 6609,
+        "ml_score": 0.0003862276207655668,
+        "popularity": 0.78
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Ritigala Monastery",
+        "category": "adventure",
+        "latitude": 6.800486,
+        "longitude": 80.078461,
+        "duration_hours": 4.6,
+        "cost": 5074,
+        "ml_score": 0.0002910998882725835,
+        "popularity": 0.84
+      },
+      {
+        "name": "Gangaramaya Temple",
+        "category": "temple",
+        "latitude": 6.9167,
+        "longitude": 79.8561,
+        "duration_hours": 1.5,
+        "cost": 500,
+        "ml_score": 0.863257646560669,
+        "popularity": 0.78
+      },
+      {
+        "name": "Galle Face Green",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8456,
+        "duration_hours": 2.0,
+        "cost": 1000,
+        "ml_score": 0.00015587182133458555,
+        "popularity": 0.75
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Colombo City Tour",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8612,
+        "duration_hours": 6.0,
+        "cost": 4000,
+        "ml_score": 0.00012999640603084117,
+        "popularity": 0.82
+      },
+      {
+        "name": "Jungle Beach",
+        "category": "beach",
+        "latitude": 7.073425,
+        "longitude": 80.183617,
+        "duration_hours": 1.7,
+        "cost": 5071,
+        "ml_score": 0.006290898844599724,
+        "popularity": 0.73
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 125.97247203836763,
+    "total_cost_lkr": 32224,
+    "total_activity_hours": 24.499999999999996,
+    "num_attractions": 8,
+    "avg_attractions_per_day": 2.6666666666666665
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

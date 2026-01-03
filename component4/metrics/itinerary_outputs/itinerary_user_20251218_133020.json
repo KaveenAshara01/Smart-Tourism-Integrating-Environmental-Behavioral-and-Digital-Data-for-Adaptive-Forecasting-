@@ -1,0 +1,108 @@
+{
+  "user_id": "user_20251218_133020",
+  "timestamp": "2025-12-18T13:30:22.638017",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 100000,
+    "days": 3,
+    "travelers": 1,
+    "categories": [
+      "beach",
+      "historical",
+      "city"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Colombo City Tour",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8612,
+        "duration_hours": 6.0,
+        "cost": 4000,
+        "ml_score": 0.0010008127428591251,
+        "popularity": 0.82
+      },
+      {
+        "name": "Pasikuda Beach",
+        "category": "beach",
+        "latitude": 6.788947,
+        "longitude": 80.525059,
+        "duration_hours": 5.2,
+        "cost": 6955,
+        "ml_score": 0.02615276537835598,
+        "popularity": 0.55
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Lotus Tower",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8553,
+        "duration_hours": 2.0,
+        "cost": 2500,
+        "ml_score": 0.0012779770186170936,
+        "popularity": 0.68
+      },
+      {
+        "name": "Galle Face Green",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8456,
+        "duration_hours": 2.0,
+        "cost": 1000,
+        "ml_score": 0.0017164986347779632,
+        "popularity": 0.75
+      },
+      {
+        "name": "Negombo Beach",
+        "category": "beach",
+        "latitude": 7.2088,
+        "longitude": 79.8358,
+        "duration_hours": 3.0,
+        "cost": 1500,
+        "ml_score": 0.08688697963953018,
+        "popularity": 0.75
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Bentota Beach",
+        "category": "beach",
+        "latitude": 6.4258,
+        "longitude": 79.9968,
+        "duration_hours": 4.5,
+        "cost": 3000,
+        "ml_score": 0.03560107946395874,
+        "popularity": 0.82
+      },
+      {
+        "name": "Parakrama Samudra",
+        "category": "beach",
+        "latitude": 6.441417,
+        "longitude": 79.506506,
+        "duration_hours": 2.0,
+        "cost": 4048,
+        "ml_score": 0.008547930978238583,
+        "popularity": 0.76
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 325.8794525933718,
+    "total_cost_lkr": 23003,
+    "total_activity_hours": 24.7,
+    "num_attractions": 7,
+    "avg_attractions_per_day": 2.3333333333333335
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

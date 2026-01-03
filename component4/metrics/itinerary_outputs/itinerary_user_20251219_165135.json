@@ -1,0 +1,123 @@
+{
+  "user_id": "user_20251219_165135",
+  "timestamp": "2025-12-19T16:51:35.533212",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 100000,
+    "days": 3,
+    "travelers": 1,
+    "categories": [
+      "beach",
+      "historical",
+      "temple",
+      "national_park",
+      "waterfall",
+      "mountain",
+      "cultural",
+      "city"
+    ],
+    "season": 2
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Lotus Tower",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8553,
+        "duration_hours": 2.0,
+        "cost": 2500,
+        "ml_score": 0.0004800432943738997,
+        "popularity": 0.68
+      },
+      {
+        "name": "Gangaramaya Temple",
+        "category": "temple",
+        "latitude": 6.9167,
+        "longitude": 79.8561,
+        "duration_hours": 1.5,
+        "cost": 500,
+        "ml_score": 0.863257646560669,
+        "popularity": 0.78
+      },
+      {
+        "name": "Colombo National Museum",
+        "category": "cultural",
+        "latitude": 6.9108,
+        "longitude": 79.8608,
+        "duration_hours": 2.5,
+        "cost": 1000,
+        "ml_score": 0.00733668077737093,
+        "popularity": 0.72
+      },
+      {
+        "name": "Thuparamaya",
+        "category": "waterfall",
+        "latitude": 6.825184,
+        "longitude": 79.744278,
+        "duration_hours": 2.2,
+        "cost": 2344,
+        "ml_score": 6.35342366877012e-05,
+        "popularity": 0.61
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Galle Face Green",
+        "category": "city",
+        "latitude": 6.9271,
+        "longitude": 79.8456,
+        "duration_hours": 2.0,
+        "cost": 1000,
+        "ml_score": 0.00015587182133458555,
+        "popularity": 0.75
+      },
+      {
+        "name": "Kelaniya Raja Maha Vihara",
+        "category": "temple",
+        "latitude": 6.9553,
+        "longitude": 79.9223,
+        "duration_hours": 1.5,
+        "cost": 500,
+        "ml_score": 0.5620836019515991,
+        "popularity": 0.75
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Jungle Beach",
+        "category": "beach",
+        "latitude": 7.073425,
+        "longitude": 80.183617,
+        "duration_hours": 1.7,
+        "cost": 5071,
+        "ml_score": 0.006290898844599724,
+        "popularity": 0.73
+      },
+      {
+        "name": "Dutch Hospital Shopping",
+        "category": "waterfall",
+        "latitude": 7.361995,
+        "longitude": 80.185709,
+        "duration_hours": 5.4,
+        "cost": 2176,
+        "ml_score": 0.0005550053319893777,
+        "popularity": 0.89
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 107.38018629503196,
+    "total_cost_lkr": 15091,
+    "total_activity_hours": 18.799999999999997,
+    "num_attractions": 8,
+    "avg_attractions_per_day": 2.6666666666666665
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

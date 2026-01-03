@@ -1,0 +1,122 @@
+{
+  "user_id": "user_20251218_154416",
+  "timestamp": "2025-12-18T15:44:16.842263",
+  "model": "XGBoost + Fusion NN + Diversity Clustering",
+  "preferences": {
+    "budget": 100000,
+    "days": 3,
+    "travelers": 2,
+    "categories": [
+      "beach",
+      "historical",
+      "temple",
+      "national_park",
+      "waterfall",
+      "mountain",
+      "cultural"
+    ],
+    "season": 1
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Gangaramaya Temple",
+        "category": "temple",
+        "latitude": 6.9167,
+        "longitude": 79.8561,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 0.6336885094642639,
+        "popularity": 0.78
+      },
+      {
+        "name": "Colombo National Museum",
+        "category": "cultural",
+        "latitude": 6.9108,
+        "longitude": 79.8608,
+        "duration_hours": 2.5,
+        "cost": 2000,
+        "ml_score": 0.041353896260261536,
+        "popularity": 0.72
+      },
+      {
+        "name": "Abhayagiri Dagaba",
+        "category": "cultural",
+        "latitude": 6.905821,
+        "longitude": 79.91013,
+        "duration_hours": 4.5,
+        "cost": 14940,
+        "ml_score": 0.05425901338458061,
+        "popularity": 0.74
+      },
+      {
+        "name": "Kelaniya Raja Maha Vihara",
+        "category": "temple",
+        "latitude": 6.9553,
+        "longitude": 79.9223,
+        "duration_hours": 1.5,
+        "cost": 1000,
+        "ml_score": 0.5315078496932983,
+        "popularity": 0.75
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Mihintale",
+        "category": "temple",
+        "latitude": 7.558108,
+        "longitude": 79.99906,
+        "duration_hours": 4.1,
+        "cost": 1468,
+        "ml_score": 0.31711864471435547,
+        "popularity": 0.84
+      },
+      {
+        "name": "Ruwanwelisaya",
+        "category": "mountain",
+        "latitude": 7.583472,
+        "longitude": 79.806193,
+        "duration_hours": 2.8,
+        "cost": 6446,
+        "ml_score": 0.00046820021816529334,
+        "popularity": 0.78
+      },
+      {
+        "name": "Parakrama Samudra",
+        "category": "beach",
+        "latitude": 6.441417,
+        "longitude": 79.506506,
+        "duration_hours": 2.0,
+        "cost": 8096,
+        "ml_score": 0.0013315476244315505,
+        "popularity": 0.76
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Bentota Beach",
+        "category": "beach",
+        "latitude": 6.4258,
+        "longitude": 79.9968,
+        "duration_hours": 4.5,
+        "cost": 6000,
+        "ml_score": 0.0011793322395533322,
+        "popularity": 0.82
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 287.6961753739877,
+    "total_cost_lkr": 40950,
+    "total_activity_hours": 23.4,
+    "num_attractions": 8,
+    "avg_attractions_per_day": 2.6666666666666665
+  },
+  "novelty_features": {
+    "ml_model": "XGBoost + Fusion Neural Network",
+    "negative_sampling": true,
+    "diversity_clustering": true,
+    "context_integration": true,
+    "behavioral_adaptation": "Available"
+  }
+}

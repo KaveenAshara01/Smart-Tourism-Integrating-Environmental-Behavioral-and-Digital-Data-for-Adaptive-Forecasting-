@@ -1,0 +1,113 @@
+{
+  "user_id": "user_20251218_122318",
+  "timestamp": "2025-12-18T12:23:19.971394",
+  "preferences": {
+    "budget": 100000,
+    "days": 5,
+    "travelers": 3,
+    "categories": [
+      "beach",
+      "temple",
+      "waterfall"
+    ],
+    "season": 1
+  },
+  "itinerary": {
+    "Day 1": [
+      {
+        "name": "Bentota Beach",
+        "category": "beach",
+        "latitude": 6.4258,
+        "longitude": 79.9968,
+        "duration_hours": 4.5,
+        "cost": 9000
+      },
+      {
+        "name": "Tangalle Beach",
+        "category": "beach",
+        "latitude": 6.0242,
+        "longitude": 80.7954,
+        "duration_hours": 4.5,
+        "cost": 6000
+      }
+    ],
+    "Day 2": [
+      {
+        "name": "Mulkirigala Rock Temple",
+        "category": "temple",
+        "latitude": 6.1333,
+        "longitude": 80.7333,
+        "duration_hours": 2.0,
+        "cost": 4500
+      },
+      {
+        "name": "Ampara",
+        "category": "temple",
+        "latitude": 7.610049,
+        "longitude": 81.112863,
+        "duration_hours": 3.0,
+        "cost": 4986
+      }
+    ],
+    "Day 3": [
+      {
+        "name": "Diyaluma Falls",
+        "category": "waterfall",
+        "latitude": 6.7667,
+        "longitude": 81.0333,
+        "duration_hours": 2.5,
+        "cost": 3000
+      },
+      {
+        "name": "Dutch Hospital Shopping",
+        "category": "waterfall",
+        "latitude": 7.361995,
+        "longitude": 80.185709,
+        "duration_hours": 5.4,
+        "cost": 6528
+      }
+    ],
+    "Day 4": [
+      {
+        "name": "Unawatuna Beach",
+        "category": "beach",
+        "latitude": 6.0104,
+        "longitude": 80.2482,
+        "duration_hours": 4.0,
+        "cost": 6000
+      },
+      {
+        "name": "Mirissa Beach",
+        "category": "beach",
+        "latitude": 5.9462,
+        "longitude": 80.4586,
+        "duration_hours": 5.0,
+        "cost": 7500
+      }
+    ],
+    "Day 5": [
+      {
+        "name": "Hikkaduwa Beach",
+        "category": "beach",
+        "latitude": 6.1408,
+        "longitude": 80.1031,
+        "duration_hours": 4.0,
+        "cost": 6600
+      },
+      {
+        "name": "Kalutara Temple",
+        "category": "beach",
+        "latitude": 6.979823,
+        "longitude": 81.434883,
+        "duration_hours": 4.9,
+        "cost": 5649
+      }
+    ]
+  },
+  "statistics": {
+    "total_distance_km": 942.6915152784734,
+    "total_cost_lkr": 59763,
+    "total_activity_hours": 39.8,
+    "num_attractions": 10
+  }
+}
