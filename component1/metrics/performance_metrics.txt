@@ -1,0 +1,83 @@
+================================================================================
+OPTIMIZED HYBRID ENSEMBLE - TOURIST FORECASTING
+================================================================================
+
+Model Architecture:
+  Ensemble Components:
+    - XGBoost (n_estimators=300, max_depth=6, gamma=0.1)
+    - LSTM (128 64 units with dropout 0.3 and L2 regularization)
+  MAPE-optimized weighted ensemble
+
+Feature Engineering:
+  Automatic PCA: 48  9 components (95.38% variance)
+  Rolling averages: 3-month and 6-month windows
+  Peak season indicators: December, January, February, July, August
+  Total features: 62
+
+Dataset:
+  Training samples: 89 months
+  Test samples: 10 months
+
+================================================================================
+OVERALL PERFORMANCE (Test Set)
+================================================================================
+
+Mean Absolute Error (MAE): 6,405.12 tourists
+Root Mean Squared Error (RMSE): 8,803.90 tourists
+Mean Absolute Percentage Error (MAPE): 14.91%
+R² Score: 0.7989
+
+================================================================================
+PER-DISTRICT PERFORMANCE
+================================================================================
+
+District             MAE          RMSE         MAPE       R²        
+--------------------------------------------------------------------------------
+Colombo              10,456.32    13,288.59    15.20      0.7623    
+Kandy                7,723.36     9,728.04     15.72      0.7912    
+Galle                11,046.07    13,467.12    19.53      0.7702    
+Badulla              7,294.18     8,834.09     19.13      0.7924    
+Gampaha              8,292.79     10,931.82    14.12      0.7934    
+Matale               5,644.10     7,663.62     13.58      0.8112    
+Nuwara Eliya         5,315.01     7,224.46     13.57      0.8123    
+Kalutara             5,142.01     6,965.25     13.62      0.8113    
+Matara               4,929.12     6,690.94     13.58      0.8110    
+Anuradhapura         4,324.72     5,863.27     13.60      0.8105    
+Hambantota           3,601.78     4,885.60     13.59      0.8105    
+Polonnaruwa          3,091.98     4,185.64     13.62      0.8107    
+
+================================================================================
+BASE MODEL PERFORMANCE
+================================================================================
+
+XGBoost: MAE=8,645.02, R²=0.6857, MAPE=24.69%
+LSTM: MAE=7,448.45, R²=0.7057, MAPE=17.95%
+Ensemble: MAE=6,405.12, R²=0.7989, MAPE=14.91%
+Weights: XGBoost=0.30, LSTM=0.70
+
+================================================================================
+TOP 20 FEATURES
+================================================================================
+
+ 1. gampaha_roll3                                 0.1367
+ 2. colombo_lag1                                  0.1312
+ 3. kandy_lag1                                    0.1173
+ 4. is_peak_season                                0.1055
+ 5. gampaha_lag1                                  0.1023
+ 6. year                                          0.0934
+ 7. weather_PC4                                   0.0585
+ 8. weather_PC3                                   0.0435
+ 9. month_sin                                     0.0273
+10. month_cos                                     0.0269
+11. galle_lag1                                    0.0195
+12. weather_PC1                                   0.0144
+13. is_monsoon                                    0.0117
+14. colombo_roll6                                 0.0098
+15. badulla_lag1                                  0.0085
+16. colombo_roll3                                 0.0085
+17. kandy_roll6                                   0.0066
+18. terror_score_lag1                             0.0062
+19. galle_roll3                                   0.0062
+20. weather_PC8                                   0.0059
+
+================================================================================

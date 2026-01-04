@@ -1,0 +1,79 @@
+{
+  "scenario": "July 2024 - Peak Season Forecast",
+  "prediction_month": "2024-07",
+  "country_level": {
+    "estimated_unique_tourists": 162811.53125,
+    "total_district_visits": 1058274.953125,
+    "avg_districts_per_tourist": 6.5
+  },
+  "district_level": {
+    "colombo": {
+      "predicted_visitors": 131202.61875,
+      "visit_probability_pct": 80.58558121938921,
+      "market_share_pct": 12.397781726059879
+    },
+    "kandy": {
+      "predicted_visitors": 112578.55,
+      "visit_probability_pct": 69.14654578558913,
+      "market_share_pct": 10.637930120859867
+    },
+    "galle": {
+      "predicted_visitors": 111464.87265625,
+      "visit_probability_pct": 68.46251724338475,
+      "market_share_pct": 10.53269496052073
+    },
+    "badulla": {
+      "predicted_visitors": 78586.641796875,
+      "visit_probability_pct": 48.26847410224514,
+      "market_share_pct": 7.425919092653098
+    },
+    "gampaha": {
+      "predicted_visitors": 119061.32421875,
+      "visit_probability_pct": 73.12831179993586,
+      "market_share_pct": 11.25050950768244
+    },
+    "matale": {
+      "predicted_visitors": 89055.11015625,
+      "visit_probability_pct": 54.69828179399916,
+      "market_share_pct": 8.41512027599987
+    },
+    "nuwara_eliya": {
+      "predicted_visitors": 84332.46171875,
+      "visit_probability_pct": 51.797597548085214,
+      "market_share_pct": 7.96886116124388
+    },
+    "kalutara": {
+      "predicted_visitors": 81015.14609375,
+      "visit_probability_pct": 49.76007870680228,
+      "market_share_pct": 7.655396724123428
+    },
+    "matara": {
+      "predicted_visitors": 77706.291015625,
+      "visit_probability_pct": 47.727756393560114,
+      "market_share_pct": 7.342731752855403
+    },
+    "anuradhapura": {
+      "predicted_visitors": 67933.5078125,
+      "visit_probability_pct": 41.7252434707385,
+      "market_share_pct": 6.419268226267462
+    },
+    "hambantota": {
+      "predicted_visitors": 56728.6640625,
+      "visit_probability_pct": 34.84314877881231,
+      "market_share_pct": 5.360484427509586
+    },
+    "polonnaruwa": {
+      "predicted_visitors": 48609.76484375,
+      "visit_probability_pct": 29.85646315745833,
+      "market_share_pct": 4.593302024224358
+    }
+  },
+  "model_metadata": {
+    "mape": 14.905382479759677,
+    "r2": 0.7988954186347833,
+    "ensemble_weights": {
+      "xgboost": 0.3,
+      "lstm": 0.7
+    }
+  }
+}

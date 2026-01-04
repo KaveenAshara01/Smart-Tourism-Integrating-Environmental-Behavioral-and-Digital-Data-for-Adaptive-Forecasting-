@@ -1,0 +1,41 @@
+WEATHER DATA METADATA
+Date Range: 2015-01-01 to 2025-03-31
+Total Months: 123
+Total Columns: 229
+
+Districts (12):
+  - Colombo
+  - Kandy
+  - Galle
+  - Badulla
+  - Gampaha
+  - Matale
+  - Nuwara_eliya
+  - Kalutara
+  - Matara
+  - Anuradhapura
+  - Hambantota
+  - Polonnaruwa
+
+Weather Variables (15):
+  - Max Temperature (°C)
+  - Min Temperature (°C)
+  - Mean Temperature (°C)
+  - Total Precipitation (mm)
+  - Total Rainfall (mm)
+  - Hours of Precipitation
+  - Mean Relative Humidity (%)
+  - Mean Surface Pressure (hPa)
+  - Max Wind Speed (km/h)
+  - Mean Wind Speed (km/h)
+  - Max Wind Gusts (km/h)
+  - Solar Radiation (MJ/m²)
+  - Sunshine Duration (seconds)
+  - Mean Cloud Cover (%)
+  - Reference Evapotranspiration (mm)
+
+Derived Features:
+  - Temperature Range
+  - Rain Intensity
+  - Comfort Index
+  - Dry Month Indicator
