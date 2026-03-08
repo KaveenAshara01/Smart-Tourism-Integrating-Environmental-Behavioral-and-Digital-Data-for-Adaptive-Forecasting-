@@ -1,10 +1,16 @@
 {
   "bert_model": "distilbert-base-uncased",
   "max_len": 128,
+  "batch_size": 32,
+  "random_state": 42,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
   "ensemble_features": [
     "ridge",
     "rf",
     "xgb"
   ],
-  "output_scale": "0_to_1"
+  "output_scale": "0_to_1",
+  "stacking_strategy": "base models trained on training set, meta-learner trained on validation predictions"
 }
