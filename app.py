@@ -1,14 +1,9 @@
-"""
-app.py - Smart Tourism Flask API
-Components: 1 (Forecast), 2 (Sentiment), 3 (Monitoring→Firestore), 4 (Itinerary)
-Extra: /api/simulate, /api/weather (Open-Meteo), /api/sentiment/district(s)
-"""
-
 import os
 import sys
 import json
 import sqlite3
 import requests
+import hashlib
 import numpy as np
 from datetime import datetime, timezone
 from flask import Flask, request, jsonify
@@ -65,6 +60,7 @@ try:
 except Exception as e:
     print(f"[WARN] Component 1 not loaded: {e}")
 
+
 # Component 2 — no importable class exists; wrap the script logic into a class here
 class _BERTSentimentModel:
     """Inline wrapper around Component 2's inference script logic."""
@@ -88,9 +84,9 @@ class _BERTSentimentModel:
         self.bert.eval()
 
         self.ridge = joblib.load(model_path / 'ridge.joblib')
-        self.rf    = joblib.load(model_path / 'rf.joblib')
-        self.xgb   = joblib.load(model_path / 'xgb.joblib')
-        self.meta  = joblib.load(model_path / 'meta_learner.joblib')
+        self.rf = joblib.load(model_path / 'rf.joblib')
+        self.xgb = joblib.load(model_path / 'xgb.joblib')
+        self.meta = joblib.load(model_path / 'meta_learner.joblib')
 
     def _encode(self, texts: list) -> np.ndarray:
         import torch
@@ -110,6 +106,7 @@ class _BERTSentimentModel:
             self.xgb.predict(X),
         ])
         return np.clip(self.meta.predict(meta_X), 0.0, 1.0)
+
 
 try:
     COMP2 = _BERTSentimentModel(
@@ -145,18 +142,18 @@ DISTRICTS = [
 
 # District lat/lon for weather lookups (Open-Meteo)
 DISTRICT_COORDS = {
-    'colombo':      (6.9271, 79.8612),
-    'kandy':        (7.2906, 80.6337),
-    'galle':        (6.0535, 80.2210),
-    'badulla':      (6.9895, 81.0557),
-    'gampaha':      (7.0873, 80.0142),
-    'matale':       (7.4675, 80.6234),
+    'colombo': (6.9271, 79.8612),
+    'kandy': (7.2906, 80.6337),
+    'galle': (6.0535, 80.2210),
+    'badulla': (6.9895, 81.0557),
+    'gampaha': (7.0873, 80.0142),
+    'matale': (7.4675, 80.6234),
     'nuwara_eliya': (6.9497, 80.7891),
-    'kalutara':     (6.5854, 80.0043),
-    'matara':       (5.9549, 80.5550),
+    'kalutara': (6.5854, 80.0043),
+    'matara': (5.9549, 80.5550),
     'anuradhapura': (8.3114, 80.4037),
-    'hambantota':   (6.1241, 81.1185),
-    'polonnaruwa':  (7.9403, 81.0188),
+    'hambantota': (6.1241, 81.1185),
+    'polonnaruwa': (7.9403, 81.0188),
 }
 
 # Typical attraction reviews per district — used to seed Component 2 sentiment
@@ -177,6 +174,7 @@ DISTRICT_REVIEW_SEEDS = {
 
 app = Flask(__name__)
 CORS(app)
+
 
 # ─── Component 1 helper ───────────────────────────────────────────────────────
 def _run_component1_forecast(scenario: dict):
@@ -242,6 +240,7 @@ def _run_component1_forecast(scenario: dict):
         'model_metadata': {'mape': round(mape, 2), 'r2': round(r2, 4)},
     }
 
+
 # ─── /health ──────────────────────────────────────────────────────────────────
 @app.route('/health')
 def health():
@@ -256,6 +255,7 @@ def health():
         'timestamp': datetime.now(timezone.utc).isoformat(),
     })
 
+
 # ─── Component 1: Forecast ────────────────────────────────────────────────────
 @app.route('/api/forecast', methods=['POST'])
 def forecast():
@@ -265,6 +265,7 @@ def forecast():
         return jsonify(result)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 @app.route('/api/forecast/<district>/<month>', methods=['GET'])
 def forecast_district(district, month):
@@ -281,6 +282,7 @@ def forecast_district(district, month):
         })
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 # ─── Component 2: Sentiment ───────────────────────────────────────────────────
 @app.route('/api/sentiment', methods=['POST'])
@@ -304,9 +306,9 @@ def sentiment():
         else:
             # Fallback: simple heuristic
             positive_words = {'beautiful', 'amazing', 'great', 'stunning', 'love', 'excellent',
-                               'magnificent', 'peaceful', 'breathtaking', 'gorgeous', 'wonderful'}
+                              'magnificent', 'peaceful', 'breathtaking', 'gorgeous', 'wonderful'}
             negative_words = {'bad', 'terrible', 'poor', 'dirty', 'crowded', 'dangerous',
-                               'boring', 'disappointing', 'awful', 'hate'}
+                              'boring', 'disappointing', 'awful', 'hate'}
             results = []
             for text in texts:
                 words = set(text.lower().split())
@@ -333,6 +335,7 @@ def sentiment():
         })
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 def _get_district_sentiment(district: str) -> dict:
     """Run Component 2 on seeded reviews for a district."""
@@ -365,12 +368,14 @@ def _get_district_sentiment(district: str) -> dict:
         'sample_count': len(reviews),
     }
 
+
 @app.route('/api/sentiment/district/<district>', methods=['GET'])
 def sentiment_district(district):
     try:
         return jsonify(_get_district_sentiment(district))
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 @app.route('/api/sentiment/districts', methods=['GET'])
 def sentiment_all_districts():
@@ -381,6 +386,7 @@ def sentiment_all_districts():
         return jsonify(result)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 # ─── Weather: Open-Meteo proxy ────────────────────────────────────────────────
 WMO_CODES = {
@@ -393,6 +399,7 @@ WMO_CODES = {
     80: 'Rain Showers', 81: 'Rain Showers', 82: 'Violent Showers',
     95: 'Thunderstorm', 96: 'Thunderstorm', 99: 'Thunderstorm',
 }
+
 
 @app.route('/api/weather', methods=['GET'])
 def weather():
@@ -434,9 +441,18 @@ def weather():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+
 # ─── Simulator: what-if via Component 1 ──────────────────────────────────────
 @app.route('/api/simulate', methods=['POST'])
 def simulate():
+    """
+    What-if simulation endpoint.
+
+    Strategy: run Component 1 at baseline to get the ML base prediction,
+    then apply scenario multipliers DIRECTLY to that prediction.
+    This guarantees visible, proportional changes when sliders move —
+    the ML model alone has low sensitivity to small feature deltas.
+    """
     try:
         body = request.json or {}
         district = body.get('district', 'colombo').lower()
@@ -452,50 +468,70 @@ def simulate():
         crime = float(body.get('crime_score', 0.1))
         diplomacy = float(body.get('diplomacy_score', 0.05))
 
-        # Derive composite scenario scores that Component 1 expects
-        # weather_score: normalise temp/rain/humidity into 0-1
-        ideal_temp = 28
-        temp_factor = max(0, 1 - abs(temperature - ideal_temp) / 15)
-        rain_factor = max(0, 1 - rainfall / 200)
-        humidity_factor = 1 - abs(humidity - 70) / 70
-        weather_score = (temp_factor * 0.5 + rain_factor * 0.3 + humidity_factor * 0.2)
-
-        # crisis_score: weighted average of all 7 inputs
-        crisis_score = (
-            terror * 0.25 + economic * 0.15 + unrest * 0.2 +
-            disaster * 0.15 + disease * 0.1 + crime * 0.1 +
-            max(0, diplomacy - 0.5) * 0.05
-        )
-        crisis_score = min(1.0, crisis_score)
-
-        # sentiment_score: inversely correlated with crisis
-        sentiment_score = max(0.1, 0.9 - crisis_score * 0.6)
-
-        what_if_scenario = {
-            'month': month,
-            'weather_score': weather_score,
-            'sentiment_score': sentiment_score,
-            'crisis_score': crisis_score,
-        }
-
-        what_if_result = _run_component1_forecast(what_if_scenario)
-
-        # Baseline (no changes)
-        baseline_scenario = {
-            'month': month,
+        # ── Step 1: neutral baseline (month=6, neutral conditions) ──────────
+        # Always use the same fixed reference point so that changing month
+        # or any other variable produces a visible delta vs this reference.
+        neutral_scenario = {
+            'month': 6,           # fixed reference month (June — mid-season)
             'weather_score': 0.7,
             'sentiment_score': 0.65,
             'crisis_score': 0.1,
         }
-        baseline_result = _run_component1_forecast(baseline_scenario)
+        neutral_result = _run_component1_forecast(neutral_scenario)
+        neutral_v = neutral_result['district_level'].get(district, {}).get('predicted_visitors', 0)
+        neutral_country = neutral_result['country_level']['total_district_visits']
+        mape = neutral_result['model_metadata']['mape']
 
-        predicted = what_if_result['district_level'].get(district, {}).get('predicted_visitors', 0)
-        baseline_v = baseline_result['district_level'].get(district, {}).get('predicted_visitors', predicted)
-        country_total = what_if_result['country_level']['total_district_visits']
-        mape = what_if_result['model_metadata']['mape']
+        # ── Step 2: seasonal multiplier (Sri Lanka tourism patterns) ─────────
+        # Peak: Dec-Mar (NE monsoon done, SW coast dry).
+        # Shoulder: Jul-Sep (SW coast rainy but E coast good).
+        # Low: Apr-May (inter-monsoon), Oct-Nov (NE monsoon arriving).
+        SEASONAL = {
+            1: 1.28, 2: 1.32, 3: 1.20,   # peak winter season
+            4: 0.82, 5: 0.75,              # inter-monsoon low
+            6: 1.00, 7: 1.05, 8: 1.08,    # reference / shoulder (east coast)
+            9: 0.95, 10: 0.80, 11: 0.78,  # NE monsoon arriving
+            12: 1.22,                      # Christmas / new year surge
+        }
+        month_mult = SEASONAL.get(month, 1.0)
 
+        # ── Step 3: weather multiplier ────────────────────────────────────────
+        ideal_temp = 28.0
+        temp_mult = max(0.5, 1.0 - abs(temperature - ideal_temp) / 20.0)
+        rain_mult = max(0.4, 1.0 - max(0, rainfall - 80) / 250.0)
+        hum_mult  = max(0.6, 1.0 - abs(humidity - 70) / 100.0)
+        weather_mult = temp_mult * 0.45 + rain_mult * 0.35 + hum_mult * 0.20
+
+        # ── Step 4: crisis multiplier ─────────────────────────────────────────
+        crisis_raw = (
+            terror   * 0.25 +
+            unrest   * 0.20 +
+            economic * 0.20 +
+            disaster * 0.15 +
+            disease  * 0.10 +
+            crime    * 0.05 +
+            max(0.0, 0.5 - diplomacy) * 0.05
+        )
+        crisis_raw = min(1.0, crisis_raw)
+        crisis_mult = max(0.1, 1.0 - crisis_raw * 0.9)
+
+        # ── Step 5: apply multipliers ─────────────────────────────────────────
+        # baseline_v = what this month expects with DEFAULT sliders (no user changes).
+        # DEFAULT combined multiplier — computed from the frontend default values:
+        #   temp=28, rain=50, humidity=75, terror=0.1, economic=0.2, unrest=0.15,
+        #   disaster=0.1, disease=0.1, crime=0.1, diplomacy=0.05
+        DEFAULT_COMBINED = 0.858577
+
+        baseline_v    = round(neutral_v * month_mult * DEFAULT_COMBINED)
+        baseline_country_scaled = round(neutral_country * month_mult * DEFAULT_COMBINED)
+
+        combined_mult = weather_mult * crisis_mult
+        predicted     = round(neutral_v * month_mult * combined_mult)
+        country_total = round(neutral_country * month_mult * combined_mult)
+
+        # change_pct = 0 when sliders are at defaults, positive/negative as user moves them
         change_pct = ((predicted - baseline_v) / baseline_v * 100) if baseline_v > 0 else 0.0
-        confidence = max(50, round(100 - mape - abs(crisis_score * 15)))
+        confidence = max(50, round(100 - mape - abs(crisis_raw * 20)))
 
         return jsonify({
             'district': district,
@@ -509,8 +545,10 @@ def simulate():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+
 # ─── Component 3: Monitoring status (reads SQLite → writes to Firestore) ─────
 COMP3_DB_PATH = os.path.join(COMP3_PATH, 'data', 'monitoring.db')
+
 
 def _read_monitoring_db() -> dict | None:
     """Read latest monitoring results from Component 3's SQLite DB."""
@@ -565,6 +603,7 @@ def _read_monitoring_db() -> dict | None:
         print(f"[WARN] Could not read monitoring DB: {e}")
         return None
 
+
 def _write_monitoring_to_firestore(status: dict):
     """Write latest monitoring status to Firestore collection 'monitoring_status'."""
     if not FIRESTORE_AVAILABLE or _firestore_client is None:
@@ -576,6 +615,7 @@ def _write_monitoring_to_firestore(status: dict):
         })
     except Exception as e:
         print(f"[WARN] Firestore write failed: {e}")
+
 
 @app.route('/api/monitoring/status', methods=['GET'])
 def monitoring_status():
@@ -601,6 +641,7 @@ def monitoring_status():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+
 # ─── Component 4: Itinerary generation ───────────────────────────────────────
 # ─── Haversine helper ─────────────────────────────────────────────────────────
 def _haversine_km(lat1, lon1, lat2, lon2):
@@ -608,7 +649,7 @@ def _haversine_km(lat1, lon1, lat2, lon2):
     R = 6371.0
     la1, lo1, la2, lo2 = map(math.radians, [lat1, lon1, lat2, lon2])
     dlat, dlon = la2 - la1, lo2 - lo1
-    a = math.sin(dlat/2)**2 + math.cos(la1)*math.cos(la2)*math.sin(dlon/2)**2
+    a = math.sin(dlat / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin(dlon / 2) ** 2
     return 2 * R * math.asin(math.sqrt(a))
 
 
@@ -645,14 +686,14 @@ def _smart_cluster(attractions: list, num_days: int,
         pool.append(dict(a))
 
     if not pool:
-        return {f'Day {i+1}': [] for i in range(num_days)}
+        return {f'Day {i + 1}': [] for i in range(num_days)}
 
     # Sort by distance from start — this is the travel order backbone
     pool.sort(key=lambda a: _haversine_km(start_lat, start_lon,
                                           a['latitude'], a['longitude']))
 
     score_key = lambda a: -(a.get('ml_score') or a.get('_score') or
-                             a.get('popularity_score') or 0)
+                            a.get('popularity_score') or 0)
 
     def max_pairwise(day):
         if len(day) < 2:
@@ -664,7 +705,7 @@ def _smart_cluster(attractions: list, num_days: int,
     def centroid(day):
         if not day:
             return start_lat, start_lon
-        return (sum(a['latitude']  for a in day) / len(day),
+        return (sum(a['latitude'] for a in day) / len(day),
                 sum(a['longitude'] for a in day) / len(day))
 
     def fits(day, attr):
@@ -710,7 +751,7 @@ def _smart_cluster(attractions: list, num_days: int,
                 groups.pop(best_j)
                 changed = True
 
-    merge_groups(constrained=True)   # try to stay within MAX_DAY_KM
+    merge_groups(constrained=True)  # try to stay within MAX_DAY_KM
     merge_groups(constrained=False)  # force merge if still too many groups
 
     # --- Split if fewer groups than days ---
@@ -735,7 +776,7 @@ def _smart_cluster(attractions: list, num_days: int,
     prev_lat, prev_lon = start_lat, start_lon
 
     for day_i, group in enumerate(groups):
-        dk = f'Day {day_i+1}'
+        dk = f'Day {day_i + 1}'
         cat_count = Counter()
         chosen = []
         remaining = [a for a in group
@@ -769,7 +810,7 @@ def _smart_cluster(attractions: list, num_days: int,
     unused.sort(key=score_key)
 
     for day_i in range(num_days):
-        dk = f'Day {day_i+1}'
+        dk = f'Day {day_i + 1}'
         chosen = days[dk]
         if len(chosen) >= MIN_STOPS:
             continue
@@ -811,11 +852,11 @@ def _smart_cluster(attractions: list, num_days: int,
 
         days[dk] = chosen
 
-    return {f'Day {i+1}': days.get(f'Day {i+1}', []) for i in range(num_days)}
+    return {f'Day {i + 1}': days.get(f'Day {i + 1}', []) for i in range(num_days)}
 
 
 def _itinerary_to_frontend(raw_itinerary: dict, selected_df, preferences: dict,
-                            start_lat: float, start_lon: float) -> dict:
+                           start_lat: float, start_lon: float) -> dict:
     """
     Convert Component 4 raw output to frontend Itinerary type.
     Always re-clusters with _smart_cluster for geographic coherence.
@@ -931,11 +972,11 @@ def generate_itinerary():
         start_lat = float(coords.get('latitude', 6.9271))
         start_lon = float(coords.get('longitude', 79.8612))
 
-        num_days      = int(req.get('days', 3))
-        budget        = int(req.get('budget', 100000))
+        num_days = int(req.get('days', 3))
+        budget = int(req.get('budget', 100000))
         num_travelers = int(req.get('travelers', 2))
-        pref_cats     = req.get('categories', [])
-        season        = int(req.get('season', 1))
+        pref_cats = req.get('categories', [])
+        season = int(req.get('season', 1))
 
         # --- Load attractions CSV directly ---
         csv_path = ATTRACTIONS_CSV_PATH
@@ -954,8 +995,8 @@ def generate_itinerary():
         # --- Score attractions ---
         # Base score = popularity_score (0-1) * safety_rating (0-1)
         df['_score'] = (
-            df.get('popularity_score', _pd.Series([0.5]*len(df))).fillna(0.5) * 0.6 +
-            df.get('safety_rating',    _pd.Series([0.8]*len(df))).fillna(0.8) * 0.4
+                df.get('popularity_score', _pd.Series([0.5] * len(df))).fillna(0.5) * 0.6 +
+                df.get('safety_rating', _pd.Series([0.8] * len(df))).fillna(0.8) * 0.4
         )
 
         # Preferred categories get a 1.5x boost (not 3x — that was causing mono-category days)
@@ -980,7 +1021,7 @@ def generate_itinerary():
 
         # Take enough candidates: days*10 ensures clustering has geographic variety
         min_needed = num_days * 8
-        pool_size  = max(min_needed, min(len(df), num_days * 12))
+        pool_size = max(min_needed, min(len(df), num_days * 12))
         df = df.head(pool_size)
 
         # Convert to list of dicts for clustering
@@ -1016,7 +1057,7 @@ def generate_itinerary():
                 pass  # fall back to popularity-based scoring silently
 
         # --- Smart cluster into days ---
-        raw_itinerary = {f'Day {i+1}': [] for i in range(num_days)}
+        raw_itinerary = {f'Day {i + 1}': [] for i in range(num_days)}
         for i, a in enumerate(attractions):
             raw_itinerary[f'Day {(i % num_days) + 1}'].append(a)
 
@@ -1030,16 +1071,15 @@ def generate_itinerary():
         result = _itinerary_to_frontend(raw_itinerary, df, preferences, start_lat, start_lon)
         return jsonify(result)
     except Exception as e:
-        import traceback; traceback.print_exc()
+        import traceback;
+        traceback.print_exc()
         return jsonify({'error': str(e)}), 500
+
 
 @app.route('/api/itinerary/track', methods=['POST'])
 def track_behavior():
     # Non-critical: accept and ignore gracefully
     return jsonify({'status': 'ok'})
-
-# ─── Admin stats ──────────────────────────────────────────────────────────────
-
 
 
 # ─── Popular Destinations ─────────────────────────────────────────────────────
@@ -1050,6 +1090,7 @@ CATEGORY_EMOJIS = {
     'national_park': '🌿', 'waterfall': '💧', 'mountain': '🏔️',
     'cultural': '🎭', 'city': '🏙️', 'adventure': '🧗', 'wildlife': '🐘',
 }
+
 
 @app.route('/api/destinations/popular', methods=['GET'])
 def popular_destinations():
@@ -1137,38 +1178,133 @@ def admin_stats():
         return jsonify({'error': str(e)}), 500
 
 
-# ─── Crisis Scores (GDELT from training CSV) ──────────────────────────────────
-CRISIS_CSV_PATH = os.path.join(COMP3_PATH, 'data', 'training', 'final_training_dataset.csv')
-CRISIS_COLS = ['unrest_score', 'terror_score', 'economic_score',
-               'disaster_score', 'disease_score', 'crime_score', 'diplomacy_score']
+# ─── Crisis Fetch Helpers ───────────────────────────────────────────────────────────────
+# cache file so values stay same during the day
+CRISIS_CACHE_FILE = os.path.join(COMP3_PATH, "data", "crisis_daily_cache.json")
 
-@app.route('/api/crisis/current', methods=['GET'])
-def crisis_current():
+
+def _today():
+    return datetime.utcnow().strftime("%Y-%m-%d")
+
+
+def _load_cache():
+    if not os.path.exists(CRISIS_CACHE_FILE):
+        return None
     try:
-        if not os.path.exists(CRISIS_CSV_PATH):
-            raise FileNotFoundError('crisis CSV not found')
+        with open(CRISIS_CACHE_FILE, "r") as f:
+            return json.load(f)
+    except:
+        return None
 
-        import pandas as _pd
-        df = _pd.read_csv(CRISIS_CSV_PATH, usecols=['year_month'] + CRISIS_COLS)
-        df = df.dropna(subset=CRISIS_COLS)
-        latest = df.sort_values('year_month').iloc[-1]
 
-        return jsonify({
-            'month': str(latest['year_month']),
-            'source': 'GDELT',
-            'scores': {col.replace('_score', ''): round(float(latest[col]) / 100, 4)
-                       for col in CRISIS_COLS}
-        })
-    except Exception as e:
-        return jsonify({
-            'month': 'fallback',
-            'source': 'default',
-            'scores': {
-                'unrest': 0.06, 'terror': 0.30, 'economic': 0.45,
-                'disaster': 0.21, 'disease': 0.13, 'crime': 0.41,
-                'diplomacy': 0.24,
-            }
-        })
+def _save_cache(data):
+    os.makedirs(os.path.dirname(CRISIS_CACHE_FILE), exist_ok=True)
+    with open(CRISIS_CACHE_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+# deterministic fallback generator (same result entire day)
+def _generate_realistic_fallback():
+    date = _today()
+
+    base = {
+        "unrest": 0.10,
+        "terror": 0.12,
+        "economic": 0.40,
+        "disaster": 0.15,
+        "disease": 0.08,
+        "crime": 0.25,
+        "diplomacy": 0.20
+    }
+
+    scores = {}
+
+    for key, val in base.items():
+        seed = f"{date}-{key}"
+        h = int(hashlib.sha256(seed.encode()).hexdigest(), 16)
+        drift = ((h % 1000) / 1000.0 - 0.5) * 0.04
+        scores[key] = round(max(0, min(1, val + drift)), 4)
+
+    return scores
+
+
+# try to fetch live GDELT news counts
+def _fetch_gdelt_scores():
+    queries = {
+        "terror": "terror OR bombing OR attack",
+        "unrest": "protest OR riot OR unrest",
+        "economic": "inflation OR economic crisis OR recession",
+        "disaster": "flood OR earthquake OR disaster OR cyclone",
+        "disease": "virus OR epidemic OR pandemic OR outbreak",
+        "crime": "crime OR murder OR robbery",
+        "diplomacy": "diplomatic OR treaty OR cooperation"
+    }
+
+    scores = {}
+
+    for key, q in queries.items():
+
+        url = f"https://api.gdeltproject.org/api/v2/doc/doc?query={q}&mode=timelinevol&format=json"
+
+        r = requests.get(url, timeout=6)
+
+        if r.status_code != 200:
+            raise Exception("GDELT request failed")
+
+        data = r.json()
+
+        # simple normalization
+        timeline = data.get("timeline", [])
+        if not timeline:
+            raise Exception("no gdelt data")
+
+        latest = timeline[-1]["value"]
+
+        score = min(1.0, latest / 1000.0)
+
+        scores[key] = round(score, 4)
+
+    return scores
+
+
+# get current crisis scores using gdlet
+@app.route("/api/crisis/current", methods=["GET"])
+def crisis_current():
+    today = _today()
+
+    # reuse cache if already generated today
+    cached = _load_cache()
+    if cached and cached.get("date") == today:
+        return jsonify(cached)
+
+    # try live GDELT
+    try:
+        scores = _fetch_gdelt_scores()
+
+        payload = {
+            "date": today,
+            "month": today[:7],
+            "source": "gdelt_live",
+            "scores": scores
+        }
+
+        _save_cache(payload)
+        return jsonify(payload)
+
+    except Exception:
+
+        scores = _generate_realistic_fallback()
+
+        payload = {
+            "date": today,
+            "month": today[:7],
+            "source": "simulated_daily",
+            "scores": scores
+        }
+
+        _save_cache(payload)
+
+        return jsonify(payload)
 
 
 # ─── Monitoring: Predicted vs Actual Comparison ───────────────────────────────
@@ -1398,6 +1534,7 @@ def recommend_similar():
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
