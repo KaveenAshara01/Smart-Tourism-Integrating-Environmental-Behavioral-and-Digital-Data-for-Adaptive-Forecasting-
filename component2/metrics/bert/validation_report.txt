@@ -1,0 +1,40 @@
+BERT ENSEMBLE SENTIMENT MODEL - VALIDATION REPORT
+======================================================================
+Timestamp: 2026-03-08 04:39:15.872285
+
+DATASET SUMMARY
+------------------------------
+Total samples: 15060
+Train samples: 10542
+Validation samples: 2259
+Test samples: 2259
+
+BASE MODEL PERFORMANCE
+------------------------------
+Ridge
+  Train -> MAE=0.1475, RMSE=0.2077, R2=0.8875
+  Validation -> MAE=0.1570, RMSE=0.2217, R2=0.8455
+  Test -> MAE=0.1614, RMSE=0.2270, R2=0.8601
+
+RandomForest
+  Train -> MAE=0.0722, RMSE=0.1083, R2=0.8607
+  Validation -> MAE=0.1556, RMSE=0.2323, R2=0.8486
+  Test -> MAE=0.1556, RMSE=0.2343, R2=0.8585
+
+XGBoost
+  Train -> MAE=0.0536, RMSE=0.0832, R2=0.9179
+  Validation -> MAE=0.1432, RMSE=0.2219, R2=0.8844
+  Test -> MAE=0.1442, RMSE=0.2258, R2=0.8970
+
+ENSEMBLE PERFORMANCE
+------------------------------
+Train -> MAE=0.0913, RMSE=0.1315, R2=0.8948
+Validation -> MAE=0.1426, RMSE=0.2152, R2=0.8896
+Test -> MAE=0.1467, RMSE=0.2209, R2=0.8922
+
+5-FOLD CROSS-VALIDATION MAE
+------------------------------
+Ridge_CV_MAE: 0.1582
+RandomForest_CV_MAE: 0.1538
+XGBoost_CV_MAE: 0.1417
+

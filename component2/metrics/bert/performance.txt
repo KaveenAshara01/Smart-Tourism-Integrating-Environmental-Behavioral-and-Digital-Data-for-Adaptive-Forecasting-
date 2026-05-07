@@ -1,0 +1,14 @@
+BERT ENSEMBLE SENTIMENT MODEL PERFORMANCE
+==================================================
+Timestamp: 2025-12-23 15:37:51.975131
+
+Dataset size: 15060
+Train size: 12048
+Test size: 3012
+
+MAE Scores (lower is better)
+------------------------------
+Ridge MAE:        0.1582
+Random Forest MAE:0.1553
+XGBoost MAE:      0.1441
+Ensemble MAE:     0.1443
